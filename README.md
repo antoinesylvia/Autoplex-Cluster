@@ -18,7 +18,7 @@ Think Pi Nano+ Cluster support tools v0.1 (some are still under review) featured
 - Images - 
 - Scheduler - Descheduler
 
-# Games
+# Games (Chaos)
 - Kill pods through a videogame - KubeInvaders, Kube-Chaos, and Kube Doom
 
 # GitOps and Automation
