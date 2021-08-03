@@ -1,7 +1,7 @@
 # Think-Pi-Nano+ Cluster
 Nothing to see here yet, will hold the current state (application layer) for my Kubernetes K3s cluster (replicated from my self-hosted) Gitlab. This GitOps repo will also cover Kubernetes support tools and other self-hosted applications I'm running (includes guides). I'll be using Github pages for an associated blog tied to this project: https://antoinesylvia.github.io/Think-Pi-Nano-Cluster/
 
-Think Pi Nano+ Cluster support tools v0.1 (some are still under review) featured below, I've discovered in:
+Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, these were discovered in:
 - https://dockerlabs.collabnix.com/kubernetes/kubetools
 - https://github.com/tomhuang12/awesome-k8s-resources
 - https://www.cncf.io (Projects: Sandbox, Incubating, and Graduated)
@@ -84,13 +84,15 @@ Think Pi Nano+ Cluster support tools v0.1 (some are still under review) featured
 - Certs - Cert Manager (https://github.com/jetstack/cert-manager)
 - Misconfigs - TBD as this will be used with Gitlab CI, evaluating Popeye, Kube-Bench, Kube Linter
 - Vulnerabilities - Deepfence Runtime ThreatMapper (used for containers, images, hosts and registries/repositories), Kube-Hunter
-- Policy - Kyverno
-- Object Definitions - Kube-Score
+- Policy - Kyverno (https://github.com/kyverno/kyverno)
+- Object Definitions - Kube-Score (https://github.com/zegl/kube-score)
 - RBAC:
   - Permission-Manager (https://github.com/sighupio/permission-manager)
   - Kubectl who-can (https://github.com/aquasecurity/kubectl-who-can)
   - Teleport (https://github.com/gravitational/teleport)
-- Secrets - TBD after digging through articles and many Reddit threads: 1A = Hashicorp Vault w/Kubernetes external secrets plugin and 1B = Sealed-Secrets 
+- Secrets (TBD after digging through articles and many Reddit threads): 
+  - 1A = Hashicorp Vault (https://github.com/hashicorp/vault) w/Kubernetes external secrets plugin (https://github.com/external-secrets/kubernetes-external-secrets)
+  - 1B = Sealed-Secrets (https://github.com/bitnami-labs/sealed-secrets)
 - Service Mesh - LinkerD (https://github.com/linkerd/linkerd2)
 
 # Serverless 
