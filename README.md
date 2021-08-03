@@ -1,6 +1,7 @@
 # Think-Pi-Nano+ Cluster
 Nothing to see here yet, will hold the current state (application layer) for my Kubernetes cluster (replicated from my self-hosted) Gitlab. This GitOps repo will also cover Kubernetes support tools and other self-hosted applications I'm running (includes guides). 
 
+Think Pi Nano+ Cluster support tools v0.1 (some are still under review):
 # Management, Monitoring and Observability 
 - CLI (Management) - K9s
 - Dash - Lens
@@ -23,7 +24,7 @@ Nothing to see here yet, will hold the current state (application layer) for my 
 # Optimization
 - Clean-up Manifests - Kubectl-neat
 
-#Package Management, Registry (artifacts) and GIT repo
+# Package Management, Registry (artifacts) and GIT repo
 - Package Management related - Nova (checks helm charts for updates will compare featureset against Renovate soon, specializes in dependencies), Helm (charts, yml)
 - Registry - Harbor (scan images, sign, take action and more)
 - Repo - Private (self hosted) - Gitlab (will replicate to Github or vice-versa)
