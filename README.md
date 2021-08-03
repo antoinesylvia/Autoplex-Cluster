@@ -18,6 +18,13 @@ Think Pi Nano+ Cluster support tools v0.1 (some are still under review) featured
 - Images - 
 - Scheduler - Descheduler
 
+# Games
+- Kill pods through a videogame - KubeInvaders, Kube-Chaos, and Kube Doom
+
+# Kubernetes Distro
+- Distro - K3s (over MicroK8s and K8s)
+- OS level - Ubuntu 20.04, evalating Talos (API focus over SSH)
+
 
 # Management, Monitoring and Observability 
 - CLI (Management) - K9s
