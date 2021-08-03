@@ -14,7 +14,7 @@ Think Pi Nano+ Cluster support tools v0.1 (some are still under review):
 - Health - KubeEye
 
 # Networking
-- DNS - CoreDNS
+- DNS - CoreDNS (default)
 - Ingress Controller - Nginx
 - Load Balancer - Metallb
 - VPN (Wireguard based) - Drago, Tailscale
