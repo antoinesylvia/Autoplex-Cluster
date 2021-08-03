@@ -19,7 +19,7 @@ Think Pi Nano+ Cluster support tools v0.1 (some are still under review) featured
 
 # Networking
 - DNS - CoreDNS (default)
-- Ingress Controller - Nginx
+- Ingress Controller - Nginx (Replacing Traefik)
 - Load Balancer - Metallb
 - VPN (Wireguard based) - Drago, Tailscale
 - Local Resources - Mount or Ktunnel
