@@ -53,11 +53,11 @@ Think Pi Nano+ Cluster support tools v0.1 (some are still under review) featured
   - Bootstrap: https://github.com/alexellis/k3sup
 - OS level (Still evaluating Talos, API focus over SSH):
   - Ubuntu Server 20.04 for ARM, 64-bit (https://ubuntu.com/download/raspberry-pi)
-  - Ubuntu Server 20.04 for x86/64 (https://ubuntu.com/download/server
+  - Ubuntu Server 20.04 for x86/64 (https://ubuntu.com/download/server)
 
 # Management, Monitoring and Observability 
-- CLI (Management) - K9s
-- Dash - Lens
+- CLI (Management) - K9s (https://github.com/derailed/k9s)
+- Dash - Lens (https://github.com/lensapp/lens)
 - Mobile App - KubeNAV
 - Alerts/Notifications - BotKube....TBD
 - Pi Visibility - RPi-Monitor
@@ -86,9 +86,12 @@ Think Pi Nano+ Cluster support tools v0.1 (some are still under review) featured
 - Vulnerabilities - Deepfence Runtime ThreatMapper (used for containers, images, hosts and registries/repositories), Kube-Hunter
 - Policy - Kyverno
 - Object Definitions - Kube-Score
-- RBAC - Permission-Manager, Kubectl who-can, Teleport
+- RBAC:
+  - Permission-Manager (https://github.com/sighupio/permission-manager)
+  - Kubectl who-can (https://github.com/aquasecurity/kubectl-who-can)
+  - Teleport (https://github.com/gravitational/teleport)
 - Secrets - TBD after digging through articles and many Reddit threads: 1A = Hashicorp Vault w/Kubernetes external secrets plugin and 1B = Sealed-Secrets 
-- Service Mesh - LinkerD
+- Service Mesh - LinkerD (https://github.com/linkerd/linkerd2)
 
 # Serverless 
 - Serverless - OpenFaaS (https://github.com/openfaas/faas)
