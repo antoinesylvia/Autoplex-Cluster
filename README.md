@@ -34,9 +34,7 @@ Think Pi Nano+ Cluster support tools v0.1 (some are still under review) featured
 - Git Repo - Private (self hosted) - Gitlab (will replicate to Github or vice-versa)
 - Git Repo - Public - Github
 - IDE - Code-Server (Vs)
--
-
-
+- Infrastructure Provisioner - Terraform (for cloud workers, doubtful I'll use Proxmox VMs locally)
 
 # Kubernetes Distro
 - Distro - K3s (over MicroK8s and K8s)
