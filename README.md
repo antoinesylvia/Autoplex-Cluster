@@ -39,13 +39,13 @@ Think Pi Nano+ Cluster support tools v0.1 (some are still under review) featured
   - Argo Events (https://github.com/argoproj/argo-events)
 - SSH (Multi) - Tmux (https://github.com/tmux/tmux)
 - Package Management related:
-  - Nova (checks helm charts for updates will compare featureset against Renovate soon, specializes in dependencies)
-  - Helm (charts, yml)
-- Registry - Harbor (scan images, sign, take action and more)
+  - Nova (https://github.com/fairwindsops/nova) Note: Will compare featureset against Renovate soon, specializes in dependencies.
+  - Helm (https://github.com/helm/helm)
+- Registry - Harbor (https://github.com/goharbor/harbor)
 - Git Repo:
   - Private (self hosted) - Gitlab (will replicate to Github)
   - Public - Github
-- IDE - Code-Server (Vs)
+- IDE - Code-Server (VS Code) (https://github.com/cdr/code-server)
 - Infrastructure Provisioner - Terraform (for cloud workers, doubtful I'll use Proxmox VMs locally)
 
 # Kubernetes Distro
@@ -72,13 +72,13 @@ Think Pi Nano+ Cluster support tools v0.1 (some are still under review) featured
 - Container Network Interface - Flannel (default) but enabled IPsec or Wireguard (between nodes/pods, still researching this and features at the service mesh level)
 
 # Optimization
-- Clean-up Manifests - Kubectl-neat
+- Clean-up Manifests - Kubectl-neat (https://github.com/itaysk/kubectl-neat)
 
 # Runtime
 - Runtime - ContainerD (default)
 
 # Security
-- Certs - Cert Manager 
+- Certs - Cert Manager (https://github.com/jetstack/cert-manager)
 - Misconfigs - TBD as this will be used with Gitlab CI, evaluating Popeye, Kube-Bench, Kube Linter
 - Vulnerabilities - Deepfence Runtime ThreatMapper (used for containers, images, hosts and registries/repositories), Kube-Hunter
 - Policy - Kyverno
@@ -88,7 +88,7 @@ Think Pi Nano+ Cluster support tools v0.1 (some are still under review) featured
 - Service Mesh - LinkerD
 
 # Serverless 
-- Serverless - OpenFaaS
+- Serverless - OpenFaaS (https://github.com/openfaas/faas)
 
 # zOther
 - Google Coral
