@@ -49,8 +49,11 @@ Think Pi Nano+ Cluster support tools v0.1 (some are still under review) featured
 - Infrastructure Provisioner (For cloud K3s workers, doubtful I'll use Proxmox VMs locally) - Terraform (https://github.com/hashicorp/terraform)
 
 # Kubernetes Distro and Base OS
-- Distro - K3s (over MicroK8s and K8s)
-- OS level - Ubuntu 20.04, evaluating Talos (API focus over SSH)
+- Distro - K3s (https://github.com/k3s-io/k3s)
+  - Bootstrap: https://github.com/alexellis/k3sup
+- OS level (Still evaluating Talos, API focus over SSH):
+  - Ubuntu Server 20.04 for ARM, 64-bit (https://ubuntu.com/download/raspberry-pi)
+  - Ubuntu Server 20.04 for x86/64 (https://ubuntu.com/download/server
 
 # Management, Monitoring and Observability 
 - CLI (Management) - K9s
