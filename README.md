@@ -6,8 +6,10 @@ Think Pi Nano+ Cluster support tools v0.1 (some are still under review) featured
 - https://github.com/tomhuang12/awesome-k8s-resources
 - https://www.cncf.io (Projects: Sandbox, Incubating, and Graduated)
 
-# Apps
-- Helm Charts - Artificate Hub (https://artifacthub.io/packages/search?kind=0&sort=relevance&page=1) and Arkade (https://github.com/alexellis/arkade)
+# Grab Apps
+- Helm Charts:
+  - Artificate Hub (https://artifacthub.io/packages/search?kind=0&sort=relevance&page=1)
+  - Arkade (https://github.com/alexellis/arkade)
 
 # Backup and Storage
 - Backup - Velero (https://github.com/vmware-tanzu/velero) and cloud storage (GCP, AWS, BackBlaze etc.)
@@ -25,24 +27,30 @@ Think Pi Nano+ Cluster support tools v0.1 (some are still under review) featured
   - Kube Doom (https://github.com/storax/kubedoom)
 
 # GitOps and Automation
-- Config Management - Ansible (https://github.com/ansible/ansible) - AWX (https://github.com/ansible/awx)
-- App Delivery Workflow - Devtron
-- CI - Gitlab CI
-- CD - ArgoCD
-- Docs as Code - Backstage
-- Event Based Scrpting - KEDA, Argo Events
-- SSH (Multi) - Tmux
-- Package Management related - Nova (checks helm charts for updates will compare featureset against Renovate soon, specializes in dependencies), Helm (charts, yml)
+- Config Management:
+  - Ansible (https://github.com/ansible/ansible) 
+  - AWX (https://github.com/ansible/awx)
+- App Delivery Workflow - Devtron (https://github.com/devtron-labs/devtron)
+- CI - Gitlab CI (https://docs.gitlab.com/ee/ci/)
+- CD - ArgoCD (https://argoproj.github.io/argo-cd/)
+- Docs as Code - Backstage (https://backstage.io/)
+- Event Based Scrpting:
+  - KEDA (https://github.com/kedacore/keda)
+  - Argo Events (https://github.com/argoproj/argo-events)
+- SSH (Multi) - Tmux (https://github.com/tmux/tmux)
+- Package Management related:
+  - Nova (checks helm charts for updates will compare featureset against Renovate soon, specializes in dependencies)
+  - Helm (charts, yml)
 - Registry - Harbor (scan images, sign, take action and more)
-- Git Repo - Private (self hosted) - Gitlab (will replicate to Github or vice-versa)
-- Git Repo - Public - Github
+- Git Repo:
+  - Private (self hosted) - Gitlab (will replicate to Github)
+  - Public - Github
 - IDE - Code-Server (Vs)
 - Infrastructure Provisioner - Terraform (for cloud workers, doubtful I'll use Proxmox VMs locally)
 
 # Kubernetes Distro
 - Distro - K3s (over MicroK8s and K8s)
 - OS level - Ubuntu 20.04, evalating Talos (API focus over SSH)
-
 
 # Management, Monitoring and Observability 
 - CLI (Management) - K9s
