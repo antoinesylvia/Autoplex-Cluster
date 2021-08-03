@@ -48,7 +48,7 @@ Think Pi Nano+ Cluster support tools v0.1 (some are still under review) featured
 - Service Mesh - LinkerD
 
 # Serverless 
-- OpenFaaS
+- Serverless - OpenFaaS
 
 # zOther
 - Google Coral
