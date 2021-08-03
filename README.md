@@ -39,6 +39,19 @@ Think Pi Nano+ Cluster support tools v0.1 (some are still under review) featured
 
 # Security
 - Certs - Cert Manager 
-- Misconfigs -
-- Vulnerabilities -
+- Misconfigs - TBD as this will be used with Gitlab CI, evaluating Popeye, Kube-Bench, Kube Linter
+- Vulnerabilities - Deepfence Runtime ThreatMapper (used for containers, images, hosts and registries/repositories), Kube-Hunter
 - Policy - Kyverno
+- Object Definitions - Kube-Score
+- RBAC - Permission-Manager, Kubectl who-can, Teleport
+- Secrets - TBD after digging through articles and many Reddit threads: 1A = Hashicorp Vault w/Kubernetes external secrets plugin and 1B = Sealed-Secrets 
+- Service Mesh - LinkerD
+
+# Serverless 
+- OpenFaaS
+
+# zOther
+- Google Coral
+- Intel Compute Stick
+- Nvidia Jetson Nano
+- Blinkt Lights
