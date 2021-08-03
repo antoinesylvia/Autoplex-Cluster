@@ -27,7 +27,7 @@ Think Pi Nano+ Cluster support tools v0.1 (some are still under review) featured
 # Optimization
 - Clean-up Manifests - Kubectl-neat
 
-# Package Management, Registry (artifacts) and GIT repo
+# Package Management, Registry (artifacts) and Repo (GIT)
 - Package Management related - Nova (checks helm charts for updates will compare featureset against Renovate soon, specializes in dependencies), Helm (charts, yml)
 - Registry - Harbor (scan images, sign, take action and more)
 - Repo - Private (self hosted) - Gitlab (will replicate to Github or vice-versa)
