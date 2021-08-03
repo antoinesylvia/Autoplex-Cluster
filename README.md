@@ -22,7 +22,7 @@ Think Pi Nano+ Cluster support tools v0.1 (some are still under review) featured
 - Kill pods through a videogame - KubeInvaders, Kube-Chaos, and Kube Doom
 
 # GitOps and Automation
-- Ansible - AWX
+- Config Management - Ansible (https://github.com/ansible/ansible) - AWX (https://github.com/ansible/awx)
 - App Delivery Workflow - Devtron
 - CI - Gitlab CI
 - CD - ArgoCD
@@ -33,6 +33,8 @@ Think Pi Nano+ Cluster support tools v0.1 (some are still under review) featured
 - Registry - Harbor (scan images, sign, take action and more)
 - Git Repo - Private (self hosted) - Gitlab (will replicate to Github or vice-versa)
 - Git Repo - Public - Github
+- IDE - Code-Server (Vs)
+-
 
 
 
