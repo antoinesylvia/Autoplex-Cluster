@@ -6,6 +6,19 @@ Think Pi Nano+ Cluster support tools v0.1 (some are still under review) featured
 - https://github.com/tomhuang12/awesome-k8s-resources
 - https://www.cncf.io/ (Projects: Sandbox, Incubating, and Graduated)
 
+# Apps
+- Helm Charts - Artificate Hub (UI) and Arkade (CLI)
+
+# Backup and Storage
+- Backup - Velero and connect to cloud account.
+- Storage - TrueNAS and still looking at some others for block storage.
+
+# Component Tools
+- ConfigMap - Reloader 
+- Images - 
+- Scheduler - Descheduler
+
+
 # Management, Monitoring and Observability 
 - CLI (Management) - K9s
 - Dash - Lens
