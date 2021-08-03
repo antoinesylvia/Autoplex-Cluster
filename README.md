@@ -1,7 +1,10 @@
 # Think-Pi-Nano+ Cluster
 Nothing to see here yet, will hold the current state (application layer) for my Kubernetes cluster (replicated from my self-hosted) Gitlab. This GitOps repo will also cover Kubernetes support tools and other self-hosted applications I'm running (includes guides). 
 
-Think Pi Nano+ Cluster support tools v0.1 (some are still under review):
+Think Pi Nano+ Cluster support tools v0.1 (some are still under review) featured below, I've discovered in:
+https://dockerlabs.collabnix.com/kubernetes/kubetools/
+https://github.com/tomhuang12/awesome-k8s-resources
+
 # Management, Monitoring and Observability 
 - CLI (Management) - K9s
 - Dash - Lens
