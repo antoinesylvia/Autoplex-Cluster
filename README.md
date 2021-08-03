@@ -14,12 +14,12 @@ Think Pi Nano+ Cluster support tools v0.1 (some are still under review) featured
 - Storage - TrueNAS (https://www.truenas.com) and still looking at some others for block storage.
 
 # Component Tools
-- ConfigMap - Reloader 
+- ConfigMap - Reloader (https://github.com/stakater/Reloader)
 - Images - 
-- Scheduler - Descheduler
+- Scheduler - Descheduler (https://github.com/kubernetes-sigs/descheduler)
 
-# Games (Chaos)
-- Kill pods through a videogame - KubeInvaders, Kube-Chaos, and Kube Doom
+# Games (Chaos) <---- Bartop arcade which is adjacant to the my homelab, serves as a client to run the games below.
+- Kill pods through a videogame - KubeInvaders (https://github.com/lucky-sideburn/KubeInvaders), Kube-Chaos (https://github.com/Shogan/kube-chaos), and Kube Doom (https://github.com/storax/kubedoom)
 
 # GitOps and Automation
 - Config Management - Ansible (https://github.com/ansible/ansible) - AWX (https://github.com/ansible/awx)
