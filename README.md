@@ -34,4 +34,4 @@ Think Pi Nano+ Cluster support tools v0.1 (some are still under review) featured
 - Repo - Public - Github
 
 # Runtime
-- Runtime - ContainerD
+- Runtime - ContainerD (default)
