@@ -21,6 +21,21 @@ Think Pi Nano+ Cluster support tools v0.1 (some are still under review) featured
 # Games
 - Kill pods through a videogame - KubeInvaders, Kube-Chaos, and Kube Doom
 
+# GitOps and Automation
+- Ansible - AWX
+- App Delivery Workflow - Devtron
+- CI - Gitlab CI
+- CD - ArgoCD
+- Docs as Code - Backstage
+- Event Based Scrpting - KEDA, Argo Events
+- SSH (Multi) - Tmux
+- Package Management related - Nova (checks helm charts for updates will compare featureset against Renovate soon, specializes in dependencies), Helm (charts, yml)
+- Registry - Harbor (scan images, sign, take action and more)
+- Git Repo - Private (self hosted) - Gitlab (will replicate to Github or vice-versa)
+- Git Repo - Public - Github
+
+
+
 # Kubernetes Distro
 - Distro - K3s (over MicroK8s and K8s)
 - OS level - Ubuntu 20.04, evalating Talos (API focus over SSH)
@@ -47,12 +62,6 @@ Think Pi Nano+ Cluster support tools v0.1 (some are still under review) featured
 
 # Optimization
 - Clean-up Manifests - Kubectl-neat
-
-# Package Management, Registry (artifacts) and Repo (GIT)
-- Package Management related - Nova (checks helm charts for updates will compare featureset against Renovate soon, specializes in dependencies), Helm (charts, yml)
-- Registry - Harbor (scan images, sign, take action and more)
-- Repo - Private (self hosted) - Gitlab (will replicate to Github or vice-versa)
-- Repo - Public - Github
 
 # Runtime
 - Runtime - ContainerD (default)
