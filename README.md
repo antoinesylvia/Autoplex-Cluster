@@ -9,7 +9,7 @@ Think Pi Nano+ Cluster support tools v0.1 (some are still under review):
 - Alerts/Notifications - BotKube....TBD
 - Pi Visibility - RPi-Monitor
 - Testing - Powerseal (injects failure), Kube-burner(stress testing), Kubectl-debug (debug running pods)
-- Monitoring - Pixie(x86/64)
+- Monitoring - Pixie (x86/64, no ARM at the moment)
 - Logging - Loki (Promtail agent)
 - Health - KubeEye
 
