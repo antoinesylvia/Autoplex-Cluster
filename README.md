@@ -42,11 +42,11 @@ Think Pi Nano+ Cluster support tools v0.1 (some are still under review) featured
   - Nova (https://github.com/fairwindsops/nova) Note: Will compare featureset against Renovate soon, specializes in dependencies.
   - Helm (https://github.com/helm/helm)
 - Registry - Harbor (https://github.com/goharbor/harbor)
-- Git Repo:
-  - Private (self hosted) - Gitlab (will replicate to Github)
-  - Public - Github
+- Git Repo (Gitlab will replicate to Github):
+  - Private (self hosted) - Gitlab (https://about.gitlab.com/)
+  - Public - Github (https://github.com)
 - IDE - Code-Server (VS Code) (https://github.com/cdr/code-server)
-- Infrastructure Provisioner - Terraform (for cloud workers, doubtful I'll use Proxmox VMs locally)
+- Infrastructure Provisioner (For cloud K3s workers, doubtful I'll use Proxmox VMs locally) - Terraform (https://github.com/hashicorp/terraform)
 
 # Kubernetes Distro and Base OS
 - Distro - K3s (over MicroK8s and K8s)
