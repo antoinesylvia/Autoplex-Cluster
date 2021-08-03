@@ -2,16 +2,16 @@
 Nothing to see here yet, will hold the current state (application layer) for my Kubernetes cluster (replicated from my self-hosted) Gitlab. This GitOps repo will also cover Kubernetes support tools and other self-hosted applications I'm running (includes guides). 
 
 Think Pi Nano+ Cluster support tools v0.1 (some are still under review) featured below, I've discovered in:
-- https://dockerlabs.collabnix.com/kubernetes/kubetools/
+- https://dockerlabs.collabnix.com/kubernetes/kubetools
 - https://github.com/tomhuang12/awesome-k8s-resources
-- https://www.cncf.io/ (Projects: Sandbox, Incubating, and Graduated)
+- https://www.cncf.io (Projects: Sandbox, Incubating, and Graduated)
 
 # Apps
-- Helm Charts - Artificate Hub (UI) and Arkade (CLI)
+- Helm Charts - Artificate Hub (https://artifacthub.io/packages/search?kind=0&sort=relevance&page=1) and Arkade (https://github.com/alexellis/arkade)
 
 # Backup and Storage
-- Backup - Velero and connect to cloud account.
-- Storage - TrueNAS and still looking at some others for block storage.
+- Backup - Velero (https://github.com/vmware-tanzu/velero) and cloud storage (GCP, AWS, BackBlaze etc.)
+- Storage - TrueNAS (https://www.truenas.com) and still looking at some others for block storage.
 
 # Component Tools
 - ConfigMap - Reloader 
