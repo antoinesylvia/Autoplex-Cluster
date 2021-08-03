@@ -1,5 +1,5 @@
 # Think-Pi-Nano+ Cluster
-Nothing to see here yet, will hold the current state (application layer) for my Kubernetes K3s cluster (replicated from my self-hosted) Gitlab. This GitOps repo will also cover Kubernetes support tools and other self-hosted applications I'm running (includes guides). 
+Nothing to see here yet, will hold the current state (application layer) for my Kubernetes K3s cluster (replicated from my self-hosted) Gitlab. This GitOps repo will also cover Kubernetes support tools and other self-hosted applications I'm running (includes guides). I'll be using Github pages for an associated blog tied to this project: https://antoinesylvia.github.io/Think-Pi-Nano-Cluster/
 
 Think Pi Nano+ Cluster support tools v0.1 (some are still under review) featured below, I've discovered in:
 - https://dockerlabs.collabnix.com/kubernetes/kubetools
