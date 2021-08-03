@@ -48,9 +48,9 @@ Think Pi Nano+ Cluster support tools v0.1 (some are still under review) featured
 - IDE - Code-Server (VS Code) (https://github.com/cdr/code-server)
 - Infrastructure Provisioner - Terraform (for cloud workers, doubtful I'll use Proxmox VMs locally)
 
-# Kubernetes Distro
+# Kubernetes Distro and Base OS
 - Distro - K3s (over MicroK8s and K8s)
-- OS level - Ubuntu 20.04, evalating Talos (API focus over SSH)
+- OS level - Ubuntu 20.04, evaluating Talos (API focus over SSH)
 
 # Management, Monitoring and Observability 
 - CLI (Management) - K9s
