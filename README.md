@@ -20,7 +20,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 - Images - 
 - Scheduler - Descheduler (https://github.com/kubernetes-sigs/descheduler)
 
-# Games (Chaos) <---- Bartop arcade which is adjacant to the my homelab, serves as a client to run the games below.
+# Games (Chaos) <---- Bartop arcade which is adjacant to my homelab, serves as a client to run the games below.
 - Kill pods through a videogame: 
   - KubeInvaders (https://github.com/lucky-sideburn/KubeInvaders) 
   - Kube-Chaos (https://github.com/Shogan/kube-chaos)
