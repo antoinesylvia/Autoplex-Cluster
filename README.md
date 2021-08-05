@@ -17,7 +17,6 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 
 # Component Tools
 - ConfigMap - Reloader (https://github.com/stakater/Reloader)
-- Images - 
 - Scheduler - Descheduler (https://github.com/kubernetes-sigs/descheduler)
 
 # Games (Chaos) <---- Bartop arcade which is adjacant to my homelab, serves as a client to run the games below.
@@ -68,6 +67,12 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
     - Alerts/Notifications - BotKube....TBD
 - Logging - Loki (Promtail agent) (https://github.com/grafana/loki)
 - Health - KubeEye (https://github.com/kubesphere/kubeeye)
+- Images (OS or docker)
+  - Dive (Explore layers of Docker image) (https://github.com/wagoodman/dive)
+  - Cloudmesh-pi-burn (Burn many Linux OS images to SD cards for cluster) (https://github.com/cloudmesh/cloudmesh-pi-burn)
+  - Clusperry installer (Generate Linux OS images to SD cards for cluster) (https://github.com/nullxx/clusperry-installer)
+  - Proxmox Packer builder (https://www.packer.io/docs/builders/proxmox)
+    - Packer (Build machine images for multiple platforms) (https://github.com/hashicorp/packer)
 
 # Networking
 - DNS - CoreDNS (default)
