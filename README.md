@@ -114,12 +114,12 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 - Blinkt Lights for Pi/Nano (https://learn.pimoroni.com/tutorial/sandyj/getting-started-with-blinkt)
 
 # zOther - People I follow to learn more about Docker and/or Kubernetes
-Jessie Frazelle
-Ian Coldwater
-Kelsey Hightower
-Alex Ellis
-Jeff Geerling
-Nana Tech World
-Julia Evans
-Ajeet Singh Raina
+- Jessie Frazelle 
+- Ian Coldwater
+- Kelsey Hightower
+- Alex Ellis
+- Jeff Geerling
+- Nana Tech World
+- Julia Evans
+- Ajeet Singh Raina
 
