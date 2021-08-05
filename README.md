@@ -106,8 +106,20 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 # Serverless 
 - Serverless - OpenFaaS (https://github.com/openfaas/faas)
 
-# zOther
+# Tools - Hardware
 - Google Coral (https://coral.ai/docs/accelerator/get-started/#next-steps)
 - Intel Compute Stick (https://software.intel.com/content/www/us/en/develop/articles/get-started-with-neural-compute-stick.html)
 - Nvidia Jetson Nano (https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit)
-- Blinkt Lights (https://learn.pimoroni.com/tutorial/sandyj/getting-started-with-blinkt)
+- Raspberry Pi (https://projects.raspberrypi.org/en/projects/raspberry-pi-getting-started/)
+- Blinkt Lights for Pi/Nano (https://learn.pimoroni.com/tutorial/sandyj/getting-started-with-blinkt)
+
+# zOther - People I follow to learn more about Docker and/or Kubernetes
+Jessie Frazelle
+Ian Coldwater
+Kelsey Hightower
+Alex Ellis
+Jeff Geerling
+Nana Tech World
+Julia Evans
+Ajeet Singh Raina
+
