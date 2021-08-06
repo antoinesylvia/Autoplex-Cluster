@@ -8,9 +8,9 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 
 # Grab Apps
 - Helm Charts:
-  - Artificate Hub (https://artifacthub.io/packages/search?kind=0&sort=relevance&page=1)
   - Arkade (https://github.com/alexellis/arkade)
-
+  - Artificate Hub (https://artifacthub.io/packages/search?kind=0&sort=relevance&page=1)
+  
 # Backup and Storage
 - Backup - Velero (https://github.com/vmware-tanzu/velero) and cloud storage (GCP, AWS, BackBlaze etc.)
 - Storage - TrueNAS (https://www.truenas.com) and still looking at some others for block storage.
@@ -21,9 +21,9 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 
 # Games (Chaos) <---- Bartop arcade which is adjacant to my homelab, serves as a client to run the games below.
 - Kill pods through a videogame: 
-  - KubeInvaders (https://github.com/lucky-sideburn/KubeInvaders) 
   - Kube-Chaos (https://github.com/Shogan/kube-chaos)
-  - Kube Doom (https://github.com/storax/kubedoom)
+  - Kube Doom (https://github.com/storax/kubedoom
+  - KubeInvaders (https://github.com/lucky-sideburn/KubeInvaders) 
 
 # GitOps and Automation
 - Config Management:
@@ -36,16 +36,20 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 - Event Based Scrpting:
   - KEDA (https://github.com/kedacore/keda)
   - Argo Events (https://github.com/argoproj/argo-events)
-- SSH (Multi) - Tmux (https://github.com/tmux/tmux)
-- Package Management related:
-  - Nova (https://github.com/fairwindsops/nova) Note: Will compare featureset against Renovate soon, specializes in dependencies.
-  - Helm (https://github.com/helm/helm)
-- Registry - Harbor (https://github.com/goharbor/harbor)
 - Git Repo (Gitlab will replicate to Github):
   - Private (self hosted) - Gitlab (https://about.gitlab.com/)
   - Public - Github (https://github.com)
 - IDE - Code-Server (VS Code) (https://github.com/cdr/code-server)
 - Infrastructure Provisioner (For cloud K3s workers, doubtful I'll use Proxmox VMs locally) - Terraform (https://github.com/hashicorp/terraform)
+- Package Management related:
+  - Nova (https://github.com/fairwindsops/nova) Note: Will compare featureset against Renovate soon, specializes in dependencies.
+  - Helm (https://github.com/helm/helm)
+- Registry 
+  - Private - Harbor (https://github.com/goharbor/harbor)
+  - Public - Dockerhub (https://hub.docker.com/)
+    - Linuxserver (https://fleet.linuxserver.io/)
+    - Hotio (https://hotio.dev/) 
+- SSH (Multi) - Tmux (https://github.com/tmux/tmux)
 
 # Kubernetes Distro and Base OS
 - Distro - K3s (https://github.com/k3s-io/k3s)
@@ -57,17 +61,18 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 # Management, Monitoring and Observability 
 - CLI (Management) - K9s (https://github.com/derailed/k9s)
 - Dash - Lens (https://github.com/lensapp/lens)
+- Health - KubeEye (https://github.com/kubesphere/kubeeye)
+- Logging - Loki (Promtail agent) (https://github.com/grafana/loki)
 - Mobile App - KubeNAV (https://github.com/kubenav/kubenav)
+- Monitoring - Pixie (x86/64, no ARM at the moment) (https://github.com/pixie-labs/pixie)
+    - Alerts/Notifications - BotKube....TBD
 - Pi Visibility - RPi-Monitor (https://github.com/XavierBerger/RPi-Monitor)
 - Testing:
   - Powerfulseal (injects failure) (https://github.com/powerfulseal/powerfulseal)
   - Kube-burner(stress testing) (https://github.com/cloud-bulldozer/kube-burner)
   - Kubectl-debug (debug running pods) (https://github.com/cloud-bulldozer/kube-burnerKubectl-debug)
-- Monitoring - Pixie (x86/64, no ARM at the moment) (https://github.com/pixie-labs/pixie)
-    - Alerts/Notifications - BotKube....TBD
-- Logging - Loki (Promtail agent) (https://github.com/grafana/loki)
-- Health - KubeEye (https://github.com/kubesphere/kubeeye)
-- Images (OS or docker)
+
+# Images (OS or Docker)
   - Dive (Explore layers of Docker image) (https://github.com/wagoodman/dive)
   - Cloudmesh-pi-burn (Burn many Linux OS images to SD cards for cluster) (https://github.com/cloudmesh/cloudmesh-pi-burn)
   - Clusperry installer (Generate Linux OS images to SD cards for cluster) (https://github.com/nullxx/clusperry-installer)
@@ -75,16 +80,16 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
     - Packer (Build machine images for multiple platforms) (https://github.com/hashicorp/packer)
 
 # Networking
+- Container Network Interface - Flannel (default) but enabled IPsec or Wireguard (between nodes/pods, still researching this and features at the service mesh level)
 - DNS - CoreDNS (default)
 - Ingress Controller - Nginx (Replacing Traefik) (https://github.com/kubernetes/ingress-nginx)
 - Load Balancer - Metallb (https://github.com/metallb/metallb)
+- Local Resources - Mount or Ktunnel (https://github.com/omrikiei/ktunnel?utm_sq=g93l33gmsu)
 - VPN (Wireguard based, testing the following):
   - Drago (https://github.com/seashell/drago)
-  - Tailscale (https://github.com/tailscale/tailscale)
   - Netmaker (https://github.com/gravitl/netmaker)
-- Local Resources - Mount or Ktunnel (https://github.com/omrikiei/ktunnel?utm_sq=g93l33gmsu)
-- Container Network Interface - Flannel (default) but enabled IPsec or Wireguard (between nodes/pods, still researching this and features at the service mesh level)
-
+  - Tailscale (https://github.com/tailscale/tailscale)
+  
 # Optimization
 - Clean-up Manifests - Kubectl-neat (https://github.com/itaysk/kubectl-neat)
 
@@ -119,12 +124,12 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 - Blinkt Lights for Pi/Nano (https://learn.pimoroni.com/tutorial/sandyj/getting-started-with-blinkt)
 
 # zOther - People I follow to learn more about Docker and/or Kubernetes
-- Jessie Frazelle 
-- Ian Coldwater
-- Kelsey Hightower
-- Alex Ellis
-- Jeff Geerling
-- Nana Tech World
-- Julia Evans
 - Ajeet Singh Raina
+- Alex Ellis
+- Ian Coldwater
+- Jeff Geerling
+- Jessie Frazelle 
+- Julia Evans
+- Kelsey Hightower
+- Nana Tech World
 
