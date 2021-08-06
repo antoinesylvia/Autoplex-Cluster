@@ -7,7 +7,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 - https://www.cncf.io (Projects: Sandbox, Incubating, and Graduated)
 - https://www.reddit.com/r/kubernetes
 
-# Apps/Charts
+# Apps / Charts
 - Helm Charts:
   - Arkade (https://github.com/alexellis/arkade)
   - Artificate Hub (https://artifacthub.io/packages/search?kind=0&sort=relevance&page=1)
