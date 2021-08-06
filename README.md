@@ -52,6 +52,17 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
     - Hotio (https://hotio.dev/) 
 - SSH (Multi) - Tmux (https://github.com/tmux/tmux)
 
+# Images (OS or Docker)
+  - Docker
+    - Dive (Explore layers of Docker image) (https://github.com/wagoodman/dive)
+  - OS Images
+    - Burn/generate many Linux OS images to SD cards for cluster:
+      - Cloudmesh-pi-burn (https://github.com/cloudmesh/cloudmesh-pi-burn)
+      - Clusperry installer (https://github.com/nullxx/clusperry-installer)
+    - Build machine images for multiple platforms:
+      - Proxmox Packer builder (https://www.packer.io/docs/builders/proxmox)
+        - Packer (https://github.com/hashicorp/packer)
+
 # Kubernetes Distro and Base OS
 - Distro - K3s (https://github.com/k3s-io/k3s)
   - Bootstrap: https://github.com/alexellis/k3sup
@@ -72,17 +83,6 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
   - Powerfulseal (injects failure) (https://github.com/powerfulseal/powerfulseal)
   - Kube-burner(stress testing) (https://github.com/cloud-bulldozer/kube-burner)
   - Kubectl-debug (debug running pods) (https://github.com/cloud-bulldozer/kube-burnerKubectl-debug)
-
-# Images (OS or Docker)
-  - Docker
-    - Dive (Explore layers of Docker image) (https://github.com/wagoodman/dive)
-  - OS images
-    - Burn/generate many Linux OS images to SD cards for cluster:
-      - Cloudmesh-pi-burn (https://github.com/cloudmesh/cloudmesh-pi-burn)
-      - Clusperry installer (https://github.com/nullxx/clusperry-installer)
-    - Build machine images for multiple platforms:
-      - Proxmox Packer builder (https://www.packer.io/docs/builders/proxmox)
-        - Packer (https://github.com/hashicorp/packer)
 
 # Networking
 - Container Network Interface - Flannel (default) but enabled IPsec or Wireguard (between nodes/pods, still researching this and features at the service mesh level)
