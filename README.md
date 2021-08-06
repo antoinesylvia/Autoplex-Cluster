@@ -52,7 +52,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
     - Hotio (https://hotio.dev/) 
 - SSH (Multi) - Tmux (https://github.com/tmux/tmux)
 
-# Images (OS or Docker)
+# Images 
   - Docker
     - Dive (Explore layers of Docker image) (https://github.com/wagoodman/dive)
   - OS Images
