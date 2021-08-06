@@ -5,7 +5,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 - https://dockerlabs.collabnix.com/kubernetes/kubetools
 - https://github.com/tomhuang12/awesome-k8s-resources
 - https://www.cncf.io (Projects: Sandbox, Incubating, and Graduated)
-- https://www.reddit.com/r/kubernetes/
+- https://www.reddit.com/r/kubernetes
 
 # Grab Apps
 - Helm Charts:
