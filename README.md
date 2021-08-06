@@ -41,7 +41,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
   - Private (self hosted) - Gitlab (https://about.gitlab.com/)
   - Public - Github (https://github.com)
 - IDE - Code-Server (VS Code) (https://github.com/cdr/code-server)
-- Infrastructure Provisioner (For cloud K3s workers, doubtful I'll use Proxmox VMs locally) - Terraform (https://github.com/hashicorp/terraform)
+- Infrastructure Provisioner (For cloud K3s workers or locally using Proxmox VMs) - Terraform (https://github.com/hashicorp/terraform)
 - Package Management related:
   - Nova (https://github.com/fairwindsops/nova) Note: Will compare featureset against Renovate soon, specializes in dependencies.
   - Helm (https://github.com/helm/helm)
