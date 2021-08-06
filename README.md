@@ -77,8 +77,9 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
   - Docker
     - Dive (Explore layers of Docker image) (https://github.com/wagoodman/dive)
   - OS images
-    - Cloudmesh-pi-burn (Burn many Linux OS images to SD cards for cluster) (https://github.com/cloudmesh/cloudmesh-pi-burn)
-    - Clusperry installer (Generate Linux OS images to SD cards for cluster) (https://github.com/nullxx/clusperry-installer)
+    - Burn/generate many Linux OS images to SD cards for cluster:
+      - Cloudmesh-pi-burn () (https://github.com/cloudmesh/cloudmesh-pi-burn)
+      - Clusperry installer (Generate Linux OS images to SD cards for cluster) (https://github.com/nullxx/clusperry-installer)
     - Proxmox Packer builder (https://www.packer.io/docs/builders/proxmox)
       - Packer (Build machine images for multiple platforms) (https://github.com/hashicorp/packer)
 
