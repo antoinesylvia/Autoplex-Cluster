@@ -20,7 +20,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 - ConfigMap - Reloader (https://github.com/stakater/Reloader)
 - Scheduler - Descheduler (https://github.com/kubernetes-sigs/descheduler)
 
-# Games (Chaos) | These will run on a custom bartop arcade adjacant to my homelab, serves as a client to run the games below. 
+# Games (Chaos) | Custom bartop arcade (wroks as client) adjacant to my homelab will run the games below, serves as a client to run the games below. 
 - Kill pods through a videogame: 
   - Kube-Chaos (https://github.com/Shogan/kube-chaos)
   - Kube Doom (https://github.com/storax/kubedoom
