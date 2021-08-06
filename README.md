@@ -7,7 +7,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 - https://www.cncf.io (Projects: Sandbox, Incubating, and Graduated)
 - https://www.reddit.com/r/kubernetes
 
-# Grab Apps
+# Apps/Charts
 - Helm Charts:
   - Arkade (https://github.com/alexellis/arkade)
   - Artificate Hub (https://artifacthub.io/packages/search?kind=0&sort=relevance&page=1)
@@ -74,11 +74,13 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
   - Kubectl-debug (debug running pods) (https://github.com/cloud-bulldozer/kube-burnerKubectl-debug)
 
 # Images (OS or Docker)
-  - Dive (Explore layers of Docker image) (https://github.com/wagoodman/dive)
-  - Cloudmesh-pi-burn (Burn many Linux OS images to SD cards for cluster) (https://github.com/cloudmesh/cloudmesh-pi-burn)
-  - Clusperry installer (Generate Linux OS images to SD cards for cluster) (https://github.com/nullxx/clusperry-installer)
-  - Proxmox Packer builder (https://www.packer.io/docs/builders/proxmox)
-    - Packer (Build machine images for multiple platforms) (https://github.com/hashicorp/packer)
+  - Docker
+    - Dive (Explore layers of Docker image) (https://github.com/wagoodman/dive)
+  - OS images
+    - Cloudmesh-pi-burn (Burn many Linux OS images to SD cards for cluster) (https://github.com/cloudmesh/cloudmesh-pi-burn)
+    - Clusperry installer (Generate Linux OS images to SD cards for cluster) (https://github.com/nullxx/clusperry-installer)
+    - Proxmox Packer builder (https://www.packer.io/docs/builders/proxmox)
+      - Packer (Build machine images for multiple platforms) (https://github.com/hashicorp/packer)
 
 # Networking
 - Container Network Interface - Flannel (default) but enabled IPsec or Wireguard (between nodes/pods, still researching this and features at the service mesh level)
