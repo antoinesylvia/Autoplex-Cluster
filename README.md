@@ -67,9 +67,9 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 - Distro - K3s (https://github.com/k3s-io/k3s)
   - Bootstrap: https://github.com/alexellis/k3sup
 - OS level (Still evaluating Talos, API focus over SSH):
-  - Ubuntu Server 20.04 for ARM (used for Pi), 64-bit (https://ubuntu.com/download/raspberry-pi)
+  - Ubuntu Server 20.04 for ARM (used for Raspberry Pis), 64-bit (https://ubuntu.com/download/raspberry-pi)
   - Ubuntu Server 20.04 for x86/64 (used for Thinkpad laptops) (https://ubuntu.com/download/server)
-  - Linux4Tegra (used for Jetson Nano) (https://developer.nvidia.com/embedded/linux-tegra-archive)
+  - Linux4Tegra (used for Jetson Nanos) (https://developer.nvidia.com/embedded/linux-tegra-archive)
 
 # Management, Monitoring and Observability 
 - CLI (Management) - K9s (https://github.com/derailed/k9s)
