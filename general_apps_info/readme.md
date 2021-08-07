@@ -18,7 +18,14 @@ Every category of web app imaginable is covered with the links above. Build out 
   - Note: At the Nginx level, users can add a rule to only allow inbound traffic from known Cloudflare IPs. This can also be done more effectively at the router level instead if the feature is available.
   - Note: At the Cloudflare level, ensure Authenticated Origin Pulls is enabled. Helps validate traffic hitting a user's orgin server is coming 1st from Cloudflare (using a TLS cert)
 -----------------------------
-Youtube-dl: Command-line program to download videos from YouTube.com and other video sites 
+
+XOWA: Free and open-source application written primarily in Java by anonymous developers and is intended for users who wish to run their own copy of Wikipedia, or any other compatible Wiki offline or without an internet connection.
+ - http://xowa.org/
+
+Youtubedl-Material: Self-hosted YouTube downloader built on Material Design 
+ - https://github.com/Tzahi12345/YoutubeDL-Material
+
+Youtube-DL: Command-line program to download videos from YouTube.com and other video sites 
  - https://github.com/ytdl-org/youtube-dl
 
 Yet Another Aria2 Webui (Yaaw): Aria2 Webui 
