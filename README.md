@@ -35,7 +35,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 - CI - Gitlab CI (https://docs.gitlab.com/ee/ci/)
 - CD - ArgoCD (https://argoproj.github.io/argo-cd/)
 - Docs as Code - Backstage (https://backstage.io/)
-- Event Based Scrpting:
+- Event Based Scripting:
   - KEDA (https://github.com/kedacore/keda)
   - Argo Events (https://github.com/argoproj/argo-events)
 - Git Repo (Gitlab will replicate to Github):
