@@ -23,7 +23,7 @@ AirDC++: Client for Advanced Direct Connect and Direct Connect networks.
  - https://github.com/gangefors/docker-airdcpp-webclient
  - image: gangefors/airdcpp-webclient
 
-AppRise: Allows you to send a notification to almost all of the most popular notification services available to us today such as: Telegram, Discord, Slack, Amazon SNS, Gotify, etc.
+AppRise: Allows you to send a notification to almost all of the most popular notification services available to us today such as: Telegram, Discord, Slack, Amazon SNS, Gotify, etc..
  - https://github.com/caronc/apprise
  - image: caronc/apprise:latest
       
@@ -51,11 +51,11 @@ Changedetection.io: Self-hosted change monitoring of web pages.
  - https://github.com/dgtlmoon/changedetection.io
  - image: dgtlmoon/changedetection.io
   
-Cloudflareddns: Cloudflare DDNS updater
+Cloudflareddns: Cloudflare DDNS updater.
  - https://support.cloudflare.com/hc/en-us/articles/360020524512-Manage-dynamic-IPs-in-Cloudflare-DNS-programmatically
  - image: hotio/cloudflareddns
 
-Code-server: VS Code in the browser
+Code-server: VS Code in the browser.
  - https://github.com/cdr/code-server
  - image: linuxserver/code-server
 
@@ -63,11 +63,11 @@ Composerize: Turns docker run commands into docker-compose files!
  - https://github.com/magicmark/composerize
  - image: icedream/composerize
     			
-Cyberchef: #The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis
+Cyberchef: #The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis.
  - https://github.com/gchq/CyberChef
  - image: "4nxio/cyberchef:latest"
 
-Dizquetv: Create live TV channels from your own media. Access the streams using the simulated HDHomerun tuner or the generated M3U URl
+Dizquetv: Create live TV channels from your own media. Access the streams using the simulated HDHomerun tuner or the generated M3U URl.
 - https://github.com/vexorian/dizquetv
 - image: 'vexorian/dizquetv:latest'
 		
@@ -87,19 +87,19 @@ Draw.io: Diagrams.net is free online diagram software for making flowcharts, pro
  - https://github.com/fjudith/docker-draw.io
  - image: jgraph/draw.io
 		
-Duplicacy: Backs up your files to many cloud storages with client-side encryption and the highest level of deduplication
+Duplicacy: Backs up your files to many cloud storages with client-side encryption and the highest level of deduplication.
  - https://github.com/gilbertchen/duplicacy
  - image: hotio/duplicacy
  
-Eclipse Mosquitto: Open source MQTT broker
+Eclipse Mosquitto: Open source MQTT broker.
  - https://mosquitto.org/
  - image: eclipse-mosquitto
 		
-Edumeet: Multiparty web-meetings using mediasoup and WebRTC
+Edumeet: Multiparty web-meetings using mediasoup and WebRTC.
  - https://github.com/edumeet/edumeet
  - image: edumeet/edumeet:${TAG}
    
-FileBot: Ultimate tool for renaming and organizing your movies, TV shows and Anime
+FileBot: Ultimate tool for renaming and organizing your movies, TV shows and Anime.
  - https://www.filebot.net/
  - image: jlesage/filebot
 
@@ -111,11 +111,11 @@ Folding@home - Distributed computing project aimed to help scientists develop ne
  - https://foldingathome.org/?lng=en-US
  - image: linuxserver/foldingathome
    
-Freshrss: FreshRSS is a self-hosted RSS feed aggregator
+Freshrss: FreshRSS is a self-hosted RSS feed aggregator.
  - https://github.com/FreshRSS/FreshRSS
  - image: linuxserver/freshrss
 		
-Fireflyiii: A personal finances manager
+Fireflyiii: A personal finances manager.
  - https://github.com/firefly-iii/firefly-iii
  - image: jc5x/firefly-iii:latest
 
@@ -127,7 +127,7 @@ Guacamole: Clientless remote desktop gateway. It supports standard protocols lik
  - https://github.com/apache/guacamole-server
  - image: linuxserver/guacd
  
-Guora: A self-hosted Quora like web application
+Guora: A self-hosted Quora like web application.
  - https://github.com/meloalright/guora
  - image: 'meloalright/guora:beta2'
 		
@@ -135,19 +135,19 @@ Grafana: Multi-platform open source analytics and interactive visualization web 
  - https://grafana.com/
  - image: grafana/grafana
 		
-Grav:Modern, Crazy Fast, Ridiculously Easy and Amazingly Powerful Flat-File CMS
+Grav:Modern, Crazy Fast, Ridiculously Easy and Amazingly Powerful Flat-File CMS.
  - https://github.com/getgrav/grav
  - image: 'grav:latest'
 		
-Grocy: ERP beyond your fridge - grocy is a web-based self-hosted groceries & household management solution for your home
+Grocy: ERP beyond your fridge - grocy is a web-based self-hosted groceries & household management solution for your home.
  - https://github.com/grocy/grocy
  -image: linuxserver/grocy
 
-Headphones: Automatic music downloader for SABnzbd
+Headphones: Automatic music downloader for SABnzbd.
  - https://github.com/rembo10/headphones
  - image: linuxserver/headphones
 
-Heimdall: An Application dashboard and launcher
+Heimdall: An Application dashboard and launcher.
  - https://github.com/linuxserver/Heimdall
  - image: ghcr.io/linuxserver/heimdall
 
@@ -159,11 +159,11 @@ Influxdb: Open-source time series database developed by InfluxData.
  - https://github.com/influxdata/influxdb
  - image: influxdb
 
-Jackett: API Support for your favorite torrent trackers
+Jackett: API Support for your favorite torrent trackers.
  - https://github.com/Jackett/Jackett
  - image: linuxserver/jackett
 		
-Jdownloader-2: Open-source download management tool
+Jdownloader-2: Open-source download management tool.
  - https://jdownloader.org/download/index
  - image: jlesage/jdownloader-2
 		
@@ -235,7 +235,7 @@ Nextcloud: Suite of client-server software for creating and using file hosting s
  - https://github.com/nextcloud
  - image: linuxserver/nextcloud
 		
-nginx: Reverse Proxy
+nginx: Reverse Proxy.
  - https://github.com/nginx/nginx
  - image: nginx:1.18.0-alpine
 
@@ -249,19 +249,19 @@ nginx-ui: Nginx UI allows you to access and modify the nginx configurations file
  - https://github.com/schenkd/nginx-ui
  - image: nginx-ui:latest
    
-Node-red: Low-code programming for event-driven applications
+Node-red: Low-code programming for event-driven applications.
  - https://github.com/node-red/node-red
  - image: nodered/node-red
 
-Nowshowing: #Generates an email and web page of Plex recently added content
+Nowshowing: #Generates an email and web page of Plex recently added content.
  - https://github.com/ninthwalker/NowShowing
  - image: ninthwalker/nowshowing:v2	
 
-Nzbhydra2: Usenet meta search
+Nzbhydra2: Usenet meta search.
  - https://github.com/theotherp/nzbhydra2
  - image: ghcr.io/linuxserver/nzbhydra2
 
-Organizr: HTPC/Homelab Services Organizer - Written in PHP 
+Organizr: HTPC/Homelab Services Organizer - Written in PHP.
  - https://github.com/causefx/Organizr
  - image: linuxserver/organizr
 
@@ -277,7 +277,7 @@ Openspeedtest: Pure HTML5 Network Performance Estimation Tool.
  - https://github.com/openspeedtest/Speed-Test
  - image: openspeedtest/latest
 		
-Pasta: Audio & Subtitle Track Changer for Plex
+Pasta: Audio & Subtitle Track Changer for Plex.
  - https://github.com/cglatot/pasta
  - image: cglatot/pasta
 		
@@ -297,12 +297,11 @@ Pihole: Network-wide Ad Blocking.
  - https://github.com/pi-hole/pi-hole
  - image: pihole/pihole:latest
 
-Plex-library-cleaner:
-#A simple UI to help find and delete duplicate and sample files from your Plex server 
-#https://github.com/se1exin/Plex-Library-Cleaner
-       image: 'selexin/plex-library-cleaner:latest'
+Plex-library-cleaner: A simple UI to help find and delete duplicate and sample files from your Plex server.
+ - https://github.com/se1exin/Plex-Library-Cleaner
+ - image: selexin/plex-library-cleaner:latest
 		
-Plexarr Simple CLI tool to fix Plex library matches according to Sonarr/Radarr
+Plexarr Simple CLI tool to fix Plex library matches according to Sonarr/Radarr.
  - https://github.com/l3uddz/plexarr
  - image: hotio/plexarr		
 		
@@ -314,7 +313,7 @@ Projectsend: Open source software that lets you share files with your clients, f
  - https://github.com/projectsend/projectsend
  - image: linuxserver/projectsend
 
-Prowlarr: Indexer manager/proxy built on the popular arr .net/reactjs base stack to integrate with your various PVR apps. Prowlarr supports both Torrent Trackers and Usenet Indexers. It integrates seamlessly with Sonarr, Radarr, Lidarr, and Readarr offering complete management of your indexers with no per app Indexer setup required (we do it all).
+Prowlarr: Indexer manager/proxy built on the popular arr .net/reactjs base stack to integrate with your various PVR apps.
  - https://github.com/Prowlarr/Prowlarr
  - image: hotio/prowlarr
 
@@ -350,7 +349,7 @@ Radarr: A fork of Sonarr to work with movies à la Couchpotato.
  - https://github.com/Radarr/Radarr
  - image: linuxserver/radarr
 
-Readarr: Book Manager and Automation (Sonarr for Ebooks) 
+Readarr: Book Manager and Automation (Sonarr for Ebooks).
  - https://github.com/Readarr/Readarr
  - image: hotio/readarr:nightly
 
@@ -378,7 +377,7 @@ Sabnzbd: The automated Usenet download tool.
  - https://github.com/sabnzbd/sabnzbd
  - image: ghcr.io/linuxserver/sabnzbd
 
-Screego: Screen sharing for developers 
+Screego: Screen sharing for developers. 
  - https://github.com/screego/server
  - image: screego/server:1.0.1
 
@@ -390,7 +389,7 @@ Serverstatus: Display and monitor your servers statistics in a beatiful way.
  - https://github.com/BotoX/ServerStatus
  - image: cppla/serverstatus
 
-SnipeIT:#A free open source IT asset/license management system 
+SnipeIT:#A free open source IT asset/license management system.
  - https://github.com/snipe/snipe-it
  - image: linuxserver/snipe-it:latest
 
