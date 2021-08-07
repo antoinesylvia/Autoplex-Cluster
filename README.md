@@ -45,9 +45,11 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 - Image Docker - Dive (Explore layers of Docker image) (https://github.com/wagoodman/dive)
 - Image Registry 
   - Private - Harbor (https://github.com/goharbor/harbor)
-  - Public - Dockerhub (https://hub.docker.com/)
-    - Linuxserver (https://fleet.linuxserver.io/)
-    - Hotio (https://hotio.dev/) 
+  - Public 
+    - Dockerhub (https://hub.docker.com/)
+      - Linuxserver (https://fleet.linuxserver.io/)
+      - Hotio (https://hotio.dev/)
+    - Github (ghcr.io) 
 - Infrastructure Provisioner (For cloud K3s workers or locally using Proxmox VMs) - Terraform (https://github.com/hashicorp/terraform)
 - SSH (Multi) - Tmux (https://github.com/tmux/tmux)
 
