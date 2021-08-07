@@ -1,14 +1,6 @@
 # Think-Pi-Nano+ | Cluster General Apps
 
-My currated list of popular apps (containerized) discovered on:
- - https://github.com/awesome-selfhosted/awesome-selfhosted
- - https://github.com/sindresorhus/awesome
- - https://github.com/eagleusb/awesome-repositories
- - https://www.reddit.com/r/selfhosted/
- - https://boinc.berkeley.edu/projects.php
-
------------------------------
-Every category of web app imaginable is covered with the links above. Build out your own portal for local (includes VPN) use and/or over the internet combined with SSO/2FA. A basic *over the internet* setup entails:
+Every category of web app imaginable is covered with the links below. Build out your own portal for local (includes VPN) use and/or over the internet combined with SSO/2FA. A basic *over the internet* setup entails:
 1. Installing an app and running it locally on your network.
 2. Ensure the user has a registered domain name, if the user doesn't have a static WAN IP then they'll have to run a DDNS updater on the host or use built-in features (if available) at the router level.
 3. Add the web app location (IP and port) information to a reverse proxy like Nginx as a location block. Users can expose their apps as a subdirectory (domain.com/app) or subdomain (app.domain.com), subdomain would need a TLS wildcart cert for the 2nd setup. 
@@ -20,6 +12,15 @@ Every category of web app imaginable is covered with the links above. Build out 
   - Note: At the Nginx level, users can add a rule to only allow inbound traffic from known Cloudflare IPs. This can also be done more effectively at the router level instead if the feature is available.
   - Note: At the Cloudflare level, ensure Authenticated Origin Pulls is enabled. Helps validate traffic hitting a user's orgin server is coming 1st from Cloudflare (using a TLS cert)
 -----------------------------
+My currated list of popular apps (containerized) listed on this page, were discovered on:
+ - https://github.com/awesome-selfhosted/awesome-selfhosted
+ - https://github.com/sindresorhus/awesome
+ - https://github.com/eagleusb/awesome-repositories
+ - https://www.reddit.com/r/selfhosted/
+ - https://boinc.berkeley.edu/projects.php
+
+-----------------------------
+
 AirDC++: Client for Advanced Direct Connect and Direct Connect networks. 
  - https://github.com/gangefors/docker-airdcpp-webclient
  - image: gangefors/airdcpp-webclient
