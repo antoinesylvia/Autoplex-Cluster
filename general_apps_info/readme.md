@@ -1,6 +1,6 @@
 # Think-Pi-Nano+ | Cluster General Apps
 
-My list of apps discovered on:
+My list of popular apps discovered on:
  - https://github.com/awesome-selfhosted/awesome-selfhosted
  - https://www.reddit.com/r/selfhosted/
  - https://github.com/eagleusb/awesome-repositories
