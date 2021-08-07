@@ -83,59 +83,37 @@ Dokuwiki:
  - https://www.dokuwiki.org/dokuwiki
  - image: linuxserver/dokuwiki
 
-draw.io:
-#diagrams.net is free online diagram software for making flowcharts, process diagrams, org charts, UML, ER and network diagrams.
-#https://github.com/fjudith/docker-draw.io
-image: jgraph/draw.io
+Draw.io: Diagrams.net is free online diagram software for making flowcharts, process diagrams, org charts, UML, ER and network diagrams.
+ - https://github.com/fjudith/docker-draw.io
+ - image: jgraph/draw.io
 		
-duplicacy:
-#Duplicacy backs up your files to many cloud storages with client-side encryption and the highest level of deduplication
-#https://github.com/gilbertchen/duplicacy
-    container_name: duplicacy
+Duplicacy: Backs up your files to many cloud storages with client-side encryption and the highest level of deduplication
+ - https://github.com/gilbertchen/duplicacy
+ - image: hotio/duplicacy
  
-    image: hotio/duplicacy
- 
-
-# Letter E <-------------------------------------------------------------------------------------
-
-eclipse-mosquitto:
-#Eclipse Mosquitto - An open source MQTT broker
-#https://mosquitto.org/
-
-        image: eclipse-mosquitto
+Eclipse Mosquitto: Open source MQTT broker
+ - https://mosquitto.org/
+ - image: eclipse-mosquitto
 		
-edumeet:
-#Multiparty web-meetings using mediasoup and WebRTC
-#https://github.com/edumeet/edumeet
- 
-    image: edumeet/edumeet:${TAG}
-    depends_on: 
-      - redis
-
-
-filebot:
-#FileBot is the ultimate tool for renaming and organizing your movies, TV shows and Anime
-#https://www.filebot.net/
-     
-        image: jlesage/filebot
-
-fleet:
-#Fleet provides an online web interface which displays a set of maintained images from one or more owned repositories.
-#https://github.com/linuxserver/fleet
-    image: linuxserver/fleet
-
-	
-foldingathome:
-#Folding@home is a distributed computing project aimed to help scientists develop new therapeutics for a variety of diseases by the means of simulating protein dynamics. This includes the process of protein folding and the movements of proteins, and is reliant on simulations run on volunteers' personal computers.
-#https://foldingathome.org/?lng=en-US
-    image: linuxserver/foldingathome
+Edumeet: Multiparty web-meetings using mediasoup and WebRTC
+ - https://github.com/edumeet/edumeet
+ - image: edumeet/edumeet:${TAG}
    
+FileBot: Ultimate tool for renaming and organizing your movies, TV shows and Anime
+ - https://www.filebot.net/
+ - image: jlesage/filebot
 
-freshrss:
-#FreshRSS is a self-hosted RSS feed aggregator
-#https://github.com/FreshRSS/FreshRSS
+Fleet: Provides an online web interface which displays a set of maintained images from one or more owned repositories.
+ - https://github.com/linuxserver/fleet
+ - image: linuxserver/fleet
 
-        image: linuxserver/freshrss
+Folding@home - Distributed computing project aimed to help scientists develop new therapeutics for a variety of diseases by the means of simulating protein dynamics. This includes the process of protein folding and the movements of proteins, and is reliant on simulations run on volunteers' personal computers.
+ - https://foldingathome.org/?lng=en-US
+ - image: linuxserver/foldingathome
+   
+Freshrss: FreshRSS is a self-hosted RSS feed aggregator
+ - https://github.com/FreshRSS/FreshRSS
+ - image: linuxserver/freshrss
 		
 fireflyiii:
 #A personal finances manager
