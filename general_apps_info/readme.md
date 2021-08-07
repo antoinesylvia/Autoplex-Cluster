@@ -86,8 +86,7 @@ Dokuwiki:
 draw.io:
 #diagrams.net is free online diagram software for making flowcharts, process diagrams, org charts, UML, ER and network diagrams.
 #https://github.com/fjudith/docker-draw.io
-
-        image: jgraph/draw.io
+image: jgraph/draw.io
 		
 duplicacy:
 #Duplicacy backs up your files to many cloud storages with client-side encryption and the highest level of deduplication
