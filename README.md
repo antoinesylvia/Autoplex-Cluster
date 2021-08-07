@@ -73,10 +73,12 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 - CLI (Management) - K9s (https://github.com/derailed/k9s)
 - Dash - Lens (https://github.com/lensapp/lens)
 - Health - KubeEye (https://github.com/kubesphere/kubeeye)
-- Logging - Loki (Promtail agent) (https://github.com/grafana/loki)
+- Logging:
+  - Loki (Promtail agent) (https://github.com/grafana/loki)
+    -Syslog-ng (run a host level, send logs to Loki) (https://github.com/syslog-ng/syslog-ng)   
 - Mobile App - KubeNAV (https://github.com/kubenav/kubenav)
 - Monitoring - Pixie (x86/64, no ARM at the moment) (https://github.com/pixie-labs/pixie)
-    - Alerts/Notifications - BotKube....TBD
+  - Alerts/Notifications - BotKube....TBD
 - Pi Visibility - RPi-Monitor (https://github.com/XavierBerger/RPi-Monitor)
 - Testing:
   - Powerfulseal (injects failure) (https://github.com/powerfulseal/powerfulseal)
