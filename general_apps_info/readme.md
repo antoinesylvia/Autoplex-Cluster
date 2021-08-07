@@ -79,8 +79,7 @@ Docsassemble: A free, open-source expert system for guided interviews and docume
  - https://docassemble.org/docs/docker.html#tocAnchor-1-10-3
  - image: jhpyle/docassemble  
 
-Dokuwiki:
- - DokuWiki is a wiki application licensed under GPLv2 and written in the PHP programming language. 
+Dokuwiki: Wiki application licensed under GPLv2 and written in the PHP programming language. 
  - https://www.dokuwiki.org/dokuwiki
  - image: linuxserver/dokuwiki
 
