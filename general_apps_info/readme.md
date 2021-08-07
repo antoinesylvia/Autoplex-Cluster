@@ -2,8 +2,9 @@
 
 My currated list of popular apps (containerized) discovered on:
  - https://github.com/awesome-selfhosted/awesome-selfhosted
- - https://www.reddit.com/r/selfhosted/
+ - https://github.com/sindresorhus/awesome
  - https://github.com/eagleusb/awesome-repositories
+ - https://www.reddit.com/r/selfhosted/
  - https://boinc.berkeley.edu/projects.php
 
 -----------------------------
