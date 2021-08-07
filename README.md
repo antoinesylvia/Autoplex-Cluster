@@ -52,13 +52,12 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 - SSH (Multi) - Tmux (https://github.com/tmux/tmux)
 
 # Images (OS)
-   - OS
-    - Burn/generate many Linux OS images to SD cards for cluster:
-      - Cloudmesh-pi-burn (https://github.com/cloudmesh/cloudmesh-pi-burn)
-      - Clusperry installer (https://github.com/nullxx/clusperry-installer)
-    - Build machine images for multiple platforms:
-      - Proxmox Packer builder (https://www.packer.io/docs/builders/proxmox)
-        - Packer (https://github.com/hashicorp/packer)
+  - Burn/generate many Linux OS images to SD cards for cluster:
+    - Cloudmesh-pi-burn (https://github.com/cloudmesh/cloudmesh-pi-burn)
+    - Clusperry installer (https://github.com/nullxx/clusperry-installer)
+  - Build machine images for multiple platforms:
+    - Proxmox Packer builder (https://www.packer.io/docs/builders/proxmox)
+      - Packer (https://github.com/hashicorp/packer)
 
 # Kubernetes Distro and Base OS
 - Distro - K3s (https://github.com/k3s-io/k3s)
