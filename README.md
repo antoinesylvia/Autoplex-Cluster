@@ -7,12 +7,6 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 - https://www.cncf.io (Projects: Sandbox, Incubating, and Graduated)
 - https://www.reddit.com/r/kubernetes
 
-# Apps / Charts
-- Helm Charts:
-  - Arkade (https://github.com/alexellis/arkade)
-  - Artificate Hub (https://artifacthub.io/packages/search?kind=0&sort=relevance&page=1)
-    - K8s@home (https://artifacthub.io/packages/search?page=1&org=k8s-at-home) 
-  
 # Backup and Storage
 - Backup - Velero (https://github.com/vmware-tanzu/velero) and cloud storage (GCP, AWS, BackBlaze etc.)
 - Storage - TrueNAS (https://www.truenas.com) and still looking at some others for block storage.
@@ -32,6 +26,12 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
   - Ansible (https://github.com/ansible/ansible) 
     - AWX (https://github.com/ansible/awx)
 - App Delivery Workflow - Devtron (https://github.com/devtron-labs/devtron)
+- App Package Management:
+  - Helm (https://github.com/helm/helm)
+    - Arkade (https://github.com/alexellis/arkade)
+    - Artificate Hub (https://artifacthub.io/packages/search?kind=0&sort=relevance&page=1)
+      - K8s@home (https://artifacthub.io/packages/search?page=1&org=k8s-at-home) 
+  - Nova (https://github.com/fairwindsops/nova) Note: Will compare featureset against Renovate soon, specializes in dependencies.
 - CI - Gitlab CI (https://docs.gitlab.com/ee/ci/)
 - CD - ArgoCD (https://argoproj.github.io/argo-cd/)
 - Docs as Code - Backstage (https://backstage.io/)
@@ -42,21 +42,17 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
   - Private (self hosted) - Gitlab (https://about.gitlab.com/)
   - Public - Github (https://github.com)
 - IDE - Code-Server (VS Code) (https://github.com/cdr/code-server)
-- Infrastructure Provisioner (For cloud K3s workers or locally using Proxmox VMs) - Terraform (https://github.com/hashicorp/terraform)
-- Package Management related:
-  - Nova (https://github.com/fairwindsops/nova) Note: Will compare featureset against Renovate soon, specializes in dependencies.
-  - Helm (https://github.com/helm/helm)
-- Registry 
+- Image Docker - Dive (Explore layers of Docker image) (https://github.com/wagoodman/dive)
+- Image Registry 
   - Private - Harbor (https://github.com/goharbor/harbor)
   - Public - Dockerhub (https://hub.docker.com/)
     - Linuxserver (https://fleet.linuxserver.io/)
     - Hotio (https://hotio.dev/) 
+- Infrastructure Provisioner (For cloud K3s workers or locally using Proxmox VMs) - Terraform (https://github.com/hashicorp/terraform)
 - SSH (Multi) - Tmux (https://github.com/tmux/tmux)
 
-# Images 
-  - Docker
-    - Dive (Explore layers of Docker image) (https://github.com/wagoodman/dive)
-  - OS
+# Images (OS)
+   - OS
     - Burn/generate many Linux OS images to SD cards for cluster:
       - Cloudmesh-pi-burn (https://github.com/cloudmesh/cloudmesh-pi-burn)
       - Clusperry installer (https://github.com/nullxx/clusperry-installer)
