@@ -4,6 +4,7 @@ My currated list of popular apps (containerized) discovered on:
  - https://github.com/awesome-selfhosted/awesome-selfhosted
  - https://www.reddit.com/r/selfhosted/
  - https://github.com/eagleusb/awesome-repositories
+ - https://boinc.berkeley.edu/projects.php
 
 -----------------------------
 Every category of web app imaginable is covered with the links above. Build out your own portal for local (includes VPN) use and/or over the internet combined with SSO/2FA. A basic *over the internet* setup entails:
@@ -18,7 +19,7 @@ Every category of web app imaginable is covered with the links above. Build out 
   - Note: At the Nginx level, users can add a rule to only allow inbound traffic from known Cloudflare IPs. This can also be done more effectively at the router level instead if the feature is available.
   - Note: At the Cloudflare level, ensure Authenticated Origin Pulls is enabled. Helps validate traffic hitting a user's orgin server is coming 1st from Cloudflare (using a TLS cert)
 -----------------------------
-AirDC++ is an easy to use client for Advanced Direct Connect and Direct Connect networks. 
+AirDC++: Client for Advanced Direct Connect and Direct Connect networks. 
  - https://github.com/gangefors/docker-airdcpp-webclient
  - image: gangefors/airdcpp-webclient
 
@@ -115,165 +116,107 @@ Freshrss: FreshRSS is a self-hosted RSS feed aggregator
  - https://github.com/FreshRSS/FreshRSS
  - image: linuxserver/freshrss
 		
-fireflyiii:
-#A personal finances manager
-#https://github.com/firefly-iii/firefly-iii
-    image: jc5x/firefly-iii:latest
+Fireflyiii: A personal finances manager
+ - https://github.com/firefly-iii/firefly-iii
+ - image: jc5x/firefly-iii:latest
 
-
-
-gaps:
-#Gaps searches through your Plex Server or local folders for all movies, then queries for known movies in the same collection. If those movies don't exist in your library, Gaps will recommend getting those movies, legally of course.
-#https://github.com/JasonHHouse/gaps
-
-		image: housewrecker/gaps
-
+Gaps: Searches through your Plex Server or local folders for all movies, then queries for known movies in the same collection. If those movies don't exist in your library, Gaps will recommend getting those movies, legally of course.
+ - https://github.com/JasonHHouse/gaps
+ - image: housewrecker/gaps
 		
-guacamole:
-#Apache Guacamole is a clientless remote desktop gateway. It supports standard protocols like VNC, RDP, and SSH. We call it clientless because no plugins or client software are required. Thanks to HTML5, once Guacamole is installed on a server, all you need to access your desktops is a web browser.
-#https://github.com/apache/guacamole-server
-    image: linuxserver/guacd
+Guacamole: Clientless remote desktop gateway. It supports standard protocols like VNC, RDP, and SSH. We call it clientless because no plugins or client software are required. Thanks to HTML5, once Guacamole is installed on a server, all you need to access your desktops is a web browser.
+ - https://github.com/apache/guacamole-server
+ - image: linuxserver/guacd
  
+Guora: A self-hosted Quora like web application
+ - https://github.com/meloalright/guora
+ - image: 'meloalright/guora:beta2'
 		
-guora:
-# A self-hosted Quora like web application
-#https://github.com/meloalright/guora
-     
-        image: 'meloalright/guora:beta2'
+Grafana: Multi-platform open source analytics and interactive visualization web application. It provides charts, graphs, and alerts for the web when connected to supported data sources.
+ - https://grafana.com/
+ - image: grafana/grafana
 		
-grafana:
-#Grafana is a multi-platform open source analytics and interactive visualization web application. It provides charts, graphs, and alerts for the web when connected to supported data sources.
-#https://grafana.com/
-    image: grafana/grafana
+Grav:Modern, Crazy Fast, Ridiculously Easy and Amazingly Powerful Flat-File CMS
+ - https://github.com/getgrav/grav
+ - image: 'grav:latest'
 		
-grav:
-#Modern, Crazy Fast, Ridiculously Easy and Amazingly Powerful Flat-File CMS
-#https://github.com/getgrav/grav
- 
-        image: 'grav:latest'
+Grocy: ERP beyond your fridge - grocy is a web-based self-hosted groceries & household management solution for your home
+ - https://github.com/grocy/grocy
+ -image: linuxserver/grocy
+
+Headphones: Automatic music downloader for SABnzbd
+ - https://github.com/rembo10/headphones
+ - image: linuxserver/headphones
+
+Heimdall: An Application dashboard and launcher
+ - https://github.com/linuxserver/Heimdall
+ - image: ghcr.io/linuxserver/heimdall
+
+Huginn: Create agents that monitor and act on your behalf.
+ - https://github.com/huginn/huginn
+ - image: huginn/huginn
+
+Influxdb: Open-source time series database developed by InfluxData.
+ - https://github.com/influxdata/influxdb
+ - image: influxdb
+
+Jackett: API Support for your favorite torrent trackers
+ - https://github.com/Jackett/Jackett
+ - image: linuxserver/jackett
 		
-grocy:
-#ERP beyond your fridge - grocy is a web-based self-hosted groceries & household management solution for your home
-#https://github.com/grocy/grocy
-        image: linuxserver/grocy
-
-
-headphones:
-#Automatic music downloader for SABnzbd
-#https://github.com/rembo10/headphones
-    image: linuxserver/headphones
-
-	
-heimdall:
-#An Application dashboard and launcher
-#https://github.com/linuxserver/Heimdall
-    image: ghcr.io/linuxserver/heimdall
-
-huginn:
-#Create agents that monitor and act on your behalf.
-#https://github.com/huginn/huginn
-        image: huginn/huginn
-
-influxdb:
-#InfluxDB is an open-source time series database developed by InfluxData.
-#https://github.com/influxdata/influxdb
-    image: influxdb
-
-jackett:
-#API Support for your favorite torrent trackers
-#https://github.com/Jackett/Jackett
-        image: linuxserver/jackett
+Jdownloader-2: Open-source download management tool
+ - https://jdownloader.org/download/index
+ - image: jlesage/jdownloader-2
 		
-jdownloader-2:
-#JDownloader is a free, open-source download management tool\
-#https://jdownloader.org/download/index
-        image: jlesage/jdownloader-2
+Jellyfin: Suite of multimedia applications designed to organize, manage, and share digital media files to networked devices.
+ - https://github.com/jellyfin/jellyfin
+ - image: linuxserver/jellyfin
+
+Kavita: Fast, feature rich, cross platform reading server. Built with a focus for manga and the goal of being a full solution for all your reading needs. Setup your own server and share your reading collection with your friends and family.
+ - https://github.com/Kareadita/Kavita
+ - image: kizaing/kavita:latest
+
+Lazylibrarian: Program to follow authors and grab metadata for all your digital reading needs.
+ - https://lazylibrarian.gitlab.io/
+ - image: linuxserver/lazylibrarian
+
+Lidarr: Looks and smells like Sonarr but made for music.
+ - https://github.com/Lidarr/Lidarr
+ - image: linuxserver/lidarr
 		
-jellyfin:
-#Jellyfin is a suite of multimedia applications designed to organize, manage, and share digital media files to networked devices.
-#https://github.com/jellyfin/jellyfin
+Leantime: Open source project management system to make your ideas reality.
+ - https://leantime.io/
+ - image: leantime/leantime:latest
 
-    image: linuxserver/jellyfin
-
-
-
-kavita:
-#Kavita is a fast, feature rich, cross platform reading server. Built with a focus for manga and the goal of being a full solution for all your reading needs. Setup your own server and share your reading collection with your friends and family.
-#https://github.com/Kareadita/Kavita
-        image: kizaing/kavita:latest
-
-
-
-
-lazylibrarian:
-#LazyLibrarian is a program to follow authors and grab metadata for all your digital reading needs.
-#https://lazylibrarian.gitlab.io/
-    image: linuxserver/lazylibrarian
-
-
-lidarr:
-#Looks and smells like Sonarr but made for music.
-#https://github.com/Lidarr/Lidarr
-
-        image: linuxserver/lidarr
-		
-		
-leantime_db:
- #open source project management system to make your ideas reality.
- #https://leantime.io/
-
-     image: leantime/leantime:latest
-
-
-
-
-mariadb:
-#MariaDB is a community-developed, commercially supported fork of the MySQL relational database management system, intended to remain free and open-source software under the GNU General Public License.
-#https://mariadb.org/
-    image: linuxserver/mariadb
+Mariadb: Community-developed, commercially supported fork of the MySQL relational database management system, intended to remain free and open-source software under the GNU General Public License.
+ - https://mariadb.org/
+ - image: linuxserver/mariadb
   
-	
- mellow:
- #Mellow can communicate with several APIs like Ombi, Sonarr, Radarr and Tautulli which are related to home streaming to use those services directly in your Discord client.
- #https://github.com/v0idp/Mellow 
-        image: voidp/mellow
+Mellow: Can communicate with several APIs like Ombi, Sonarr, Radarr and Tautulli which are related to home streaming to use those services directly in your Discord client.
+ - https://github.com/v0idp/Mellow 
+ - image: voidp/mellow
 
-monitoror:
-#Unified monitoring wallboard — Light, ergonomic and reliable monitoring for anything.
-#https://github.com/monitoror/monitoror
-   
-        image: tomdesinto/monitoror
+Monitoror: Unified monitoring wallboard — Light, ergonomic and reliable monitoring for anything.
+ - https://github.com/monitoror/monitoror
+ - image: tomdesinto/monitoror
 		
+Monicaapp: Open source personal CRM.
+ - https://www.monicahq.com/
+ - image: monica
+
+Moviematch: Have you ever spent longer deciding on a movie than it'd take to just watch a random movie? This is an app that helps you and your friends pick a movie to watch from a Plex server.
+ - https://github.com/LukeChannings/moviematch
+ - image: lukechannings/moviematch
 		
-monicaapp:
-#Open source personal CRM.
-#https://www.monicahq.com/
-  image: monica
+Mozilla-tts: Deep learning for Text to Speech
+ - https://github.com/mozilla/TTS
+ - image: synesthesiam/mozilla-tts
 
-
-
-
+Mylar: An automated Comic Book downloader (cbr/cbz) for use with SABnzbd, NZBGet and torrents
+- https://github.com/evilhero/mylar
+- image: linuxserver/mylar
 		
-
-		
-moviematch:
-#Have you ever spent longer deciding on a movie than it'd take to just watch a random movie? This is an app that helps you and your friends pick a movie to watch from a Plex server.
-#https://github.com/LukeChannings/moviematch
-    
-        image: lukechannings/moviematch
-		
-mozilla-tts:
-#Deep learning for Text to Speech
-#https://github.com/mozilla/TTS
-      
-        image: synesthesiam/mozilla-tts
-
-mylar:
-#An automated Comic Book downloader (cbr/cbz) for use with SABnzbd, NZBGet and torrents
-#https://github.com/evilhero/mylar
-         image: linuxserver/mylar
-		
-mysql:
+Mysql:
         container_name: huginn_mysql
 
         image: mysql
