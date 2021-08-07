@@ -1,6 +1,6 @@
 # Think-Pi-Nano+ | Cluster General Apps
 
-My list of popular apps discovered on:
+My currated list of popular apps discovered on:
  - https://github.com/awesome-selfhosted/awesome-selfhosted
  - https://www.reddit.com/r/selfhosted/
  - https://github.com/eagleusb/awesome-repositories
@@ -18,6 +18,14 @@ Every category of web app imaginable is covered with the links above. Build out 
   - Note: At the Nginx level, users can add a rule to only allow inbound traffic from known Cloudflare IPs. This can also be done more effectively at the router level instead if the feature is available.
   - Note: At the Cloudflare level, ensure Authenticated Origin Pulls is enabled. Helps validate traffic hitting a user's orgin server is coming 1st from Cloudflare (using a TLS cert)
 -----------------------------
+Wikijs: The most powerful and extensible open source Wiki software
+ - https://js.wiki/
+
+Wireguard: Modern and Fast VPN
+ - https://github.com/WireGuard
+
+Whoogle-search: A self-hosted, ad-free, privacy-respecting metasearch engine 
+ - https://github.com/benbusby/whoogle-search
 
 XOWA: Free and open-source application written primarily in Java by anonymous developers and is intended for users who wish to run their own copy of Wikipedia, or any other compatible Wiki offline or without an internet connection.
  - http://xowa.org/
