@@ -497,7 +497,7 @@ Watchtower: Updates containers.
 - image: v2tec/watchtower
 
 Wikijs: The most powerful and extensible open source Wiki software.
- - https://js.wiki/
+ - https://github.com/Requarks/wiki
  - image: ghcr.io/linuxserver/wikijs
 
 Wireguard: Modern and Fast VPN.
