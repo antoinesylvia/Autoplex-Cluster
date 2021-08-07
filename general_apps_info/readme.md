@@ -38,6 +38,10 @@ Aria2: Lightweight multi-protocol & multi-source command-line download utility. 
  - https://aria2.github.io/
  - image: vimagick/aria2
 
+Audacity: Multi-track audio editor and recorder. Developed by a group of volunteers as open source.
+ - https://github.com/audacity/audacity
+ - image: ghcr.io/linuxserver/audacity
+    
 Autocompose:Generates a docker-compose yaml definition from a running container.
  - https://github.com/Red5d/docker-autocompose
  - image: red5d/docker-autocompose
@@ -53,7 +57,11 @@ Bazarr: Companion application to Sonarr and Radarr. It manages and downloads sub
 Changedetection.io: Self-hosted change monitoring of web pages.
  - https://github.com/dgtlmoon/changedetection.io
  - image: dgtlmoon/changedetection.io
-  
+
+Chevereto: Image hosting software that allows you to create a beautiful and full-featured image hosting website on your own server. It's your hosting and your rules, so say goodbye to closures and restrictions.
+ - https://github.com/Chevereto
+ - image: ghcr.io/linuxserver/chevereto
+   
 Cloudflareddns: Cloudflare DDNS updater.
  - https://support.cloudflare.com/hc/en-us/articles/360020524512-Manage-dynamic-IPs-in-Cloudflare-DNS-programmatically
  - image: hotio/cloudflareddns
@@ -105,6 +113,10 @@ Edumeet: Multiparty web-meetings using mediasoup and WebRTC.
 FileBot: Ultimate tool for renaming and organizing your movies, TV shows and Anime.
  - https://www.filebot.net/
  - image: jlesage/filebot
+ 
+FileZilla Client: Fast and reliable cross-platform FTP, FTPS and SFTP client with lots of useful features and an intuitive graphical user interface.
+- https://filezilla-project.org
+- image: ghcr.io/linuxserver/filezilla
 
 Fleet: Provides an online web interface which displays a set of maintained images from one or more owned repositories.
  - https://github.com/linuxserver/fleet
@@ -308,6 +320,10 @@ Pihole: Network-wide Ad Blocking.
  - https://github.com/pi-hole/pi-hole
  - image: pihole/pihole:latest
 
+Plex: Organizes video, music and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. 
+ - https://plex.tv
+ - image: ghcr.io/linuxserver/plex
+
 Plex-library-cleaner: A simple UI to help find and delete duplicate and sample files from your Plex server.
  - https://github.com/se1exin/Plex-Library-Cleaner
  - image: selexin/plex-library-cleaner:latest
@@ -375,6 +391,10 @@ Remotely: A remote control and remote scripting solution, built with .NET 5, Bla
 Resilio-sync: Server Synchronization in Real-Time.
  - https://www.resilio.com/
  - image: ghcr.io/linuxserver/resilio-sync
+
+Retroarch-web: Frontend for emulators, game engines and media players
+ - https://www.libretro.com/
+ - image: inglebard/retroarch-web
 
 Requestrr: Chatbot used to simplify using services like Sonarr/Radarr/Ombi via the use of chat. Current platform is Discord only, but the bot was built around the ideology of quick adaptation for new features as well as new platforms. 
  - https://github.com/darkalfx/requestrr
