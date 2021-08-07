@@ -279,6 +279,10 @@ Ombi: Friendly media request tool, automatically syncs with your media servers! 
 Openspeedtest: Pure HTML5 Network Performance Estimation Tool.
  - https://github.com/openspeedtest/Speed-Test
  - image: openspeedtest/latest
+
+Overseerr: Request management and media discovery tool for the Plex ecosystem.
+ - https://github.com/sct/overseerr
+ - image: sctx/overseerr
 		
 Pasta: Audio & Subtitle Track Changer for Plex.
  - https://github.com/cglatot/pasta
