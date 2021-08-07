@@ -1,6 +1,6 @@
 # Think-Pi-Nano+ | Cluster General Apps
 
-My currated list of popular apps discovered on:
+My currated list of popular apps (containerized) discovered on:
  - https://github.com/awesome-selfhosted/awesome-selfhosted
  - https://www.reddit.com/r/selfhosted/
  - https://github.com/eagleusb/awesome-repositories
@@ -18,6 +18,685 @@ Every category of web app imaginable is covered with the links above. Build out 
   - Note: At the Nginx level, users can add a rule to only allow inbound traffic from known Cloudflare IPs. This can also be done more effectively at the router level instead if the feature is available.
   - Note: At the Cloudflare level, ensure Authenticated Origin Pulls is enabled. Helps validate traffic hitting a user's orgin server is coming 1st from Cloudflare (using a TLS cert)
 -----------------------------
+AirDC++ is an easy to use client for Advanced Direct Connect and Direct Connect networks. 
+ - https://github.com/gangefors/docker-airdcpp-webclient
+ - image: gangefors/airdcpp-webclient
+
+AppRise: Allows you to send a notification to almost all of the most popular notification services available to us today such as: Telegram, Discord, Slack, Amazon SNS, Gotify, etc.
+ - https://github.com/caronc/apprise
+ - image: caronc/apprise:latest
+      
+Arewedown: Is a simple uptime monitoring system and dashboard. It is ideal for the home/self-hosting user who runs multiple services/networked devices on a private LAN, and who doesn't want the complexity of an enterprise-level monitoring system.
+ - https://github.com/shukriadams/arewedown
+ - image: shukriadams/arewedown
+
+Aria2: Lightweight multi-protocol & multi-source command-line download utility. It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink.
+ - https://aria2.github.io/
+ - image: vimagick/aria2
+
+Autocompose:Generates a docker-compose yaml definition from a running container.
+ - https://github.com/Red5d/docker-autocompose
+ - image: red5d/docker-autocompose
+ 
+Avidemux: Free and open-source software for non-linear video editing and transcoding multimedia files.
+ - http://avidemux.sourceforge.net/
+ - image: jlesage/avidemux
+
+Bazarr: Companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements.
+ - https://github.com/morpheus65535/bazarr
+ - image: linuxserver/bazarr
+
+Changedetection.io: Self-hosted change monitoring of web pages.
+ - https://github.com/dgtlmoon/changedetection.io
+ - image: dgtlmoon/changedetection.io
+  
+Cloudflareddns: Cloudflare DDNS updater
+ - https://support.cloudflare.com/hc/en-us/articles/360020524512-Manage-dynamic-IPs-in-Cloudflare-DNS-programmatically
+ - image: hotio/cloudflareddns
+
+Code-server: VS Code in the browser
+ - https://github.com/cdr/code-server
+ - image: linuxserver/code-server
+
+Composerize: Turns docker run commands into docker-compose files!
+ - https://github.com/magicmark/composerize
+ - image: icedream/composerize
+    			
+Cyberchef: #The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis
+ - https://github.com/gchq/CyberChef
+ - image: "4nxio/cyberchef:latest"
+
+Dizquetv: Create live TV channels from your own media. Access the streams using the simulated HDHomerun tuner or the generated M3U URl
+- https://github.com/vexorian/dizquetv
+- image: 'vexorian/dizquetv:latest'
+		
+Docker-bench-security: The Docker Bench for Security is a script that checks for dozens of common best-practices around deploying Docker containers in production.
+ - https://github.com/docker/docker-bench-security
+ - image: docker/docker-bench-security
+
+Docsassemble: A free, open-source expert system for guided interviews and document assembly, based on Python, YAML, and Markdown. 
+ - https://docassemble.org/docs/docker.html#tocAnchor-1-10-3
+ - image: jhpyle/docassemble  
+
+Dokuwiki:
+ - DokuWiki is a wiki application licensed under GPLv2 and written in the PHP programming language. 
+ - https://www.dokuwiki.org/dokuwiki
+ - image: linuxserver/dokuwiki
+
+draw.io:
+#diagrams.net is free online diagram software for making flowcharts, process diagrams, org charts, UML, ER and network diagrams.
+#https://github.com/fjudith/docker-draw.io
+
+        image: jgraph/draw.io
+		
+duplicacy:
+#Duplicacy backs up your files to many cloud storages with client-side encryption and the highest level of deduplication
+#https://github.com/gilbertchen/duplicacy
+    container_name: duplicacy
+ 
+    image: hotio/duplicacy
+ 
+
+# Letter E <-------------------------------------------------------------------------------------
+
+eclipse-mosquitto:
+#Eclipse Mosquitto - An open source MQTT broker
+#https://mosquitto.org/
+
+        image: eclipse-mosquitto
+		
+edumeet:
+#Multiparty web-meetings using mediasoup and WebRTC
+#https://github.com/edumeet/edumeet
+ 
+    image: edumeet/edumeet:${TAG}
+    depends_on: 
+      - redis
+
+
+filebot:
+#FileBot is the ultimate tool for renaming and organizing your movies, TV shows and Anime
+#https://www.filebot.net/
+     
+        image: jlesage/filebot
+
+fleet:
+#Fleet provides an online web interface which displays a set of maintained images from one or more owned repositories.
+#https://github.com/linuxserver/fleet
+    image: linuxserver/fleet
+
+	
+foldingathome:
+#Folding@home is a distributed computing project aimed to help scientists develop new therapeutics for a variety of diseases by the means of simulating protein dynamics. This includes the process of protein folding and the movements of proteins, and is reliant on simulations run on volunteers' personal computers.
+#https://foldingathome.org/?lng=en-US
+    image: linuxserver/foldingathome
+   
+
+freshrss:
+#FreshRSS is a self-hosted RSS feed aggregator
+#https://github.com/FreshRSS/FreshRSS
+
+        image: linuxserver/freshrss
+		
+fireflyiii:
+#A personal finances manager
+#https://github.com/firefly-iii/firefly-iii
+    image: jc5x/firefly-iii:latest
+
+
+
+gaps:
+#Gaps searches through your Plex Server or local folders for all movies, then queries for known movies in the same collection. If those movies don't exist in your library, Gaps will recommend getting those movies, legally of course.
+#https://github.com/JasonHHouse/gaps
+
+		image: housewrecker/gaps
+
+		
+guacamole:
+#Apache Guacamole is a clientless remote desktop gateway. It supports standard protocols like VNC, RDP, and SSH. We call it clientless because no plugins or client software are required. Thanks to HTML5, once Guacamole is installed on a server, all you need to access your desktops is a web browser.
+#https://github.com/apache/guacamole-server
+    image: linuxserver/guacd
+ 
+		
+guora:
+# A self-hosted Quora like web application
+#https://github.com/meloalright/guora
+     
+        image: 'meloalright/guora:beta2'
+		
+grafana:
+#Grafana is a multi-platform open source analytics and interactive visualization web application. It provides charts, graphs, and alerts for the web when connected to supported data sources.
+#https://grafana.com/
+    image: grafana/grafana
+		
+grav:
+#Modern, Crazy Fast, Ridiculously Easy and Amazingly Powerful Flat-File CMS
+#https://github.com/getgrav/grav
+ 
+        image: 'grav:latest'
+		
+grocy:
+#ERP beyond your fridge - grocy is a web-based self-hosted groceries & household management solution for your home
+#https://github.com/grocy/grocy
+        image: linuxserver/grocy
+
+
+headphones:
+#Automatic music downloader for SABnzbd
+#https://github.com/rembo10/headphones
+    image: linuxserver/headphones
+
+	
+heimdall:
+#An Application dashboard and launcher
+#https://github.com/linuxserver/Heimdall
+    image: ghcr.io/linuxserver/heimdall
+
+huginn:
+#Create agents that monitor and act on your behalf.
+#https://github.com/huginn/huginn
+        image: huginn/huginn
+
+influxdb:
+#InfluxDB is an open-source time series database developed by InfluxData.
+#https://github.com/influxdata/influxdb
+    image: influxdb
+
+jackett:
+#API Support for your favorite torrent trackers
+#https://github.com/Jackett/Jackett
+        image: linuxserver/jackett
+		
+jdownloader-2:
+#JDownloader is a free, open-source download management tool\
+#https://jdownloader.org/download/index
+        image: jlesage/jdownloader-2
+		
+jellyfin:
+#Jellyfin is a suite of multimedia applications designed to organize, manage, and share digital media files to networked devices.
+#https://github.com/jellyfin/jellyfin
+
+    image: linuxserver/jellyfin
+
+
+
+kavita:
+#Kavita is a fast, feature rich, cross platform reading server. Built with a focus for manga and the goal of being a full solution for all your reading needs. Setup your own server and share your reading collection with your friends and family.
+#https://github.com/Kareadita/Kavita
+        image: kizaing/kavita:latest
+
+
+
+
+lazylibrarian:
+#LazyLibrarian is a program to follow authors and grab metadata for all your digital reading needs.
+#https://lazylibrarian.gitlab.io/
+    image: linuxserver/lazylibrarian
+
+
+lidarr:
+#Looks and smells like Sonarr but made for music.
+#https://github.com/Lidarr/Lidarr
+
+        image: linuxserver/lidarr
+		
+		
+leantime_db:
+ #open source project management system to make your ideas reality.
+ #https://leantime.io/
+
+     image: leantime/leantime:latest
+
+
+
+
+mariadb:
+#MariaDB is a community-developed, commercially supported fork of the MySQL relational database management system, intended to remain free and open-source software under the GNU General Public License.
+#https://mariadb.org/
+    image: linuxserver/mariadb
+  
+	
+ mellow:
+ #Mellow can communicate with several APIs like Ombi, Sonarr, Radarr and Tautulli which are related to home streaming to use those services directly in your Discord client.
+ #https://github.com/v0idp/Mellow 
+        image: voidp/mellow
+
+monitoror:
+#Unified monitoring wallboard — Light, ergonomic and reliable monitoring for anything.
+#https://github.com/monitoror/monitoror
+   
+        image: tomdesinto/monitoror
+		
+		
+monicaapp:
+#Open source personal CRM.
+#https://www.monicahq.com/
+  image: monica
+
+
+
+
+		
+
+		
+moviematch:
+#Have you ever spent longer deciding on a movie than it'd take to just watch a random movie? This is an app that helps you and your friends pick a movie to watch from a Plex server.
+#https://github.com/LukeChannings/moviematch
+    
+        image: lukechannings/moviematch
+		
+mozilla-tts:
+#Deep learning for Text to Speech
+#https://github.com/mozilla/TTS
+      
+        image: synesthesiam/mozilla-tts
+
+mylar:
+#An automated Comic Book downloader (cbr/cbz) for use with SABnzbd, NZBGet and torrents
+#https://github.com/evilhero/mylar
+         image: linuxserver/mylar
+		
+mysql:
+        container_name: huginn_mysql
+
+        image: mysql
+
+
+
+ mongodb:
+#MongoDB is a source-available cross-platform document-oriented database program.
+#https://www.mongodb.com/ 
+    image: mongo:4.2
+
+	  
+	  
+  netmaker:
+  #Connect any computers together over a secure, fast, private network, and manage multiple networks from a central server.
+  #https://github.com/gravitl/netmaker
+    container_name: netmaker
+    depends_on:
+      - mongodb
+    image: gravitl/netmaker
+
+
+
+
+
+neko:
+#A self hosted virtual browser (rabb.it clone) that runs in docker.
+#https://github.com/nurdism/neko
+  
+        image: 'nurdism/neko:chromium'
+		
+
+nextcloud:
+#Nextcloud is a suite of client-server software for creating and using file hosting services. It is enterprise-ready with comprehensive support options.Nextcloud is a suite of client-server software for creating and using file hosting services. It is enterprise-ready with comprehensive support options.
+#https://github.com/nextcloud
+
+        image: linuxserver/nextcloud
+		
+nginx:
+#Reverse Proxy
+#https://github.com/nginx/nginx
+
+    image: nginx:1.18.0-alpine
+
+	  
+nginx-proxy:
+    image: jwilder/nginx-proxy
+
+	  
+	  
+  nginxproxymanagerzapp:
+    image: 'jc21/nginx-proxy-manager:latest'
+
+
+	  
+	  
+nginx-ui:
+#Nginx UI allows you to access and modify the nginx configurations files without cli. 
+#https://github.com/schenkd/nginx-ui
+
+    image: nginx-ui:latest
+   
+	  
+	  
+  node-red:
+  #Low-code programming for event-driven applications
+  #https://github.com/node-red/node-red
+        image: nodered/node-red
+
+nowshowing:
+#Generates an email and web page of Plex recently added content
+#https://github.com/ninthwalker/NowShowing
+  
+        image: 'ninthwalker/nowshowing:v2'	
+
+nzbhydra2:
+#Usenet meta search
+#https://github.com/theotherp/nzbhydra2
+    image: ghcr.io/linuxserver/nzbhydra2
+
+
+ organizr:
+ #HTPC/Homelab Services Organizer - Written in PHP 
+ #https://github.com/causefx/Organizr
+
+    image: linuxserver/organizr
+
+		
+octoprint:
+#OctoPrint is an open source 3D printer controller application, which provides a web interface for the connected printers.
+#https://github.com/OctoPrint/OctoPrint-Pushbullet
+    image: octoprint/octoprint
+
+ombi:
+#Ombi is your friendly media request tool, automatically syncs with your media servers! Don't worry, it's grandma friendly, and more importantly; has wife approval certification.
+#https://github.com/Ombi-app/Ombi
+image: linuxserver/ombi
+		
+		
+openspeedtest:
+#Pure HTML5 Network Performance Estimation Tool.
+#https://github.com/openspeedtest/Speed-Test
+           image: openspeedtest/latest
+		
+
+
+pasta:
+#Audio & Subtitle Track Changer for Plex
+#https://github.com/cglatot/pasta
+        image: cglatot/pasta
+		
+petio:
+#Petio is a third party companion app available to Plex server owners to allow their users to request, review and discover content. 
+#https://github.com/petio-team/petio
+        image: ghcr.io/petio-team/petio:latest
+		
+		
+		
+photoprism:
+#Open-Source Photo Management powered by Go and Google TensorFlow
+#https://github.com/photoprism/photoprism
+    image: photoprism/photoprism:latest
+
+	  
+phpipam-web:
+#Open source IP address management
+#https://github.com/phpipam/phpipam
+    image: phpipam/phpipam-www:latest
+
+		
+pihole:
+#Network-wide Ad Blocking 
+#https://github.com/pi-hole/pi-hole
+
+    image: pihole/pihole:latest
+
+	
+	
+plex-library-cleaner:
+#A simple UI to help find and delete duplicate and sample files from your Plex server 
+#https://github.com/se1exin/Plex-Library-Cleaner
+       image: 'selexin/plex-library-cleaner:latest'
+		
+		
+#plexarr Simple CLI tool to fix Plex library matches according to Sonarr/Radarr
+#https://hotio.dev/containers/plexarr/
+#https://github.com/l3uddz/plexarr		
+		
+posterr:
+#Media display software for Plex, Sonarr and Radarr.
+#https://github.com/petersem/posterr
+    image: posterr
+
+	
+projectsend:
+#ProjectSend is a free, open source software that lets you share files with your clients, focused on ease of use and privacy. It supports clients groups, system users roles, statistics, multiple languages, detailed logs... and much more! 
+#https://github.com/projectsend/projectsend
+    image: linuxserver/projectsend
+
+prowlarr:
+#Prowlarr is a indexer manager/proxy built on the popular arr .net/reactjs base stack to integrate with your various PVR apps. Prowlarr supports both Torrent Trackers and Usenet Indexers. It integrates seamlessly with Sonarr, Radarr, Lidarr, and Readarr offering complete management of your indexers with no per app Indexer setup required (we do it all).
+#https://github.com/Prowlarr/Prowlarr
+    container_name: prowlarr
+    image: hotio/prowlarr
+
+
+portainer:
+#Making Docker and Kubernetes management easy. 
+#https://github.com/portainer/portainer
+        image: portainer/portainer
+		
+podgrab:
+#A self-hosted podcast manager/downloader/archiver tool to download podcast episodes as soon as they become live with an integrated player. 
+#https://github.com/akhilrex/podgrab
+    image: akhilrex/podgrab
+
+		
+postgres:
+#PostgreSQL, also known as Postgres, is a free and open-source relational database management system emphasizing extensibility and SQL compliance
+#https://www.postgresql.org/
+    image: postgres
+
+	  
+pwndrop:
+#Self-deployable file hosting service for red teamers, allowing to easily upload and share payloads over HTTP and WebDAV. 
+#https://github.com/kgretzky/pwndrop
+    image: ghcr.io/linuxserver/pwndrop
+
+
+pyload:
+#The free and open-source Download Manager written in pure Python 
+#https://github.com/pyload/pyload
+
+        image: linuxserver/pyload
+
+
+qbittorrent:
+#BitTorrent client 
+#https://github.com/qbittorrent/qBittorrent
+
+        image: linuxserver/qbittorrent
+		
+flood-ui-qbittorrent:
+#A modern web UI for various torrent clients with a Node.js backend and React frontend. 
+#https://github.com/jesec/flood
+
+# Letter R <-------------------------------------------------------------------------------------
+
+radarr:
+#A fork of Sonarr to work with movies à la Couchpotato. 
+#https://github.com/Radarr/Radarr
+    image: linuxserver/radarr
+
+		
+readarr:
+#Book Manager and Automation (Sonarr for Ebooks) 
+#https://github.com/Readarr/Readarr
+    image: hotio/readarr:nightly
+
+redis:
+#https://redis.io/
+#Redis is an in-memory data structure store, used as a distributed, in-memory key–value database, cache and message broker, with optional durability. Redis supports different kinds of abstract data structures, such as strings, lists, maps, sets, sorted sets, HyperLogLogs, bitmaps, streams, and spatial indices.
+
+	image: redis
+
+remotely:
+#A remote control and remote scripting solution, built with .NET 5, Blazor, SignalR Core, and WebRTC.
+#https://github.com/lucent-sea/remotely
+    image: translucency/remotely:latest
+
+	
+resilio-sync:
+#Server Synchronization in Real-Time
+#https://www.resilio.com/
+    image: linuxserver/resilio-sync
+
+		
+requestrr:
+#Requestrr is a chatbot used to simplify using services like Sonarr/Radarr/Ombi via the use of chat. Current platform is Discord only, but the bot was built around the ideology of quick adaptation for new features as well as new platforms. 
+#https://github.com/darkalfx/requestrr
+
+        image: darkalfx/requestrr
+		
+rhasspy:
+#https://github.com/rhasspy/rhasspy
+#offline voice assistant
+    image: "rhasspy/rhasspy"
+
+
+
+
+ sabnzbd:
+ #The automated Usenet download tool 
+ #https://github.com/sabnzbd/sabnzbd
+ 
+    image: ghcr.io/linuxserver/sabnzbd
+
+		
+screego:
+#screen sharing for developers 
+#https://github.com/screego/server
+    image: screego/server:1.0.1
+
+		
+scrutiny:
+#Hard Drive S.M.A.R.T Monitoring, Historical Trends & Real World Failure Thresholds. This a omnibus image, containing both the webapp server (frontend & api) as well as the S.M.A.R.T metric collector. 
+#https://github.com/analogj/scrutiny
+
+        image: analogj/scrutiny	
+
+		
+serverstatus:
+#Display and monitor your servers statistics in a beatiful way
+#https://github.com/BotoX/ServerStatus
+  
+        image: cppla/serverstatus
+		
+		
+
+
+#https://github.com/snipe/snipe-it
+
+  snipeit:#A free open source IT asset/license management system 
+    image: linuxserver/snipe-it:latest
+
+		
+sonarr:
+#Smart PVR for newsgroup and bittorrent users. 
+https://github.com/Sonarr/Sonarr
+
+        image: linuxserver/sonarr
+		
+sqlitebrowser:
+#Official home of the DB Browser for SQLite (DB4S) project. 
+#https://github.com/sqlitebrowser/sqlitebrowser
+    image: linuxserver/sqlitebrowser
+  
+		
+ statping:
+ #Status Page for monitoring your websites and applications with beautiful graphs, analytics, and plugins. Run on any type of environment. 
+ #https://github.com/statping/statping
+
+    image: statping/statping:dev
+
+volumes:
+  statping_data:
+		
+subspace:
+#A simple WireGuard VPN server GUI 
+#https://github.com/subspacecloud/subspace
+    image: subspacecloud/subspace:latest
+
+	 
+synclounge:
+#Open Source Continuous File Synchronization 
+#https://github.com/syncthing/syncthing
+    image: linuxserver/synclounge
+   
+		
+syncthing:
+
+        image: linuxserver/syncthing
+		
+		
+shynet:
+#https://github.com/milesmcc/shynet
+#Modern, privacy-friendly, and detailed web analytics that works without cookies or JS. 
+    container_name: shynet_main
+    image: milesmcc/shynet:latest
+ 
+  
+
+sshtron:
+#Play Tron over SSH 
+#https://github.com/zachlatta/sshtron
+  
+        image: sshtron
+		
+
+
+taisun:
+#https://github.com/Taisun-Docker/taisun
+#Application for a Docker enabled device with an emphasis on providing a web based interface for managing a single server. 
+    image: linuxserver/taisun
+
+
+tautulli:
+#https://github.com/Tautulli/Tautulli
+#A Python based monitoring and tracking tool for Plex Media Server. 
+     
+        image: linuxserver/tautulli
+		
+tdarr:
+#https://github.com/HaveAGitGat/Tdarr
+#Tdarr - Distributed transcode automation using FFmpeg/HandBrake + Audio/Video library analytics + video health checking (Windows, macOS, Linux & Docker) 
+    image: haveagitgat/tdarr
+  
+	  
+telegraf:
+#The plugin-driven server agent for collecting & reporting metrics. 
+#https://github.com/influxdata/telegraf
+
+    image: telegraf
+
+	 
+
+traktarr:
+#Script to add new series & movies to Sonarr/Radarr based on Trakt lists. 
+#https://github.com/l3uddz/traktarr#installation
+     
+        image: eafxx/traktarr
+     
+
+ubooquity:
+#Read your ebooks and comics on your favorite device, wherever you go
+#http://vaemendis.net/ubooquity/
+        image: linuxserver/ubooquity
+		
+	unbound:
+	#Unbound is a validating, recursive, and caching DNS resolver. 
+#https://github.com/NLnetLabs/unbound
+
+        image: 'mvance/unbound:latest'
+
+unpackerr:
+#Extracts downloads for Radarr, Sonarr, Lidarr, Readarr - Deletes extracted files after import 
+#https://github.com/davidnewhall/unpackerr
+  
+    image: hotio/unpackerr
+
+
+uptime-kuma:
+#A fancy self-hosted monitoring tool 
+#https://github.com/louislam/uptime-kuma
+    image: louislam/uptime-kuma
+
+
+Watchtower: Updates containers
+- https://github.com/containrrr/watchtower
+
 Wikijs: The most powerful and extensible open source Wiki software
  - https://js.wiki/
 
