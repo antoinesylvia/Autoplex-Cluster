@@ -48,7 +48,7 @@ Avidemux: Free and open-source software for non-linear video editing and transco
 
 Bazarr: Companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements.
  - https://github.com/morpheus65535/bazarr
- - image: linuxserver/bazarr
+ - image: ghcr.io/linuxserver/bazarr
 
 Changedetection.io: Self-hosted change monitoring of web pages.
  - https://github.com/dgtlmoon/changedetection.io
@@ -84,7 +84,7 @@ Docsassemble: A free, open-source expert system for guided interviews and docume
 
 Dokuwiki: Wiki application licensed under GPLv2 and written in the PHP programming language. 
  - https://www.dokuwiki.org/dokuwiki
- - image: linuxserver/dokuwiki
+ - image: ghcr.io/linuxserver/dokuwiki
 
 Draw.io: Diagrams.net is free online diagram software for making flowcharts, process diagrams, org charts, UML, ER and network diagrams.
  - https://github.com/fjudith/docker-draw.io
@@ -108,15 +108,15 @@ FileBot: Ultimate tool for renaming and organizing your movies, TV shows and Ani
 
 Fleet: Provides an online web interface which displays a set of maintained images from one or more owned repositories.
  - https://github.com/linuxserver/fleet
- - image: linuxserver/fleet
+ - image: ghcr.io/linuxserver/fleet
 
 Folding@home - Distributed computing project aimed to help scientists develop new therapeutics for a variety of diseases by the means of simulating protein dynamics. This includes the process of protein folding and the movements of proteins, and is reliant on simulations run on volunteers' personal computers.
  - https://foldingathome.org/?lng=en-US
- - image: linuxserver/foldingathome
+ - image: ghcr.io/linuxserver/foldingathome
    
 Freshrss: FreshRSS is a self-hosted RSS feed aggregator.
  - https://github.com/FreshRSS/FreshRSS
- - image: linuxserver/freshrss
+ - image: ghcr.io/linuxserver/freshrss
 		
 Fireflyiii: A personal finances manager.
  - https://github.com/firefly-iii/firefly-iii
@@ -128,11 +128,11 @@ Gaps: Searches through your Plex Server or local folders for all movies, then qu
 		
 Guacamole: Clientless remote desktop gateway. It supports standard protocols like VNC, RDP, and SSH. We call it clientless because no plugins or client software are required. Thanks to HTML5, once Guacamole is installed on a server, all you need to access your desktops is a web browser.
  - https://github.com/apache/guacamole-server
- - image: linuxserver/guacd
+ - image: ghcr.io/linuxserver/guacd
  
 Guora: A self-hosted Quora like web application.
  - https://github.com/meloalright/guora
- - image: 'meloalright/guora:beta2'
+ - image: meloalright/guora:beta2
 		
 Grafana: Multi-platform open source analytics and interactive visualization web application. It provides charts, graphs, and alerts for the web when connected to supported data sources.
  - https://grafana.com/
@@ -140,19 +140,23 @@ Grafana: Multi-platform open source analytics and interactive visualization web 
 		
 Grav:Modern, Crazy Fast, Ridiculously Easy and Amazingly Powerful Flat-File CMS.
  - https://github.com/getgrav/grav
- - image: 'grav:latest'
+ - image: grav:latest
 		
 Grocy: ERP beyond your fridge - grocy is a web-based self-hosted groceries & household management solution for your home.
  - https://github.com/grocy/grocy
- -image: linuxserver/grocy
+ -image: ghcr.io/linuxserver/grocy
 
 Headphones: Automatic music downloader for SABnzbd.
  - https://github.com/rembo10/headphones
- - image: linuxserver/headphones
+ - image: ghcr.io/linuxserver/headphones
 
 Heimdall: An Application dashboard and launcher.
  - https://github.com/linuxserver/Heimdall
  - image: ghcr.io/linuxserver/heimdall
+
+Home Assistant: Open source home automation that puts local control and privacy first. 
+ - https://github.com/home-assistant/core
+ - image: ghcr.io/linuxserver/homeassistant
 
 Huginn: Create agents that monitor and act on your behalf.
  - https://github.com/huginn/huginn
@@ -164,7 +168,7 @@ Influxdb: Open-source time series database developed by InfluxData.
 
 Jackett: API Support for your favorite torrent trackers.
  - https://github.com/Jackett/Jackett
- - image: linuxserver/jackett
+ - image: ghcr.io/linuxserver/jackett
 		
 Jdownloader-2: Open-source download management tool.
  - https://jdownloader.org/download/index
@@ -172,7 +176,7 @@ Jdownloader-2: Open-source download management tool.
 		
 Jellyfin: Suite of multimedia applications designed to organize, manage, and share digital media files to networked devices.
  - https://github.com/jellyfin/jellyfin
- - image: linuxserver/jellyfin
+ - image: ghcr.io/linuxserver/jellyfin
 
 Kavita: Fast, feature rich, cross platform reading server. Built with a focus for manga and the goal of being a full solution for all your reading needs. Setup your own server and share your reading collection with your friends and family.
  - https://github.com/Kareadita/Kavita
@@ -180,11 +184,11 @@ Kavita: Fast, feature rich, cross platform reading server. Built with a focus fo
 
 Lazylibrarian: Program to follow authors and grab metadata for all your digital reading needs.
  - https://lazylibrarian.gitlab.io/
- - image: linuxserver/lazylibrarian
+ - image: ghcr.io/linuxserver/lazylibrarian
 
 Lidarr: Looks and smells like Sonarr but made for music.
  - https://github.com/Lidarr/Lidarr
- - image: linuxserver/lidarr
+ - image: ghcr.io/linuxserver/lidarr
 		
 Leantime: Open source project management system to make your ideas reality.
  - https://leantime.io/
@@ -192,7 +196,7 @@ Leantime: Open source project management system to make your ideas reality.
 
 Mariadb: Community-developed, commercially supported fork of the MySQL relational database management system, intended to remain free and open-source software under the GNU General Public License.
  - https://mariadb.org/
- - image: linuxserver/mariadb
+ - image: ghcr.io/linuxserver/mariadb
   
 Mellow: Can communicate with several APIs like Ombi, Sonarr, Radarr and Tautulli which are related to home streaming to use those services directly in your Discord client.
  - https://github.com/v0idp/Mellow 
@@ -216,7 +220,7 @@ Mozilla-tts: Deep learning for Text to Speech.
 
 Mylar: An automated Comic Book downloader (cbr/cbz) for use with SABnzbd, NZBGet and torrents.
  - https://github.com/evilhero/mylar
- - image: linuxserver/mylar
+ - image: ghcr.io/linuxserver/mylar
 		
 Mysql: Open source relational database.
  - https://github.com/mysql/mysql-server
@@ -232,11 +236,11 @@ Netmaker: Connect any computers together over a secure, fast, private network, a
 
 Neko: A self hosted virtual browser (rabb.it clone) that runs in docker.
  - https://github.com/nurdism/neko
- - image: 'nurdism/neko:chromium'
+ - image: nurdism/neko:chromium
 		
 Nextcloud: Suite of client-server software for creating and using file hosting services. It is enterprise-ready with comprehensive support options.Nextcloud is a suite of client-server software for creating and using file hosting services. It is enterprise-ready with comprehensive support options.
  - https://github.com/nextcloud
- - image: linuxserver/nextcloud
+ - image: ghcr.io/linuxserver/nextcloud
 		
 nginx: Reverse Proxy.
  - https://github.com/nginx/nginx
@@ -246,7 +250,7 @@ nginx-proxy:
     image: jwilder/nginx-proxy
 	  
 nginxproxymanagerzapp:
-    image: 'jc21/nginx-proxy-manager:latest'
+    image: jc21/nginx-proxy-manager:latest
 
 nginx-ui: Nginx UI allows you to access and modify the nginx configurations files without cli. 
  - https://github.com/schenkd/nginx-ui
@@ -266,7 +270,7 @@ Nzbhydra2: Usenet meta search.
 
 Organizr: HTPC/Homelab Services Organizer - Written in PHP.
  - https://github.com/causefx/Organizr
- - image: linuxserver/organizr
+ - image: ghcr.io/linuxserver/organizr
 
 Octoprint: Open source 3D printer controller application, which provides a web interface for the connected printers.
  - https://github.com/OctoPrint/OctoPrint-Pushbullet
@@ -274,7 +278,7 @@ Octoprint: Open source 3D printer controller application, which provides a web i
 
 Ombi: Friendly media request tool, automatically syncs with your media servers! Don't worry, it's grandma friendly, and more importantly; has wife approval certification. 
  - https://github.com/Ombi-app/Ombi
- - image: linuxserver/ombi
+ - image: ghcr.io/linuxserver/ombi
 		
 Openspeedtest: Pure HTML5 Network Performance Estimation Tool.
  - https://github.com/openspeedtest/Speed-Test
@@ -318,7 +322,7 @@ Posterr: Media display software for Plex, Sonarr and Radarr.
 
 Projectsend: Open source software that lets you share files with your clients, focused on ease of use and privacy. It supports clients groups, system users roles, statistics, multiple languages, detailed logs... and much more! 
  - https://github.com/projectsend/projectsend
- - image: linuxserver/projectsend
+ - image: ghcr.io/linuxserver/projectsend
 
 Prowlarr: Indexer manager/proxy built on the popular arr .net/reactjs base stack to integrate with your various PVR apps.
  - https://github.com/Prowlarr/Prowlarr
@@ -342,11 +346,11 @@ Pwndrop: Self-deployable file hosting service for red teamers, allowing to easil
 
 Pyload: The free and open-source Download Manager written in pure Python. 
  - https://github.com/pyload/pyload
- - image: linuxserver/pyload
+ - image: ghcr.io/linuxserver/pyload
 
 Qbittorrent: BitTorrent client. 
  - https://github.com/qbittorrent/qBittorrent
- - image: linuxserver/qbittorrent
+ - image: ghcr.io/linuxserver/qbittorrent
 		
 Qbittorrent(flood-ui): Modern web UI for various torrent clients with a Node.js backend and React frontend. 
  - https://github.com/jesec/flood
@@ -354,7 +358,7 @@ Qbittorrent(flood-ui): Modern web UI for various torrent clients with a Node.js 
 
 Radarr: A fork of Sonarr to work with movies à la Couchpotato. 
  - https://github.com/Radarr/Radarr
- - image: linuxserver/radarr
+ - image: ghcr.io/linuxserver/radarr
 
 Readarr: Book Manager and Automation (Sonarr for Ebooks).
  - https://github.com/Readarr/Readarr
@@ -370,7 +374,7 @@ Remotely: A remote control and remote scripting solution, built with .NET 5, Bla
 	
 Resilio-sync: Server Synchronization in Real-Time.
  - https://www.resilio.com/
- - image: linuxserver/resilio-sync
+ - image: ghcr.io/linuxserver/resilio-sync
 
 Requestrr: Chatbot used to simplify using services like Sonarr/Radarr/Ombi via the use of chat. Current platform is Discord only, but the bot was built around the ideology of quick adaptation for new features as well as new platforms. 
  - https://github.com/darkalfx/requestrr
@@ -378,7 +382,7 @@ Requestrr: Chatbot used to simplify using services like Sonarr/Radarr/Ombi via t
 		
 Rhasspy: Offline voice assistant.
  - https://github.com/rhasspy/rhasspy
- - image: "rhasspy/rhasspy"
+ - image: rhasspy/rhasspy
 
 Sabnzbd: The automated Usenet download tool.
  - https://github.com/sabnzbd/sabnzbd
@@ -398,15 +402,15 @@ Serverstatus: Display and monitor your servers statistics in a beatiful way.
 
 SnipeIT:#A free open source IT asset/license management system.
  - https://github.com/snipe/snipe-it
- - image: linuxserver/snipe-it:latest
+ - image: ghcr.io/linuxserver/snipe-it:latest
 
 Sonarr: Smart PVR for newsgroup and bittorrent users. 
  - https://github.com/Sonarr/Sonarr
- - image: linuxserver/sonarr
+ - image: ghcr.io/linuxserver/sonarr
 		
 Sqlitebrowser: Official home of the DB Browser for SQLite (DB4S) project. 
  - https://github.com/sqlitebrowser/sqlitebrowser
- - image: linuxserver/sqlitebrowser
+ - image: ghcr.io/linuxserver/sqlitebrowser
   
 Statping: Status Page for monitoring your websites and applications with beautiful graphs, analytics, and plugins. Run on any type of environment. 
  - https://github.com/statping/statping
@@ -418,11 +422,11 @@ Subspace: A simple WireGuard VPN server GUI.
 
 Synclounge: Open Source Continuous File Synchronization.
  - https://github.com/syncthing/syncthing
- - image: linuxserver/synclounge
+ - image: ghcr.io/linuxserver/synclounge
    
 Syncthing: Open Source continuous file syncronization.
  - https://github.com/syncthing/syncthing
- - image: linuxserver/syncthing
+ - image: ghcr.io/linuxserver/syncthing
 		
 Shynet: Modern, privacy-friendly, and detailed web analytics that works without cookies or JS. 
  - https://github.com/milesmcc/shynet
@@ -434,11 +438,11 @@ SSHtron: Play Tron over SSH.
 		
 Taisun: Application for a Docker enabled device with an emphasis on providing a web based interface for managing a single server. 
  - https://github.com/Taisun-Docker/taisun
- - image: linuxserver/taisun
+ - image: ghcr.io/linuxserver/taisun
 
 Tautulli: A Python based monitoring and tracking tool for Plex Media Server. 
  - https://github.com/Tautulli/Tautulli
- - image: linuxserver/tautulli
+ - image: ghcr.io/linuxserver/tautulli
 		
 Tdarr: Distributed transcode automation using FFmpeg/HandBrake + Audio/Video library analytics + video health checking (Windows, macOS, Linux & Docker).
  - https://github.com/HaveAGitGat/Tdarr
@@ -454,7 +458,7 @@ Traktarr: Script to add new series & movies to Sonarr/Radarr based on Trakt list
      
 Ubooquity: Read your ebooks and comics on your favorite device, wherever you go.
  - http://vaemendis.net/ubooquity/
- - image: linuxserver/ubooquity
+ - image: ghcr.io/linuxserver/ubooquity
 		
 Unbound: Validating, recursive, and caching DNS resolver. 
  - https://github.com/NLnetLabs/unbound
@@ -474,11 +478,11 @@ Watchtower: Updates containers.
 
 Wikijs: The most powerful and extensible open source Wiki software.
  - https://js.wiki/
- - image: linuxserver/wikijs
+ - image: ghcr.io/linuxserver/wikijs
 
 Wireguard: Modern and Fast VPN.
  - https://github.com/WireGuard
- - image: linuxserver/wireguard
+ - image: ghcr.io/linuxserver/wireguard
 
 Whoogle-search: A self-hosted, ad-free, privacy-respecting metasearch engine. 
  - https://github.com/benbusby/whoogle-search
