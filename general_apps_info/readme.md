@@ -244,7 +244,7 @@ Nextcloud: Suite of client-server software for creating and using file hosting s
 		
 nginx: Reverse Proxy.
  - https://github.com/nginx/nginx
- - image: nginx:1.18.0-alpine
+ - image: ghcr.io/linuxserver/nginx
 
 nginx-proxy:
     image: jwilder/nginx-proxy
