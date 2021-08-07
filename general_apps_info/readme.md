@@ -208,222 +208,144 @@ Moviematch: Have you ever spent longer deciding on a movie than it'd take to jus
  - https://github.com/LukeChannings/moviematch
  - image: lukechannings/moviematch
 		
-Mozilla-tts: Deep learning for Text to Speech
+Mozilla-tts: Deep learning for Text to Speech.
  - https://github.com/mozilla/TTS
  - image: synesthesiam/mozilla-tts
 
-Mylar: An automated Comic Book downloader (cbr/cbz) for use with SABnzbd, NZBGet and torrents
-- https://github.com/evilhero/mylar
-- image: linuxserver/mylar
+Mylar: An automated Comic Book downloader (cbr/cbz) for use with SABnzbd, NZBGet and torrents.
+ - https://github.com/evilhero/mylar
+ - image: linuxserver/mylar
 		
-Mysql:
-        container_name: huginn_mysql
+Mysql: Open source relational database.
+ - https://github.com/mysql/mysql-server
+ - image: mysql
 
-        image: mysql
+MongoDB: Source-available cross-platform document-oriented database program.
+ - https://www.mongodb.com/ 
+ - image: mongo:4.2
 
+Netmaker: Connect any computers together over a secure, fast, private network, and manage multiple networks from a central server.
+ - https://github.com/gravitl/netmaker
+ - image: gravitl/netmaker
 
-
- mongodb:
-#MongoDB is a source-available cross-platform document-oriented database program.
-#https://www.mongodb.com/ 
-    image: mongo:4.2
-
-	  
-	  
-  netmaker:
-  #Connect any computers together over a secure, fast, private network, and manage multiple networks from a central server.
-  #https://github.com/gravitl/netmaker
-    container_name: netmaker
-    depends_on:
-      - mongodb
-    image: gravitl/netmaker
-
-
-
-
-
-neko:
-#A self hosted virtual browser (rabb.it clone) that runs in docker.
-#https://github.com/nurdism/neko
-  
-        image: 'nurdism/neko:chromium'
+Neko: A self hosted virtual browser (rabb.it clone) that runs in docker.
+ - https://github.com/nurdism/neko
+ - image: 'nurdism/neko:chromium'
 		
-
-nextcloud:
-#Nextcloud is a suite of client-server software for creating and using file hosting services. It is enterprise-ready with comprehensive support options.Nextcloud is a suite of client-server software for creating and using file hosting services. It is enterprise-ready with comprehensive support options.
-#https://github.com/nextcloud
-
-        image: linuxserver/nextcloud
+Nextcloud: Suite of client-server software for creating and using file hosting services. It is enterprise-ready with comprehensive support options.Nextcloud is a suite of client-server software for creating and using file hosting services. It is enterprise-ready with comprehensive support options.
+ - https://github.com/nextcloud
+ - image: linuxserver/nextcloud
 		
-nginx:
-#Reverse Proxy
-#https://github.com/nginx/nginx
+nginx: Reverse Proxy
+ - https://github.com/nginx/nginx
+ - image: nginx:1.18.0-alpine
 
-    image: nginx:1.18.0-alpine
-
-	  
 nginx-proxy:
     image: jwilder/nginx-proxy
-
 	  
-	  
-  nginxproxymanagerzapp:
+nginxproxymanagerzapp:
     image: 'jc21/nginx-proxy-manager:latest'
 
-
-	  
-	  
-nginx-ui:
-#Nginx UI allows you to access and modify the nginx configurations files without cli. 
-#https://github.com/schenkd/nginx-ui
-
-    image: nginx-ui:latest
+nginx-ui: Nginx UI allows you to access and modify the nginx configurations files without cli. 
+ - https://github.com/schenkd/nginx-ui
+ - image: nginx-ui:latest
    
-	  
-	  
-  node-red:
-  #Low-code programming for event-driven applications
-  #https://github.com/node-red/node-red
-        image: nodered/node-red
+Node-red: Low-code programming for event-driven applications
+ - https://github.com/node-red/node-red
+ - image: nodered/node-red
 
-nowshowing:
-#Generates an email and web page of Plex recently added content
-#https://github.com/ninthwalker/NowShowing
-  
-        image: 'ninthwalker/nowshowing:v2'	
+Nowshowing: #Generates an email and web page of Plex recently added content
+ - https://github.com/ninthwalker/NowShowing
+ - image: ninthwalker/nowshowing:v2	
 
-nzbhydra2:
-#Usenet meta search
-#https://github.com/theotherp/nzbhydra2
-    image: ghcr.io/linuxserver/nzbhydra2
+Nzbhydra2: Usenet meta search
+ - https://github.com/theotherp/nzbhydra2
+ - image: ghcr.io/linuxserver/nzbhydra2
 
+Organizr: HTPC/Homelab Services Organizer - Written in PHP 
+ - https://github.com/causefx/Organizr
+ - image: linuxserver/organizr
 
- organizr:
- #HTPC/Homelab Services Organizer - Written in PHP 
- #https://github.com/causefx/Organizr
+Octoprint: Open source 3D printer controller application, which provides a web interface for the connected printers.
+ - https://github.com/OctoPrint/OctoPrint-Pushbullet
+ - image: octoprint/octoprint
 
-    image: linuxserver/organizr
-
+Ombi: Friendly media request tool, automatically syncs with your media servers! Don't worry, it's grandma friendly, and more importantly; has wife approval certification. 
+ - https://github.com/Ombi-app/Ombi
+ - image: linuxserver/ombi
 		
-octoprint:
-#OctoPrint is an open source 3D printer controller application, which provides a web interface for the connected printers.
-#https://github.com/OctoPrint/OctoPrint-Pushbullet
-    image: octoprint/octoprint
+Openspeedtest: Pure HTML5 Network Performance Estimation Tool.
+ - https://github.com/openspeedtest/Speed-Test
+ - image: openspeedtest/latest
+		
+Pasta: Audio & Subtitle Track Changer for Plex
+ - https://github.com/cglatot/pasta
+ - image: cglatot/pasta
+		
+Petio: Third party companion app available to Plex server owners to allow their users to request, review and discover content. 
+ - https://github.com/petio-team/petio
+ - image: ghcr.io/petio-team/petio:latest
+		
+Photoprism: Open-Source Photo Management powered by Go and Google TensorFlow.
+ - https://github.com/photoprism/photoprism
+ - image: photoprism/photoprism:latest
 
-ombi:
-#Ombi is your friendly media request tool, automatically syncs with your media servers! Don't worry, it's grandma friendly, and more importantly; has wife approval certification.
-#https://github.com/Ombi-app/Ombi
-image: linuxserver/ombi
-		
-		
-openspeedtest:
-#Pure HTML5 Network Performance Estimation Tool.
-#https://github.com/openspeedtest/Speed-Test
-           image: openspeedtest/latest
-		
+Phpipam-web: Open source IP address management.
+ - https://github.com/phpipam/phpipam
+ - image: phpipam/phpipam-www:latest
 
+Pihole: Network-wide Ad Blocking.
+ - https://github.com/pi-hole/pi-hole
+ - image: pihole/pihole:latest
 
-pasta:
-#Audio & Subtitle Track Changer for Plex
-#https://github.com/cglatot/pasta
-        image: cglatot/pasta
-		
-petio:
-#Petio is a third party companion app available to Plex server owners to allow their users to request, review and discover content. 
-#https://github.com/petio-team/petio
-        image: ghcr.io/petio-team/petio:latest
-		
-		
-		
-photoprism:
-#Open-Source Photo Management powered by Go and Google TensorFlow
-#https://github.com/photoprism/photoprism
-    image: photoprism/photoprism:latest
-
-	  
-phpipam-web:
-#Open source IP address management
-#https://github.com/phpipam/phpipam
-    image: phpipam/phpipam-www:latest
-
-		
-pihole:
-#Network-wide Ad Blocking 
-#https://github.com/pi-hole/pi-hole
-
-    image: pihole/pihole:latest
-
-	
-	
-plex-library-cleaner:
+Plex-library-cleaner:
 #A simple UI to help find and delete duplicate and sample files from your Plex server 
 #https://github.com/se1exin/Plex-Library-Cleaner
        image: 'selexin/plex-library-cleaner:latest'
 		
+Plexarr Simple CLI tool to fix Plex library matches according to Sonarr/Radarr
+ - https://github.com/l3uddz/plexarr
+ - image: hotio/plexarr		
 		
-#plexarr Simple CLI tool to fix Plex library matches according to Sonarr/Radarr
-#https://hotio.dev/containers/plexarr/
-#https://github.com/l3uddz/plexarr		
+Posterr: Media display software for Plex, Sonarr and Radarr.
+ - https://github.com/petersem/posterr
+ - image: posterr
+
+Projectsend: Open source software that lets you share files with your clients, focused on ease of use and privacy. It supports clients groups, system users roles, statistics, multiple languages, detailed logs... and much more! 
+ - https://github.com/projectsend/projectsend
+ - image: linuxserver/projectsend
+
+Prowlarr: Indexer manager/proxy built on the popular arr .net/reactjs base stack to integrate with your various PVR apps. Prowlarr supports both Torrent Trackers and Usenet Indexers. It integrates seamlessly with Sonarr, Radarr, Lidarr, and Readarr offering complete management of your indexers with no per app Indexer setup required (we do it all).
+ - https://github.com/Prowlarr/Prowlarr
+ - image: hotio/prowlarr
+
+Portainer: Making Docker and Kubernetes management easy. 
+ - https://github.com/portainer/portainer
+ - image: portainer/portainer
 		
-posterr:
-#Media display software for Plex, Sonarr and Radarr.
-#https://github.com/petersem/posterr
-    image: posterr
+Podgrab: Self-hosted podcast manager/downloader/archiver tool to download podcast episodes as soon as they become live with an integrated player. 
+ - https://github.com/akhilrex/podgrab
+ - image: akhilrex/podgrab
 
-	
-projectsend:
-#ProjectSend is a free, open source software that lets you share files with your clients, focused on ease of use and privacy. It supports clients groups, system users roles, statistics, multiple languages, detailed logs... and much more! 
-#https://github.com/projectsend/projectsend
-    image: linuxserver/projectsend
+Postgres: Open-source relational database management system emphasizing extensibility and SQL compliance.
+ - https://www.postgresql.org/
+ - image: postgres
 
-prowlarr:
-#Prowlarr is a indexer manager/proxy built on the popular arr .net/reactjs base stack to integrate with your various PVR apps. Prowlarr supports both Torrent Trackers and Usenet Indexers. It integrates seamlessly with Sonarr, Radarr, Lidarr, and Readarr offering complete management of your indexers with no per app Indexer setup required (we do it all).
-#https://github.com/Prowlarr/Prowlarr
-    container_name: prowlarr
-    image: hotio/prowlarr
+Pwndrop: Self-deployable file hosting service for red teamers, allowing to easily upload and share payloads over HTTP and WebDAV. 
+ - https://github.com/kgretzky/pwndrop
+ - image: ghcr.io/linuxserver/pwndrop
 
+Pyload: The free and open-source Download Manager written in pure Python. 
+ - https://github.com/pyload/pyload
+ - image: linuxserver/pyload
 
-portainer:
-#Making Docker and Kubernetes management easy. 
-#https://github.com/portainer/portainer
-        image: portainer/portainer
+Qbittorrent: BitTorrent client. 
+ - https://github.com/qbittorrent/qBittorrent
+ - image: linuxserver/qbittorrent
 		
-podgrab:
-#A self-hosted podcast manager/downloader/archiver tool to download podcast episodes as soon as they become live with an integrated player. 
-#https://github.com/akhilrex/podgrab
-    image: akhilrex/podgrab
-
-		
-postgres:
-#PostgreSQL, also known as Postgres, is a free and open-source relational database management system emphasizing extensibility and SQL compliance
-#https://www.postgresql.org/
-    image: postgres
-
-	  
-pwndrop:
-#Self-deployable file hosting service for red teamers, allowing to easily upload and share payloads over HTTP and WebDAV. 
-#https://github.com/kgretzky/pwndrop
-    image: ghcr.io/linuxserver/pwndrop
-
-
-pyload:
-#The free and open-source Download Manager written in pure Python 
-#https://github.com/pyload/pyload
-
-        image: linuxserver/pyload
-
-
-qbittorrent:
-#BitTorrent client 
-#https://github.com/qbittorrent/qBittorrent
-
-        image: linuxserver/qbittorrent
-		
-flood-ui-qbittorrent:
-#A modern web UI for various torrent clients with a Node.js backend and React frontend. 
-#https://github.com/jesec/flood
-
-# Letter R <-------------------------------------------------------------------------------------
+Qbittorrent(flood-ui-): Modern web UI for various torrent clients with a Node.js backend and React frontend. 
+ - https://github.com/jesec/flood
+ -
 
 radarr:
 #A fork of Sonarr to work with movies à la Couchpotato. 
