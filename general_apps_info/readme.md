@@ -343,222 +343,158 @@ Qbittorrent: BitTorrent client.
  - https://github.com/qbittorrent/qBittorrent
  - image: linuxserver/qbittorrent
 		
-Qbittorrent(flood-ui-): Modern web UI for various torrent clients with a Node.js backend and React frontend. 
+Qbittorrent(flood-ui): Modern web UI for various torrent clients with a Node.js backend and React frontend. 
  - https://github.com/jesec/flood
  -
 
-radarr:
-#A fork of Sonarr to work with movies à la Couchpotato. 
-#https://github.com/Radarr/Radarr
-    image: linuxserver/radarr
+Radarr: A fork of Sonarr to work with movies à la Couchpotato. 
+ - https://github.com/Radarr/Radarr
+ - image: linuxserver/radarr
 
-		
-readarr:
-#Book Manager and Automation (Sonarr for Ebooks) 
-#https://github.com/Readarr/Readarr
-    image: hotio/readarr:nightly
+Readarr: Book Manager and Automation (Sonarr for Ebooks) 
+ - https://github.com/Readarr/Readarr
+ - image: hotio/readarr:nightly
 
-redis:
-#https://redis.io/
-#Redis is an in-memory data structure store, used as a distributed, in-memory key–value database, cache and message broker, with optional durability. Redis supports different kinds of abstract data structures, such as strings, lists, maps, sets, sorted sets, HyperLogLogs, bitmaps, streams, and spatial indices.
+Redis: In-memory data structure store, used as a distributed, in-memory key–value database, cache and message broker, with optional durability. 
+ - https://github.com/redis/redis
+ - image: redis
 
-	image: redis
-
-remotely:
-#A remote control and remote scripting solution, built with .NET 5, Blazor, SignalR Core, and WebRTC.
-#https://github.com/lucent-sea/remotely
-    image: translucency/remotely:latest
-
+Remotely: A remote control and remote scripting solution, built with .NET 5, Blazor, SignalR Core, and WebRTC.
+- https://github.com/lucent-sea/remotely
+- image: translucency/remotely:latest
 	
-resilio-sync:
-#Server Synchronization in Real-Time
-#https://www.resilio.com/
-    image: linuxserver/resilio-sync
+Resilio-sync: Server Synchronization in Real-Time.
+ - https://www.resilio.com/
+ - image: linuxserver/resilio-sync
 
+Requestrr: Chatbot used to simplify using services like Sonarr/Radarr/Ombi via the use of chat. Current platform is Discord only, but the bot was built around the ideology of quick adaptation for new features as well as new platforms. 
+ - https://github.com/darkalfx/requestrr
+ - image: darkalfx/requestrr
 		
-requestrr:
-#Requestrr is a chatbot used to simplify using services like Sonarr/Radarr/Ombi via the use of chat. Current platform is Discord only, but the bot was built around the ideology of quick adaptation for new features as well as new platforms. 
-#https://github.com/darkalfx/requestrr
+Rhasspy: Offline voice assistant.
+ - https://github.com/rhasspy/rhasspy
+ - image: "rhasspy/rhasspy"
 
-        image: darkalfx/requestrr
+Sabnzbd: The automated Usenet download tool.
+ - https://github.com/sabnzbd/sabnzbd
+ - image: ghcr.io/linuxserver/sabnzbd
+
+Screego: Screen sharing for developers 
+ - https://github.com/screego/server
+ - image: screego/server:1.0.1
+
+Scrutiny: Hard Drive S.M.A.R.T Monitoring, Historical Trends & Real World Failure Thresholds. This a omnibus image, containing both the webapp server (frontend & api) as well as the S.M.A.R.T metric collector. 
+ - https://github.com/analogj/scrutiny
+ - image: analogj/scrutiny	
+
+Serverstatus: Display and monitor your servers statistics in a beatiful way.
+ - https://github.com/BotoX/ServerStatus
+ - image: cppla/serverstatus
+
+SnipeIT:#A free open source IT asset/license management system 
+ - https://github.com/snipe/snipe-it
+ - image: linuxserver/snipe-it:latest
+
+Sonarr: Smart PVR for newsgroup and bittorrent users. 
+ - https://github.com/Sonarr/Sonarr
+ - image: linuxserver/sonarr
 		
-rhasspy:
-#https://github.com/rhasspy/rhasspy
-#offline voice assistant
-    image: "rhasspy/rhasspy"
-
-
-
-
- sabnzbd:
- #The automated Usenet download tool 
- #https://github.com/sabnzbd/sabnzbd
- 
-    image: ghcr.io/linuxserver/sabnzbd
-
-		
-screego:
-#screen sharing for developers 
-#https://github.com/screego/server
-    image: screego/server:1.0.1
-
-		
-scrutiny:
-#Hard Drive S.M.A.R.T Monitoring, Historical Trends & Real World Failure Thresholds. This a omnibus image, containing both the webapp server (frontend & api) as well as the S.M.A.R.T metric collector. 
-#https://github.com/analogj/scrutiny
-
-        image: analogj/scrutiny	
-
-		
-serverstatus:
-#Display and monitor your servers statistics in a beatiful way
-#https://github.com/BotoX/ServerStatus
+Sqlitebrowser: Official home of the DB Browser for SQLite (DB4S) project. 
+ - https://github.com/sqlitebrowser/sqlitebrowser
+ - image: linuxserver/sqlitebrowser
   
-        image: cppla/serverstatus
-		
-		
+Statping: Status Page for monitoring your websites and applications with beautiful graphs, analytics, and plugins. Run on any type of environment. 
+ - https://github.com/statping/statping
+ - image: statping/statping:dev
 
+Subspace: A simple WireGuard VPN server GUI.
+ - https://github.com/subspacecloud/subspace
+ - image: subspacecloud/subspace:latest
 
-#https://github.com/snipe/snipe-it
-
-  snipeit:#A free open source IT asset/license management system 
-    image: linuxserver/snipe-it:latest
-
-		
-sonarr:
-#Smart PVR for newsgroup and bittorrent users. 
-https://github.com/Sonarr/Sonarr
-
-        image: linuxserver/sonarr
-		
-sqlitebrowser:
-#Official home of the DB Browser for SQLite (DB4S) project. 
-#https://github.com/sqlitebrowser/sqlitebrowser
-    image: linuxserver/sqlitebrowser
-  
-		
- statping:
- #Status Page for monitoring your websites and applications with beautiful graphs, analytics, and plugins. Run on any type of environment. 
- #https://github.com/statping/statping
-
-    image: statping/statping:dev
-
-volumes:
-  statping_data:
-		
-subspace:
-#A simple WireGuard VPN server GUI 
-#https://github.com/subspacecloud/subspace
-    image: subspacecloud/subspace:latest
-
-	 
-synclounge:
-#Open Source Continuous File Synchronization 
-#https://github.com/syncthing/syncthing
-    image: linuxserver/synclounge
+Synclounge: Open Source Continuous File Synchronization.
+ - https://github.com/syncthing/syncthing
+ - image: linuxserver/synclounge
    
+Syncthing: Open Source continuous file syncronization.
+ - https://github.com/syncthing/syncthing
+ - image: linuxserver/syncthing
 		
-syncthing:
-
-        image: linuxserver/syncthing
-		
-		
-shynet:
-#https://github.com/milesmcc/shynet
-#Modern, privacy-friendly, and detailed web analytics that works without cookies or JS. 
-    container_name: shynet_main
-    image: milesmcc/shynet:latest
+Shynet: Modern, privacy-friendly, and detailed web analytics that works without cookies or JS. 
+ - https://github.com/milesmcc/shynet
+ - image: milesmcc/shynet:latest
  
-  
-
-sshtron:
-#Play Tron over SSH 
-#https://github.com/zachlatta/sshtron
-  
-        image: sshtron
+SSHtron: Play Tron over SSH.
+ - https://github.com/zachlatta/sshtron
+ - image: sshtron
 		
+Taisun: Application for a Docker enabled device with an emphasis on providing a web based interface for managing a single server. 
+ - https://github.com/Taisun-Docker/taisun
+ - image: linuxserver/taisun
 
-
-taisun:
-#https://github.com/Taisun-Docker/taisun
-#Application for a Docker enabled device with an emphasis on providing a web based interface for managing a single server. 
-    image: linuxserver/taisun
-
-
-tautulli:
-#https://github.com/Tautulli/Tautulli
-#A Python based monitoring and tracking tool for Plex Media Server. 
-     
-        image: linuxserver/tautulli
+Tautulli: A Python based monitoring and tracking tool for Plex Media Server. 
+ - https://github.com/Tautulli/Tautulli
+ - image: linuxserver/tautulli
 		
-tdarr:
-#https://github.com/HaveAGitGat/Tdarr
-#Tdarr - Distributed transcode automation using FFmpeg/HandBrake + Audio/Video library analytics + video health checking (Windows, macOS, Linux & Docker) 
-    image: haveagitgat/tdarr
+Tdarr: Distributed transcode automation using FFmpeg/HandBrake + Audio/Video library analytics + video health checking (Windows, macOS, Linux & Docker).
+ - https://github.com/HaveAGitGat/Tdarr
+ - image: haveagitgat/tdarr
   
-	  
-telegraf:
-#The plugin-driven server agent for collecting & reporting metrics. 
-#https://github.com/influxdata/telegraf
+Telegraf: The plugin-driven server agent for collecting & reporting metrics. 
+ - https://github.com/influxdata/telegraf
+ - image: telegraf
 
-    image: telegraf
-
-	 
-
-traktarr:
-#Script to add new series & movies to Sonarr/Radarr based on Trakt lists. 
-#https://github.com/l3uddz/traktarr#installation
+Traktarr: Script to add new series & movies to Sonarr/Radarr based on Trakt lists. 
+ - https://github.com/l3uddz/traktarr#installation
+ - image: eafxx/traktarr
      
-        image: eafxx/traktarr
-     
-
-ubooquity:
-#Read your ebooks and comics on your favorite device, wherever you go
-#http://vaemendis.net/ubooquity/
-        image: linuxserver/ubooquity
+Ubooquity: Read your ebooks and comics on your favorite device, wherever you go.
+ - http://vaemendis.net/ubooquity/
+ - image: linuxserver/ubooquity
 		
-	unbound:
-	#Unbound is a validating, recursive, and caching DNS resolver. 
-#https://github.com/NLnetLabs/unbound
+Unbound: Validating, recursive, and caching DNS resolver. 
+ - https://github.com/NLnetLabs/unbound
+ - image: mvance/unbound:latest
 
-        image: 'mvance/unbound:latest'
+Unpackerr: Extracts downloads for Radarr, Sonarr, Lidarr, Readarr - Deletes extracted files after import.
+ - https://github.com/davidnewhall/unpackerr
+ - image: hotio/unpackerr
 
-unpackerr:
-#Extracts downloads for Radarr, Sonarr, Lidarr, Readarr - Deletes extracted files after import 
-#https://github.com/davidnewhall/unpackerr
-  
-    image: hotio/unpackerr
+Uptime-kuma: A fancy self-hosted monitoring tool. 
+ - https://github.com/louislam/uptime-kuma
+ - image: louislam/uptime-kuma
 
-
-uptime-kuma:
-#A fancy self-hosted monitoring tool 
-#https://github.com/louislam/uptime-kuma
-    image: louislam/uptime-kuma
-
-
-Watchtower: Updates containers
+Watchtower: Updates containers.
 - https://github.com/containrrr/watchtower
+- image: v2tec/watchtower
 
-Wikijs: The most powerful and extensible open source Wiki software
+Wikijs: The most powerful and extensible open source Wiki software.
  - https://js.wiki/
+ - image: linuxserver/wikijs
 
-Wireguard: Modern and Fast VPN
+Wireguard: Modern and Fast VPN.
  - https://github.com/WireGuard
+ - image: linuxserver/wireguard
 
-Whoogle-search: A self-hosted, ad-free, privacy-respecting metasearch engine 
+Whoogle-search: A self-hosted, ad-free, privacy-respecting metasearch engine. 
  - https://github.com/benbusby/whoogle-search
+ - image: benbusby/whoogle-search
 
 XOWA: Free and open-source application written primarily in Java by anonymous developers and is intended for users who wish to run their own copy of Wikipedia, or any other compatible Wiki offline or without an internet connection.
  - http://xowa.org/
+ - image: quantumobject/docker-xowa
 
-Youtubedl-Material: Self-hosted YouTube downloader built on Material Design 
+Youtubedl-Material: Self-hosted YouTube downloader built on Material Design. 
  - https://github.com/Tzahi12345/YoutubeDL-Material
+ - image: tzahi12345/youtubedl-material:latest
 
-Youtube-DL: Command-line program to download videos from YouTube.com and other video sites 
+Youtube-DL: Command-line program to download videos from YouTube.com and other video sites. 
  - https://github.com/ytdl-org/youtube-dl
+ - image: kmb32123/youtube-dl-server
 
-Yet Another Aria2 Webui (Yaaw): Aria2 Webui 
+Yet Another Aria2 Webui (Yaaw): Aria2 Webui. 
  - https://github.com/binux/yaaw
+ - image: aria2-yaaw:latest
 
-Zammad: Web based open source helpdesk/customer support system 
+Zammad: Web based open source helpdesk/customer support system. 
  - https://github.com/zammad/zammad
+ - image: zammed/zammed
