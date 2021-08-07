@@ -20,7 +20,7 @@ Popular apps (containerized) listed on this page, were discovered on:
  - https://boinc.berkeley.edu/projects.php
 
 -----------------------------
-# My Currated List (always being updated)
+# My Currated List 
 
 AirDC++: Client for Advanced Direct Connect and Direct Connect networks. 
  - https://github.com/gangefors/docker-airdcpp-webclient
