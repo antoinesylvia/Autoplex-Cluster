@@ -12,7 +12,7 @@ Every category of web app imaginable is covered with the links below. Build out 
   - Note: At the Nginx level, users can add a rule to only allow inbound traffic from known Cloudflare IPs. This can also be done more effectively at the router level instead if the feature is available.
   - Note: At the Cloudflare level, ensure Authenticated Origin Pulls is enabled. Helps validate traffic hitting a user's orgin server is coming 1st from Cloudflare (using a TLS cert)
 -----------------------------
-My currated list of popular apps (containerized) listed on this page, were discovered on:
+Popular apps (containerized) listed on this page, were discovered on:
  - https://github.com/awesome-selfhosted/awesome-selfhosted
  - https://github.com/sindresorhus/awesome
  - https://github.com/eagleusb/awesome-repositories
@@ -20,6 +20,7 @@ My currated list of popular apps (containerized) listed on this page, were disco
  - https://boinc.berkeley.edu/projects.php
 
 -----------------------------
+# My Currated List (always being updated)
 
 AirDC++: Client for Advanced Direct Connect and Direct Connect networks. 
  - https://github.com/gangefors/docker-airdcpp-webclient
