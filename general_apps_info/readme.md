@@ -18,5 +18,9 @@ Every category of web app imaginable is covered with the links above. Build out 
   - Note: At the Nginx level, users can add a rule to only allow inbound traffic from known Cloudflare IPs. This can also be done more effectively at the router level instead if the feature is available.
   - Note: At the Cloudflare level, ensure Authenticated Origin Pulls is enabled. Helps validate traffic hitting a user's orgin server is coming 1st from Cloudflare (using a TLS cert)
 -----------------------------
+
+Yet Another Aria2 Webui (Yaaw): Aria2 Webui 
+ - https://github.com/binux/yaaw
+
 Zammad: Web based open source helpdesk/customer support system 
  - https://github.com/zammad/zammad
