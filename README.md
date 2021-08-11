@@ -30,7 +30,8 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
   - Helm (https://github.com/helm/helm)
     - Arkade (https://github.com/alexellis/arkade)
     - Artificate Hub (https://artifacthub.io/packages/search?kind=0&sort=relevance&page=1)
-      - K8s@home (https://artifacthub.io/packages/search?page=1&org=k8s-at-home) 
+      - K8s@home (https://artifacthub.io/packages/search?page=1&org=k8s-at-home)
+    - Helm GUI (https://github.com/oslabs-beta/Ahoy) 
   - Nova (https://github.com/fairwindsops/nova) Note: Will compare featureset against Renovate soon, specializes in dependencies.
 - CI - Gitlab CI (https://docs.gitlab.com/ee/ci/)
 - CD - ArgoCD (https://argoproj.github.io/argo-cd/)
