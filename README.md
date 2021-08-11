@@ -72,9 +72,10 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 
 # Management, Monitoring and Observability 
 - CLI (Management) - K9s (https://github.com/derailed/k9s)
-- Dash - Lens (https://github.com/lensapp/lens)
-        - Extension - Lens Resource Map (https://github.com/nevalla/lens-resource-map-extension)
-        - Extension - Starboard (https://github.com/aquasecurity/starboard)
+- Dash:
+  - Lens (https://github.com/lensapp/lens)
+    - Extension - Lens Resource Map (https://github.com/nevalla/lens-resource-map-extension)
+    - Extension - Starboard (https://github.com/aquasecurity/starboard)
 - Health - KubeEye (https://github.com/kubesphere/kubeeye)
 - Logging:
   - Loki (Promtail agent) (https://github.com/grafana/loki)
