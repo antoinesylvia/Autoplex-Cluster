@@ -78,7 +78,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 - Health - KubeEye (https://github.com/kubesphere/kubeeye)
 - Logging:
   - Loki (Promtail agent) (https://github.com/grafana/loki)
-    -Syslog-ng (run a host level, send logs to Loki) (https://github.com/syslog-ng/syslog-ng)   
+    - Syslog-ng (run a host level, send logs to Loki) (https://github.com/syslog-ng/syslog-ng)   
 - Mobile App - KubeNAV (https://github.com/kubenav/kubenav)
 - Monitoring - Pixie (x86/64, no ARM at the moment) (https://github.com/pixie-labs/pixie)
   - Alerts/Notifications - BotKube....TBD
