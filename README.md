@@ -50,7 +50,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
     - Dockerhub (https://hub.docker.com/)
       - Linuxserver (https://fleet.linuxserver.io/)
       - Hotio (https://hotio.dev/)
-    - Github (ghcr.io) 
+    - Github (https://ghcr.io) 
 - Infrastructure Provisioner (For cloud K3s workers or locally using Proxmox VMs) - Terraform (https://github.com/hashicorp/terraform)
 - SSH (Multi) - Tmux (https://github.com/tmux/tmux)
 
