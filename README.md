@@ -81,7 +81,11 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
   - Loki (Promtail agent) (https://github.com/grafana/loki)
     - Syslog-ng (run a host level, send logs to Loki) (https://github.com/syslog-ng/syslog-ng)   
 - Mobile App - KubeNAV (https://github.com/kubenav/kubenav)
-- Monitoring - Pixie (x86/64, no ARM at the moment) (https://github.com/pixie-labs/pixie)
+- Monitoring: 
+  - Pixie (x86/64, no ARM at the moment) (https://github.com/pixie-labs/pixie)
+  - Grafana (can use Pixie as datasource) (https://github.com/grafana/grafana)
+     - Prometheus (https://github.com/prometheus/prometheus)
+  
   - Alerts/Notifications - BotKube....TBD
 - Pi Visibility - RPi-Monitor (https://github.com/XavierBerger/RPi-Monitor)
 - Testing:
