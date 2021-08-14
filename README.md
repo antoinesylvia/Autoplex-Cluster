@@ -85,8 +85,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
   - Pixie (x86/64, no ARM at the moment) (https://github.com/pixie-labs/pixie)
   - Grafana (can use Pixie as datasource) (https://github.com/grafana/grafana)
      - Prometheus (https://github.com/prometheus/prometheus)
-  
-  - Alerts/Notifications - BotKube....TBD
+     - Alerts/Notifications: Native channels in Grafana (Teams, Slack etc.) | Backup: BotKube
 - Pi Visibility - RPi-Monitor (https://github.com/XavierBerger/RPi-Monitor)
 - Testing:
   - Powerfulseal (injects failure) (https://github.com/powerfulseal/powerfulseal)
