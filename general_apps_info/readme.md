@@ -338,7 +338,7 @@ Plexarr Simple CLI tool to fix Plex library matches according to Sonarr/Radarr.
 		
 Posterr: Media display software for Plex, Sonarr and Radarr.
  - https://github.com/petersem/posterr
- - image: posterr
+ - image: petersem/posterr
 
 Projectsend: Open source software that lets you share files with your clients, focused on ease of use and privacy. It supports clients groups, system users roles, statistics, multiple languages, detailed logs... and much more! 
  - https://github.com/projectsend/projectsend
