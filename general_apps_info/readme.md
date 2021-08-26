@@ -194,6 +194,10 @@ Jellyfin: Suite of multimedia applications designed to organize, manage, and sha
  - https://github.com/jellyfin/jellyfin
  - image: ghcr.io/linuxserver/jellyfin
 
+Joplin: Open source note taking and to-do application
+- https://github.com/laurent22/joplin
+- image: joplin/server
+
 Kavita: Fast, feature rich, cross platform reading server. Built with a focus for manga and the goal of being a full solution for all your reading needs. Setup your own server and share your reading collection with your friends and family.
  - https://github.com/Kareadita/Kavita
  - image: kizaing/kavita:latest
