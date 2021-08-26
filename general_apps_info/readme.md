@@ -118,6 +118,10 @@ FileZilla Client: Fast and reliable cross-platform FTP, FTPS and SFTP client wit
 - https://filezilla-project.org
 - image: ghcr.io/linuxserver/filezilla
 
+Firefox: Free and open-source web browser developed by the Mozilla Foundation.
+- https://www.mozilla.org/en-US/firefox/
+- image: ghcr.io/linuxserver/firefox
+
 Fleet: Provides an online web interface which displays a set of maintained images from one or more owned repositories.
  - https://github.com/linuxserver/fleet
  - image: ghcr.io/linuxserver/fleet
