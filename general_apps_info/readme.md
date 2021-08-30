@@ -76,11 +76,11 @@ Composerize: Turns docker run commands into docker-compose files!
     			
 Cyberchef: #The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis.
  - https://github.com/gchq/CyberChef
- - image: "4nxio/cyberchef:latest"
+ - image: 4nxio/cyberchef:latest
 
 Dizquetv: Create live TV channels from your own media. Access the streams using the simulated HDHomerun tuner or the generated M3U URl.
 - https://github.com/vexorian/dizquetv
-- image: 'vexorian/dizquetv:latest'
+- image: vexorian/dizquetv:latest
 		
 Docker-bench-security: The Docker Bench for Security is a script that checks for dozens of common best-practices around deploying Docker containers in production.
  - https://github.com/docker/docker-bench-security
