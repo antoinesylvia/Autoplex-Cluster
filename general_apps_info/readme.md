@@ -194,7 +194,7 @@ Jellyfin: Suite of multimedia applications designed to organize, manage, and sha
  - https://github.com/jellyfin/jellyfin
  - image: ghcr.io/linuxserver/jellyfin
 
-Joplin: Open source note taking and to-do application
+Joplin: Open source note taking and to-do application (replaces Evernote).
 - https://github.com/laurent22/joplin
 - image: joplin/server
 
