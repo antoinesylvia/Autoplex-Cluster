@@ -96,7 +96,8 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 # Networking
 - Container Network Interface - Flannel (default) but enabled IPsec or Wireguard (between nodes/pods, still researching this and features at the service mesh level)
 - DNS - CoreDNS (default)
-- Ingress Controller - Nginx (Replacing Traefik) (https://github.com/kubernetes/ingress-nginx)
+- Ingress Controller - Ingress-Nginx (Replacing Traefik) (https://github.com/kubernetes/ingress-nginx)
+  - SSO/2FA/Auth - Authelia (https://github.com/authelia/authelia)
 - Load Balancer - Metallb (https://github.com/metallb/metallb)
 - Local Resources - Mount or Ktunnel (https://github.com/omrikiei/ktunnel?utm_sq=g93l33gmsu)
 - VPN (Wireguard based, testing the following to help extend the cluster offsite):
