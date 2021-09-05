@@ -98,7 +98,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 - Ingress Controller - Nginx (Replacing Traefik) (https://github.com/kubernetes/ingress-nginx)
 - Load Balancer - Metallb (https://github.com/metallb/metallb)
 - Local Resources - Mount or Ktunnel (https://github.com/omrikiei/ktunnel?utm_sq=g93l33gmsu)
-- VPN (Wireguard based, testing the following):
+- VPN (Wireguard based, testing the following to help extend the cluster offsite):
   - Drago (https://github.com/seashell/drago)
   - Netmaker (https://github.com/gravitl/netmaker)
   - Tailscale (https://github.com/tailscale/tailscale)
