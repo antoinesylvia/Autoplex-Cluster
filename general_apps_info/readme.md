@@ -524,7 +524,7 @@ Youtubedl-Material: Self-hosted YouTube downloader built on Material Design.
  - https://github.com/Tzahi12345/YoutubeDL-Material
  - image: tzahi12345/youtubedl-material:latest
 
-Youtube-DL: Command-line program to download videos from YouTube.com and other video sites. 
+Youtube-DL: Command-line program to download videos from YouTube.com and other video sites. (replacing with YT-DLP soon)
  - https://github.com/ytdl-org/youtube-dl
  - image: kmb32123/youtube-dl-server
 
