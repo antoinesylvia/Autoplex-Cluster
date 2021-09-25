@@ -376,14 +376,10 @@ Pyload: The free and open-source Download Manager written in pure Python.
  - https://github.com/pyload/pyload
  - image: ghcr.io/linuxserver/pyload
 
-Qbittorrent: BitTorrent client. 
+Qbittorrent with Flood UI: BitTorrent client. 
  - https://github.com/qbittorrent/qBittorrent
- - image: ghcr.io/linuxserver/qbittorrent
+ - image: hotio/qflood
 		
-Qbittorrent(flood-ui): Modern web UI for various torrent clients with a Node.js backend and React frontend. 
- - https://github.com/jesec/flood
- -
-
 Radarr: A fork of Sonarr to work with movies à la Couchpotato. 
  - https://github.com/Radarr/Radarr
  - image: ghcr.io/linuxserver/radarr
