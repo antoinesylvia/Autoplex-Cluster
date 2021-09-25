@@ -141,6 +141,10 @@ Fireflyiii: A personal finances manager.
 Gaps: Searches through your Plex Server or local folders for all movies, then queries for known movies in the same collection. If those movies don't exist in your library, Gaps will recommend getting those movies, legally of course.
  - https://github.com/JasonHHouse/gaps
  - image: housewrecker/gaps
+
+Gotify: A simple server for sending and receiving messages in real-time per WebSocket. Replaces Pushbullet. 
+ - https://github.com/gotify/server
+ - image: gotify/server
 		
 Guacamole: Clientless remote desktop gateway. It supports standard protocols like VNC, RDP, and SSH. We call it clientless because no plugins or client software are required. Thanks to HTML5, once Guacamole is installed on a server, all you need to access your desktops is a web browser.
  - https://github.com/apache/guacamole-server
