@@ -51,3 +51,10 @@ Network Inventory:
   - Switch (Ubiquiti US-24) - Managed - LAN2 port 
   - Switch - Ubiquiti (USW-Flex-Mini) 
   - Access Point (Ubiquiti)
+
+----------------------------------------------------------------------------------------
+Images:
+![1](https://github.com/antoinesylvia/Think-Pi-Nano-Cluster/blob/main/hardware_info/1a.jpg)
+![2](https://github.com/antoinesylvia/Think-Pi-Nano-Cluster/blob/main/hardware_info/2a.jpg)
+![3](https://github.com/antoinesylvia/Think-Pi-Nano-Cluster/blob/main/hardware_info/3a.jpg)
+![4](https://github.com/antoinesylvia/Think-Pi-Nano-Cluster/blob/main/hardware_info/4a.jpg)
