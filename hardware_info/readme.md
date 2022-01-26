@@ -13,7 +13,7 @@ Raspberry Pi 3 Model B - Broadcom BCM2837, ARM Cortex A53 (4 cores, 1.2 GHz) | 1
 Raspberry Pi 3 Model B+ - Broadcom BCM2837B0,  ARM Cortex A53 (4 cores, 1.4 GHz)  |1GB x6 - 6GB RAM TOTAL
 Raspberry Pi 2 Model B - Broadcom BCM2836, ARM Cortex A7 (4 cores, 900MHz) | 1GB x2 - 2GB RAM TOTAL
 
-*Note:I bought many of my Pi 4s and Jetson Nanos used last year from Amazon, way before the price increases.
+*Note: I bought many of my Pi 4s and Jetson Nanos used last year from Amazon, way before the price increases.
 
 ----------------------------------------------------------------------------------------
 Inventory X86/64: 5 Thinkpad laptops | 13 cores/26 threads | 78 GB RAM | 960 CUDA cores
