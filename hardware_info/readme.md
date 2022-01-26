@@ -54,6 +54,7 @@ Network Inventory:
 
 ----------------------------------------------------------------------------------------
 Images:
+
 ![1](https://github.com/antoinesylvia/Think-Pi-Nano-Cluster/blob/main/hardware_info/1a.jpg)
 ![2](https://github.com/antoinesylvia/Think-Pi-Nano-Cluster/blob/main/hardware_info/2a.jpg)
 ![3](https://github.com/antoinesylvia/Think-Pi-Nano-Cluster/blob/main/hardware_info/3a.jpg)
