@@ -1,13 +1,13 @@
 # Think-Pi-Nano+ | Autoplex Cluster Support Tools
 Nothing to see here yet as of January 2022, will hold the current state (application layer) for my Kubernetes K3s cluster (replicated from my self-hosted) Gitlab. This GitOps repo will also cover Kubernetes support tools and other self-hosted applications I'm running (includes guides). I'll be using Github pages for an associated blog tied to this project: https://antoinesylvia.github.io/Think-Pi-Nano-Cluster/
 
-My hardware information can be found here: https://github.com/antoinesylvia/Think-Pi-Nano-Cluster/tree/main/hardware_info
-
 Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will consolidate some more as I go. These tools were discovered in:
 - https://dockerlabs.collabnix.com/kubernetes/kubetools
 - https://github.com/tomhuang12/awesome-k8s-resources
 - https://www.cncf.io (Projects: Sandbox, Incubating, and Graduated)
 - https://www.reddit.com/r/kubernetes
+
+My hardware information can be found here: https://github.com/antoinesylvia/Think-Pi-Nano-Cluster/tree/main/hardware_info
 
 # Backup and Storage
 - Backup - Velero (https://github.com/vmware-tanzu/velero) and cloud storage (GCP, AWS, BackBlaze etc.)
