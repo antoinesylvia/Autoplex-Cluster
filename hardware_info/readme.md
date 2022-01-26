@@ -31,7 +31,7 @@ Inventory X86/64: 5 Thinkpad laptops | 13 cores/26 threads | 78 GB RAM | 960 CUD
 Extra Inventory for Cluster (if ever needed):
 
 With NVIDIA GPUs: 34 cores/60 threads | 272 GB RAM | 4160 CUDA cores (6720 CUDA cores if 2 graphics cards can be leveraged in 1 system)
-  - Custom Desktop 1 (Metroplex)-  AMD Ryzen Threadripper 1950X (16 cores and 32 threads, 3.4 GHz) | 128 GB RAM | p2000 = cuda 6.1 = 1024 cores
+  - Custom Desktop 1 (Metroplex) -  AMD Ryzen Threadripper 1950X (16 cores and 32 threads, 3.4 GHz) | 128 GB RAM | p2000 = cuda 6.1 = 1024 cores
   - Custom Desktop 2 (Retroplex) - Intel i7-6850K (6 cores and 12 threads, 3.8 GHz) | 96 GB RAM | GTX1080 = CUDA 6.1 = 2560 cores (x2)
   - Custom Desktop 3 (DallasHQ) - AMD FX-8150 (8 cores and 8 threads,  3.6 GHz) | 32 GB RAM | GeForce GT 710=CUDA 3.5 = 192 cores
   - Lenovo Y500 - Intel Core i7 3rd Gen 3630QM (4 cores and 8 threads, 2.40GHz with max at 3.40GHz) | 16 GB RAM | GeForce GT 650M= Cuda 3.0 - 384 cores (x2)
