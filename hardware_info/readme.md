@@ -3,27 +3,27 @@ Autoplex Cluster Hardware
 ----------------------------------------------------------------------------------------
 Inventory ARM: 46 Raspberry Pi Units & 6 Jetson Nanos | 208 cores | 172 GB RAM | 768 CUDA cores
 
-Jetson Nano - 2GBx6 - 12GB RAM TOTAL | 768 CUDA cores
-Raspberry Pi 4 Model B - Broadcom BCM2711, ARM Cortex-A72 (4 cores, 1.5 GHz) | 8GB x8 - 64GB RAM TOTAL
-Raspberry Pi 4 Model B - Broadcom BCM2711, ARM Cortex-A72 (4 cores, 1.5 GHz) | 4GB x13 - 52GB RAM TOTAL
-Raspberry Pi 4 Model B - Broadcom BCM2711, ARM Cortex-A72 (4 cores, 1.5 GHz) | 2GB x10 - 20GB RAM TOTAL
-Raspberry Pi 400 - Broadcom BCM2711, ARM Cortex-A72 (4 cores, 1.5 GHz) | 4GB x1 - 4GB RAM TOTAL
-Raspberry Compute Module 4 - Broadcom BCM2711, ARM Cortex-A72 (4 cores, 1.5 GHz) | 4GB x2 - 8GB RAM TOTAL
-Raspberry Pi 3 Model B - Broadcom BCM2837, ARM Cortex A53 (4 cores, 1.2 GHz) | 1GB x4 - 4GB RAM TOTAL
-Raspberry Pi 3 Model B+ - Broadcom BCM2837B0,  ARM Cortex A53 (4 cores, 1.4 GHz)  |1GB x6 - 6GB RAM TOTAL
-Raspberry Pi 2 Model B - Broadcom BCM2836, ARM Cortex A7 (4 cores, 900MHz) | 1GB x2 - 2GB RAM TOTAL
+  - Jetson Nano - 2GBx6 - 12GB RAM TOTAL | 768 CUDA cores
+  - Raspberry Pi 4 Model B - Broadcom BCM2711, ARM Cortex-A72 (4 cores, 1.5 GHz) | 8GB x8 - 64GB RAM TOTAL
+  - Raspberry Pi 4 Model B - Broadcom BCM2711, ARM Cortex-A72 (4 cores, 1.5 GHz) | 4GB x13 - 52GB RAM TOTAL
+  - Raspberry Pi 4 Model B - Broadcom BCM2711, ARM Cortex-A72 (4 cores, 1.5 GHz) | 2GB x10 - 20GB RAM TOTAL
+  - Raspberry Pi 400 - Broadcom BCM2711, ARM Cortex-A72 (4 cores, 1.5 GHz) | 4GB x1 - 4GB RAM TOTAL
+  - Raspberry Compute Module 4 - Broadcom BCM2711, ARM Cortex-A72 (4 cores, 1.5 GHz) | 4GB x2 - 8GB RAM TOTAL
+  - Raspberry Pi 3 Model B - Broadcom BCM2837, ARM Cortex A53 (4 cores, 1.2 GHz) | 1GB x4 - 4GB RAM TOTAL
+  - Raspberry Pi 3 Model B+ - Broadcom BCM2837B0,  ARM Cortex A53 (4 cores, 1.4 GHz)  |1GB x6 - 6GB RAM TOTAL
+  - Raspberry Pi 2 Model B - Broadcom BCM2836, ARM Cortex A7 (4 cores, 900MHz) | 1GB x2 - 2GB RAM TOTAL
 
 *Note: I bought many of my Pi 4s and Jetson Nanos used last year from Amazon, way before the price increases.
 
 ----------------------------------------------------------------------------------------
 Inventory X86/64: 5 Thinkpad laptops | 13 cores/26 threads | 78 GB RAM | 960 CUDA cores
 
-Thinkpad Yoga 14 - Intel i5-6200u (2 cores and 4 threads, 2.30 GHz) | 16 GB RAM | Nvidia 840M = CUDA 5.0 = 384 cores
-Thinkpad Yoga 12 - Intel i5-5300u (2 cores and 4 threads, 2.30 GHz) | 8 GB RAM
-Thinkpad T420 -  Intel i5-2520 (2 cores and 4 threads, 2.50 GHz) | 4 GB RAM
-Thinkpad T430s - Intel i5-3320M (2 cores and 4 threads, 2.60 GHz) | 16 GB RAM
-Thinkpad W541 - Intel i7-4940mx (4 cores and 8 threads, 3.10 GHz) | 32 GB RAM | Nvidia K2100M = CUDA 3.0 = 576
-Lenovo IdeaPad S10-3t -Intel Atom N450 (1 cores and 2 threads, 1.6 GHz) | 2 GB RAM
+  - Thinkpad Yoga 14 - Intel i5-6200u (2 cores and 4 threads, 2.30 GHz) | 16 GB RAM | Nvidia 840M = CUDA 5.0 = 384 cores
+  - Thinkpad Yoga 12 - Intel i5-5300u (2 cores and 4 threads, 2.30 GHz) | 8 GB RAM
+  - Thinkpad T420 -  Intel i5-2520 (2 cores and 4 threads, 2.50 GHz) | 4 GB RAM
+  - Thinkpad T430s - Intel i5-3320M (2 cores and 4 threads, 2.60 GHz) | 16 GB RAM
+  - Thinkpad W541 - Intel i7-4940mx (4 cores and 8 threads, 3.10 GHz) | 32 GB RAM | Nvidia K2100M = CUDA 3.0 = 576
+  - Lenovo IdeaPad S10-3t -Intel Atom N450 (1 cores and 2 threads, 1.6 GHz) | 2 GB RAM
 
 *Note: I have bought many used Thinkpads from Ebay over the past decade.
 
