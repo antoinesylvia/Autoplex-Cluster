@@ -27,7 +27,8 @@ Lenovo IdeaPad S10-3t -Intel Atom N450 (1 cores and 2 threads, 1.6 GHz) | 2 GB R
 
 *Note: I have bought many used Thinkpads from Ebay over the past decade.
 
-Extra Inventory for Cluster (if ever needed)------------------------
+----------------------------------------------------------------------------------------
+Extra Inventory for Cluster (if ever needed):
 
 With NVIDIA GPUs: 34 cores/60 threads | 272 GB RAM | 4160 CUDA cores (6720 CUDA cores if 2 graphics cards can be leveraged in 1 system)
 Custom Desktop 1 (Metroplex)-  AMD Ryzen Threadripper 1950X (16 cores and 32 threads, 3.4 GHz) | 128 GB RAM | p2000 = cuda 6.1 = 1024 cores
@@ -37,11 +38,13 @@ Lenovo Y500 - Intel Core i7 3rd Gen 3630QM (4 cores and 8 threads, 2.40GHz with 
 
 *Note: I built the 3 custom machines above.
 
+----------------------------------------------------------------------------------------
 Cluster Support Units:
 HP Microserver - AMD Turion II Neo N54L ( 2 cores and 2 threads, 2.2 GHz) | 16 GB RAM | GeForce GT 520 = CUDA 2.1 = 48 cores
 3 Raspberry Pi Zero W -  BCM2835,  1 cores, 1GHz | 512 RAM
 Samsung ATIV Book 7 740U3E - Intel i5 3337U (2 cores and 4 threads, 1.8 GHz) | 16 GB RAM
 
+----------------------------------------------------------------------------------------
 Inventory Networking------------------------Will add details of switches later
 
 Switch - Managed - LAN2
