@@ -45,10 +45,9 @@ Cluster Support Units (Persistant Storage/Network Monitoring Etc.):
   - Samsung ATIV Book 7 740U3E - Intel i5 3337U (2 cores and 4 threads, 1.8 GHz) | 16 GB RAM
 
 ----------------------------------------------------------------------------------------
-Inventory Networking------------------------Will add details of switches later
+Network Inventory:
 
-  - Switch - Managed - LAN2
-  - Switch - Unmanaged
-  - Switch - Unmanaged
-  - Switch - Unmanaged
-  - Access Point
+  - Gateway (Ubiquiti USG)
+  - Switch (Ubiquiti US-24) - Managed - LAN2 port 
+  - Switch - Ubiquiti (USW-Flex-Mini) 
+  - Access Point (Ubiquiti)
