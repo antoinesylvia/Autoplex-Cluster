@@ -59,3 +59,4 @@ Images:
 ![2](https://github.com/antoinesylvia/Think-Pi-Nano-Cluster/blob/main/hardware_info/2a.jpg)
 ![3](https://github.com/antoinesylvia/Think-Pi-Nano-Cluster/blob/main/hardware_info/3a.jpg)
 ![4](https://github.com/antoinesylvia/Think-Pi-Nano-Cluster/blob/main/hardware_info/4a.jpg)
+![5](https://github.com/antoinesylvia/Think-Pi-Nano-Cluster/blob/main/hardware_info/5a.jpg)
