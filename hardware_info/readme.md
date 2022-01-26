@@ -13,7 +13,7 @@ Inventory ARM: 46 Raspberry Pi Units & 6 Jetson Nanos | 208 cores | 172 GB RAM |
   - Raspberry Pi 3 Model B+ - Broadcom BCM2837B0,  ARM Cortex A53 (4 cores, 1.4 GHz)  |1GB x6 - 6GB RAM TOTAL
   - Raspberry Pi 2 Model B - Broadcom BCM2836, ARM Cortex A7 (4 cores, 900MHz) | 1GB x2 - 2GB RAM TOTAL
 
-*Note: I bought many of my Pi 4s and Jetson Nanos used last year from Amazon, way before the price increases.*
+***Note: I bought many of my Pi 4s and Jetson Nanos used last year from Amazon, way before the price increases.***
 
 ----------------------------------------------------------------------------------------
 Inventory X86/64: 5 Thinkpad laptops | 13 cores/26 threads | 78 GB RAM | 960 CUDA cores
@@ -25,7 +25,7 @@ Inventory X86/64: 5 Thinkpad laptops | 13 cores/26 threads | 78 GB RAM | 960 CUD
   - Thinkpad W541 - Intel i7-4940mx (4 cores and 8 threads, 3.10 GHz) | 32 GB RAM | Nvidia K2100M = CUDA 3.0 = 576
   - Lenovo IdeaPad S10-3t -Intel Atom N450 (1 cores and 2 threads, 1.6 GHz) | 2 GB RAM
 
-*Note: I have bought many used Thinkpads from Ebay over the past decade.*
+***Note: I have bought many used Thinkpads from Ebay over the past decade.***
 
 ----------------------------------------------------------------------------------------
 Extra Inventory for Cluster (if ever needed):
@@ -36,7 +36,7 @@ With NVIDIA GPUs: 34 cores/60 threads | 272 GB RAM | 4160 CUDA cores (6720 CUDA 
   - Custom Desktop 3 (DallasHQ) - AMD FX-8150 (8 cores and 8 threads,  3.6 GHz) | 32 GB RAM | GeForce GT 710=CUDA 3.5 = 192 cores
   - Lenovo Y500 - Intel Core i7 3rd Gen 3630QM (4 cores and 8 threads, 2.40GHz with max at 3.40GHz) | 16 GB RAM | GeForce GT 650M= Cuda 3.0 - 384 cores (x2)
 
-*Note: I built the 3 custom machines above.*
+***Note: I built the 3 custom machines above.***
 
 ----------------------------------------------------------------------------------------
 Cluster Support Units (Persistant Storage/Network Monitoring Etc.):
