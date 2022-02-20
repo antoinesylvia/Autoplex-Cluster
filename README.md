@@ -14,6 +14,7 @@ Hardware information can be found here: https://github.com/antoinesylvia/Autople
 Application information can be found here: https://github.com/antoinesylvia/Autoplex-Cluster/tree/main/general_apps_info
 
 # Autoplex Cluster - Support Tools
+--------------------------------------------------------------
 
 # Backup and Storage
 - Backup - Velero (https://github.com/vmware-tanzu/velero) and cloud storage (GCP, AWS, BackBlaze etc.)
