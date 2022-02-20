@@ -151,3 +151,9 @@ My hardware information can be found here: https://github.com/antoinesylvia/Thin
 - Kelsey Hightower (https://twitter.com/kelseyhightower)
 - Nana Tech World (https://www.youtube.com/channel/UCdngmbVKX1Tgre699-XLlUA)
 
+# ZUnderReview
+- Rook - Storage Orchestration (https://github.com/rook/rook)
+- Kruise - Application Mgmt. Autoamtion (https://github.com/openkruise/kruise)
+- OSM - Serivce Mesh (https://github.com/openservicemesh/osm/)
+- Stern - Multi pod and container log tailing (https://github.com/wercker/stern)
+
