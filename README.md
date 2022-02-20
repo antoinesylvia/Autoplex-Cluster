@@ -7,7 +7,8 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 - https://www.cncf.io (Projects: Sandbox, Incubating, and Graduated)
 - https://www.reddit.com/r/kubernetes
 
-My hardware information can be found here: https://github.com/antoinesylvia/Think-Pi-Nano-Cluster/tree/main/hardware_info
+Hardware information can be found here: https://github.com/antoinesylvia/Think-Pi-Nano-Cluster/tree/main/hardware_info
+Application information can be found here: 
 
 # Backup and Storage
 - Backup - Velero (https://github.com/vmware-tanzu/velero) and cloud storage (GCP, AWS, BackBlaze etc.)
