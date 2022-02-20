@@ -315,6 +315,10 @@ Overseerr: Request management and media discovery tool for the Plex ecosystem.
 Pasta: Audio & Subtitle Track Changer for Plex.
  - https://github.com/cglatot/pasta
  - image: cglatot/pasta
+
+Peppermint: Ticket Management System
+ - https://github.com/Peppermint-Lab/peppermint
+ - image: pepperlabs/peppermint
 		
 Petio: Third party companion app available to Plex server owners to allow their users to request, review and discover content. 
  - https://github.com/petio-team/petio
