@@ -160,6 +160,8 @@ Application information can be found here: https://github.com/antoinesylvia/Auto
 - Julia Evans (https://twitter.com/b0rk)
 - Kelsey Hightower (https://twitter.com/kelseyhightower)
 - Nana Tech World (https://www.youtube.com/channel/UCdngmbVKX1Tgre699-XLlUA)
+- DevOps Toolkit (https://www.youtube.com/channel/UCfz8x0lVzJpb_dgWm9kPVrw)
+- Anais Urlichs (https://www.youtube.com/c/AnaisUrlichs)
 
 # zUnderReview
 - Rook - Storage Orchestration (https://github.com/rook/rook)
