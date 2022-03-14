@@ -171,7 +171,7 @@ Application information can be found here: https://github.com/antoinesylvia/Auto
 - Otomi - Kubernets App Configs/Install (https://github.com/redkubes/otomi-core)
 - GlusterFS - Distributed File System (https://github.com/gluster/glusterfs)
 
-#zCoolProjectsToTrack
+# zCoolProjectsToTrack
 - https://github.com/Michaelpalacce/HomeLab
 - https://github.com/k8s-at-home/template-cluster-k3s
 - https://github.com/khuedoan/homelab
