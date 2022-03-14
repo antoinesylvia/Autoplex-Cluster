@@ -167,4 +167,12 @@ Application information can be found here: https://github.com/antoinesylvia/Auto
 - OSM - Serivce Mesh (https://github.com/openservicemesh/osm/)
 - Stern - Multi pod and container log tailing (https://github.com/wercker/stern)
 - KubeCTX - Faster way to switch between clusters and namespaces in KubeCTL (https://github.com/ahmetb/kubectx)
+- Nova - Find Deprecated Helm charts in cluster (https://github.com/FairwindsOps/nova)
+- Otomi - Kubernets App Configs/Install (https://github.com/redkubes/otomi-core)
+- GlusterFS - Distributed File System (https://github.com/gluster/glusterfs)
 
+#zCoolProjectsToTrack
+- https://github.com/Michaelpalacce/HomeLab
+- https://github.com/k8s-at-home/template-cluster-k3s
+- https://github.com/khuedoan/homelab
+- https://github.com/dirtycajunrice/gitops
