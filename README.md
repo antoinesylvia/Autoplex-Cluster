@@ -4,6 +4,9 @@ Nothing to see here yet as of March 2022, will hold the current state (applicati
 
 I'll be using Github pages for an associated blog tied to this project: https://antoinesylvia.github.io/Think-Pi-Nano-Cluster/
 
+![1](https://github.com/antoinesylvia/Autoplex-Cluster/blob/main/Kubernetes_After_Dark.jpg)
+
+
 Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will consolidate some more as I go. These tools were discovered in:
 - https://dockerlabs.collabnix.com/kubernetes/kubetools
 - https://github.com/tomhuang12/awesome-k8s-resources
