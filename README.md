@@ -2,7 +2,7 @@ Nothing to see here yet as of March 2022, will hold the current state (applicati
  - https://hackaday.com/2014/02/17/40-node-raspi-cluster/
  - https://dallasmakerspace.org/wiki/40-node_Raspberry_Pi_Cluster
 
-I'll be using Github pages for an associated blog tied to this project: https://antoinesylvia.github.io/Think-Pi-Nano-Cluster/
+I'll be using Github pages for an associated blog tied to this project: https://antoinesylvia.github.io/Autoplex-Cluster/
 
 ![1](https://github.com/antoinesylvia/Autoplex-Cluster/blob/main/Kubernetes_After_Dark.jpg)
 
