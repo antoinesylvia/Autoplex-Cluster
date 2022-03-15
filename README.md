@@ -162,6 +162,7 @@ Application information can be found here: https://github.com/antoinesylvia/Auto
 - Nana Tech World (https://www.youtube.com/channel/UCdngmbVKX1Tgre699-XLlUA)
 - DevOps Toolkit (https://www.youtube.com/channel/UCfz8x0lVzJpb_dgWm9kPVrw)
 - Anais Urlichs (https://www.youtube.com/c/AnaisUrlichs)
+- Network Chuck (https://www.youtube.com/watch?v=X9fSMGkjtug)
 
 # zUnderReview
 - Rook - Storage Orchestration (https://github.com/rook/rook)
@@ -173,5 +174,5 @@ Application information can be found here: https://github.com/antoinesylvia/Auto
 - Otomi - Kubernets App Configs/Install (https://github.com/redkubes/otomi-core)
 - GlusterFS - Distributed File System (https://github.com/gluster/glusterfs)
 
-# zCoolGitOpsProjectsToTrack (list below for projects, used for cluster state)
+# zCoolGitOpsProjectsToTrack (created a list below for Github projects, used for cluster state)
 - https://github.com/stars/antoinesylvia/lists/gitops
