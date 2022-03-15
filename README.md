@@ -175,4 +175,4 @@ Application information can be found here: https://github.com/antoinesylvia/Auto
 - GlusterFS - Distributed File System (https://github.com/gluster/glusterfs)
 
 # zCoolGitOpsProjectsToTrack (created a list below for Github projects, used for cluster state)
-- https://github.com/stars/antoinesylvia/lists/gitops
+- https://github.com/stars/antoinesylvia/lists/gitops-in-action
