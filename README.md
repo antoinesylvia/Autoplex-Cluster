@@ -15,7 +15,7 @@ Image 1 (Pi 4s & old HP Microserver (persistant storage)       |  Image 2 (Pi 4s
 :-------------------------:|:-------------------------:
 ![](https://github.com/antoinesylvia/Think-Pi-Nano-Cluster/blob/main/hardware_info/1a.jpg)  |  ![](https://github.com/antoinesylvia/Think-Pi-Nano-Cluster/blob/main/hardware_info/2a.jpg)
 
-Image 3 (Jetson Nanos)        |  Image 4 (Old Thinkpads, dusted off and my custom built desktops)
+Image 3 (Jetson Nanos)        |  Image 4 (Old Thinkpads and my custom built desktops)
 :-------------------------:|:-------------------------:
 ![](https://github.com/antoinesylvia/Think-Pi-Nano-Cluster/blob/main/hardware_info/3a.jpg)  |  ![](https://github.com/antoinesylvia/Think-Pi-Nano-Cluster/blob/main/hardware_info/4a.jpg)
 
