@@ -19,7 +19,7 @@ Image 3 (Jetson Nanos)        |  Image 4 (Old Thinkpads and my custom built desk
 :-------------------------:|:-------------------------:
 ![](https://github.com/antoinesylvia/Think-Pi-Nano-Cluster/blob/main/hardware_info/3a.jpg)  |  ![](https://github.com/antoinesylvia/Think-Pi-Nano-Cluster/blob/main/hardware_info/4a.jpg)
 
-Image 5 (Gateway for LAN1/LAN2)        |  Image 6 (Mgmt. Location)
+Image 5 (Gateway for LAN1/LAN2, Switch and old Pis)        |  Image 6 (Mgmt. Location)
 :-------------------------:|:-------------------------:
 ![](https://github.com/antoinesylvia/Think-Pi-Nano-Cluster/blob/main/hardware_info/5a.jpg)  |  ![](https://github.com/antoinesylvia/Think-Pi-Nano-Cluster/blob/main/hardware_info/6a.jpg)
 
