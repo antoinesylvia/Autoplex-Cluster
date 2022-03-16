@@ -8,9 +8,9 @@ Note: Other people that will have access to this cluster will be my cousins look
 
 ![1](https://github.com/antoinesylvia/Autoplex-Cluster/blob/main/Kubernetes_After_Dark.jpg)
 
-Hardware information and cluster pictures  can be found here: https://github.com/antoinesylvia/Autoplex-Cluster/tree/main/hardware_info
+Hardware information and cluster pictures can be found here: https://github.com/antoinesylvia/Autoplex-Cluster/tree/main/hardware_info
 
-Application information can be found here: https://github.com/antoinesylvia/Autoplex-Cluster/tree/main/general_apps_info
+General Application information can be found here: https://github.com/antoinesylvia/Autoplex-Cluster/tree/main/general_apps_info
 
 # Autoplex Cluster - Support Tools
 --------------------------------------------------------------
