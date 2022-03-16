@@ -8,6 +8,9 @@ Note: Other people that will have access to this cluster will be my cousins look
 
 ![1](https://github.com/antoinesylvia/Autoplex-Cluster/blob/main/Kubernetes_After_Dark.jpg)
 
+Hardware information and cluster pictures  can be found here: https://github.com/antoinesylvia/Autoplex-Cluster/tree/main/hardware_info
+
+Application information can be found here: https://github.com/antoinesylvia/Autoplex-Cluster/tree/main/general_apps_info
 
 Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will consolidate some more as I go. These tools were discovered in:
 - https://dockerlabs.collabnix.com/kubernetes/kubetools
@@ -15,8 +18,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 - https://www.cncf.io (Projects: Sandbox, Incubating, and Graduated)
 - https://www.reddit.com/r/kubernetes
 
-Hardware information can be found here: https://github.com/antoinesylvia/Autoplex-Cluster/tree/main/hardware_info
-Application information can be found here: https://github.com/antoinesylvia/Autoplex-Cluster/tree/main/general_apps_info
+
 
 # Autoplex Cluster - Support Tools
 --------------------------------------------------------------
