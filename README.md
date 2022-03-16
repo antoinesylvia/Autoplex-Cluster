@@ -3,6 +3,7 @@ Nothing to see here yet as of March 2022, will hold the current state (applicati
  - https://dallasmakerspace.org/wiki/40-node_Raspberry_Pi_Cluster
 
 I'll be using Github pages for an associated blog tied to this project: https://antoinesylvia.github.io/Autoplex-Cluster/
+Note: Other people that will have access to this cluster will be my cousins looking to attain hands-on skills needed for their pursuit of entry level jobs, wife (engineer) and friends (security engineers) when it's all said and done. One step at a time.
 
 ![1](https://github.com/antoinesylvia/Autoplex-Cluster/blob/main/Kubernetes_After_Dark.jpg)
 
