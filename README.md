@@ -12,16 +12,13 @@ Hardware information and cluster pictures  can be found here: https://github.com
 
 Application information can be found here: https://github.com/antoinesylvia/Autoplex-Cluster/tree/main/general_apps_info
 
+# Autoplex Cluster - Support Tools
+--------------------------------------------------------------
 Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will consolidate some more as I go. These tools were discovered in:
 - https://dockerlabs.collabnix.com/kubernetes/kubetools
 - https://github.com/tomhuang12/awesome-k8s-resources
 - https://www.cncf.io (Projects: Sandbox, Incubating, and Graduated)
 - https://www.reddit.com/r/kubernetes
-
-
-
-# Autoplex Cluster - Support Tools
---------------------------------------------------------------
 
 # Backup and Storage
 - Backup - Velero (https://github.com/vmware-tanzu/velero) and cloud storage (GCP, AWS, BackBlaze etc.)
