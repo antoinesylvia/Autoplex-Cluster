@@ -9,6 +9,9 @@ Note: Other people that will have access to this cluster will be my cousins look
 ![1](https://github.com/antoinesylvia/Autoplex-Cluster/blob/main/Kubernetes_After_Dark.jpg)
 
 Hardware information and cluster pictures can be found here: https://github.com/antoinesylvia/Autoplex-Cluster/tree/main/hardware_info
+![alt-text-1](https://github.com/antoinesylvia/Think-Pi-Nano-Cluster/blob/main/hardware_info/1a.jpg "title-1") ![alt-text-2](https://github.com/antoinesylvia/Think-Pi-Nano-Cluster/blob/main/hardware_info/1a.jpg "title-2")![alt-text-1](https://github.com/antoinesylvia/Think-Pi-Nano-Cluster/blob/main/hardware_info/1a.jpg "title-1") ![alt-text-2](https://github.com/antoinesylvia/Think-Pi-Nano-Cluster/blob/main/hardware_info/1a.jpg "title-2")
+
+
 
 General Application information can be found here: https://github.com/antoinesylvia/Autoplex-Cluster/tree/main/general_apps_info
 
