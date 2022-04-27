@@ -155,6 +155,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
   - 1B. Sealed-Secrets (https://github.com/bitnami-labs/sealed-secrets)
   - 1C. Mozilla SOPS (https://github.com/mozilla/sops)
 - Service Mesh - LinkerD (https://github.com/linkerd/linkerd2)
+  - Someone made a document comparing all the service mesh options, please note not all support ARM: https://docs.google.com/spreadsheets/d/1Bxf8VW9n-YyHeBiKdXt6zytOgw2cQlsDnK1gLUvsZ4A/edit#gid=907731238  
 
 # Serverless 
 - Serverless - OpenFaaS (https://github.com/openfaas/faas)
