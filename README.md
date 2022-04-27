@@ -182,7 +182,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 
 # zUnderReview
 - Rook - Storage Orchestration (https://github.com/rook/rook)
-- Kruise - Application Mgmt. Autoamtion (https://github.com/openkruise/kruise)
+- Kruise - Application Mgmt. Automation (https://github.com/openkruise/kruise)
 - OSM - Serivce Mesh (https://github.com/openservicemesh/osm/)
 - Stern - Multi pod and container log tailing (https://github.com/wercker/stern)
 - KubeCTX - Faster way to switch between clusters and namespaces in KubeCTL (https://github.com/ahmetb/kubectx)
@@ -194,5 +194,8 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 # zCoolGitOpsProjectsToTrack (created a list below for Github projects, used for cluster state)
 - https://github.com/stars/antoinesylvia/lists/gitops-in-action
 
-# zConferenceToAttend
-- KubeCon '22 in Detroit: https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/
+# zConferenceToAttend_2022
+- KubeCon in Detroit: https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/
+
+#zCertificationToAttain_2022
+- Certified Kubernetes Administrator (CKA) :https://www.cncf.io/certification/cka/
