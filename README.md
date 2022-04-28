@@ -198,4 +198,4 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 - KubeCon in Detroit: https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/
 
 # zCertificationToAttain_2022
-- Certified Kubernetes Administrator (CKA) :https://www.cncf.io/certification/cka/
+- Certified Kubernetes Administrator (CKA): https://www.cncf.io/certification/cka/
