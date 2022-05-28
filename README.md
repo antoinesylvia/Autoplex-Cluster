@@ -179,6 +179,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 - DevOps Toolkit (https://www.youtube.com/channel/UCfz8x0lVzJpb_dgWm9kPVrw)
 - Anais Urlichs (https://www.youtube.com/c/AnaisUrlichs)
 - Network Chuck (https://www.youtube.com/watch?v=X9fSMGkjtug)
+- Techno Tim (https://www.youtube.com/c/TechnoTimLive)
 
 # zUnderReview
 - Rook - Storage Orchestration (https://github.com/rook/rook)
