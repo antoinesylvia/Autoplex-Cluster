@@ -28,7 +28,7 @@ Inventory X86/64: 5 Thinkpad laptops | 13 cores/26 threads | 78 GB RAM | 960 CUD
 ***Note: I have bought many used Thinkpads from Ebay over the past decade.***
 
 ----------------------------------------------------------------------------------------
-Extra Inventory for Cluster (if ever needed):
+Extra Inventory for Cluster (if ever needed via Windows Subsystem for Linux (WSL)):
 
 With NVIDIA GPUs: 34 cores/60 threads | 272 GB RAM | 4160 CUDA cores (6720 CUDA cores if 2 graphics cards can be leveraged in 1 system)
   - Custom Desktop 1 (Metroplex) -  AMD Ryzen Threadripper 1950X (16 cores and 32 threads, 3.4 GHz) | 128 GB RAM | p2000 = cuda 6.1 = 1024 cores
