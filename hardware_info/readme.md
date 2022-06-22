@@ -13,7 +13,7 @@ Inventory ARM: 46 Raspberry Pi Units & 6 Jetson Nanos | 208 cores | 172 GB RAM |
   - Raspberry Pi 3 Model B+ - Broadcom BCM2837B0,  ARM Cortex A53 (4 cores, 1.4 GHz)  |1GB x6 - 6GB RAM TOTAL
   - Raspberry Pi 2 Model B - Broadcom BCM2836, ARM Cortex A7 (4 cores, 900MHz) | 1GB x2 - 2GB RAM TOTAL
 
-***Note: I bought many of my Pi 4s and Jetson Nanos used last year from Amazon, way before the price increases. Since this are out of stock now, I would recommend buying x86/64 "micro form factor" PCs used off of Ebay (buy a lot that fits your budget, I try to stay between $60-$115). These would be models since as Dell Optiplex, HP EliteDesk and the Lenovo ThinkCentre units.***
+***Note: I bought many of my Pi 4s and Jetson Nanos used last year from Amazon, way before the price increases. Since these are out of stock most of the time (https://rpilocator.com/), I would recommend buying x86/64 "micro form factor" PCs used off of Ebay (buy a lot that fits your budget, I try to stay between $60-$115). These would be models since as Dell Optiplex, HP EliteDesk and the Lenovo ThinkCentre units.***
 
 ----------------------------------------------------------------------------------------
 Inventory X86/64: 5 Thinkpad laptops | 13 cores/26 threads | 78 GB RAM | 960 CUDA cores
