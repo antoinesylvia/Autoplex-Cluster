@@ -191,6 +191,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 - Otomi - Kubernets App Configs/Install (https://github.com/redkubes/otomi-core)
 - GlusterFS - Distributed File System (https://github.com/gluster/glusterfs)
 - Mizu - API Traffic Viewer (https://github.com/up9inc/mizu)
+- Kubernetes Goat - Vulnerable cluster by default (https://github.com/madhuakula/kubernetes-goat)
 
 # zCoolGitOpsProjectsToTrack (created a list below for Github projects, used for cluster state)
 - https://github.com/stars/antoinesylvia/lists/gitops-in-action
