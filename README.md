@@ -202,3 +202,4 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 # zCertificationToAttain_2022
 - Certified Kubernetes Administrator (CKA): https://www.cncf.io/certification/cka/
   - Booked!
+  - Exam Prep Course: https://www.techworld-with-nana.com/kubernetes-administrator-cka ($$)
