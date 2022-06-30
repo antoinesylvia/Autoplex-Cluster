@@ -283,7 +283,11 @@ nginx-ui: Nginx UI allows you to access and modify the nginx configurations file
 Node-red: Low-code programming for event-driven applications.
  - https://github.com/node-red/node-red
  - image: nodered/node-red
-
+ 
+Notifiarr: Enables content requests from Media Bot in your Discord Server. It also provides reports for Plex usage and system health.
+ - https://notifiarr.com/
+ - image: golift/notifiarr
+	
 Nowshowing: #Generates an email and web page of Plex recently added content.
  - https://github.com/ninthwalker/NowShowing
  - image: ninthwalker/nowshowing:v2	
@@ -467,6 +471,11 @@ Shynet: Modern, privacy-friendly, and detailed web analytics that works without 
 SSHtron: Play Tron over SSH.
  - https://github.com/zachlatta/sshtron
  - image: sshtron
+ 
+TaskCafe: Kanban board.
+ - https://github.com/JordanKnott/taskcafe
+ - taskcafe/taskcafe
+
 		
 Taisun: Application for a Docker enabled device with an emphasis on providing a web based interface for managing a single server. 
  - https://github.com/Taisun-Docker/taisun
