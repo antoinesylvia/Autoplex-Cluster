@@ -192,6 +192,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 - GlusterFS - Distributed File System (https://github.com/gluster/glusterfs)
 - Mizu - API Traffic Viewer (https://github.com/up9inc/mizu)
 - Kubernetes Goat - Vulnerable cluster by default (https://github.com/madhuakula/kubernetes-goat)
+- Carvel-YTT - YAML Templating Tool (https://github.com/vmware-tanzu/carvel-ytt)
 
 # zCoolGitOpsProjectsToTrack (created a list below for Github projects, used for cluster state)
 - https://github.com/stars/antoinesylvia/lists/gitops-in-action
@@ -206,3 +207,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
   - Exam Prep Course: https://www.techworld-with-nana.com/kubernetes-administrator-cka ($$)
   - Github Resource: https://github.com/kmjayadeep/cka-learning
   - Github Resource: https://github.com/eon01/kubectl-SheetCheat
+
+# zKubernetesOther
+- Kubernetes Documentary Part 1 (https://www.youtube.com/watch?v=BE77h7dmoQU)
+- Kubernetes Documentary Part 2 (https://www.youtube.com/watch?v=318elIq37PE)
