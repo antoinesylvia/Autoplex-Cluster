@@ -167,7 +167,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 - Raspberry Pi (https://projects.raspberrypi.org/en/projects/raspberry-pi-getting-started/)
 - Blinkt Lights for Pi/Nano (https://learn.pimoroni.com/tutorial/sandyj/getting-started-with-blinkt)
 
-# zOther - People I follow to learn more about Docker and/or Kubernetes
+# zOther - People I follow to learn more about Docker, Kubernetes, DevOps, and/or ARM
 - Ajeet Singh Raina (https://twitter.com/ajeetsraina)
 - Alex Ellis (https://twitter.com/alexellisuk)
 - Ian Coldwater (https://twitter.com/IanColdwater)
