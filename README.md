@@ -177,6 +177,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 - Jessie Frazelle (https://twitter.com/jessfraz)
 - Julia Evans (https://twitter.com/b0rk)
 - Kelsey Hightower (https://twitter.com/kelseyhightower)
+- Maria Markstedter (https://twitter.com/fox0x01)
 - Nana Tech World (https://www.youtube.com/channel/UCdngmbVKX1Tgre699-XLlUA)
 - Network Chuck (https://www.youtube.com/watch?v=X9fSMGkjtug)
 - Techno Tim (https://www.youtube.com/c/TechnoTimLive)
