@@ -198,10 +198,6 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 # zCoolGitOpsProjectsToTrack (created a list below for Github projects, used for cluster state)
 - https://github.com/stars/antoinesylvia/lists/gitops-in-action
 
-# zConferenceToAttend_2022
-- KubeCon in Detroit: https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/
-  - Confirmed as of June 3rd for in-person.   
-
 # zCertificationToAttain_2022
 - Certified Kubernetes Administrator (CKA): https://www.cncf.io/certification/cka/
   - Booked!
