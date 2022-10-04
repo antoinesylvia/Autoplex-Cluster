@@ -112,7 +112,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
   - Pixie (x86/64, no ARM at the moment) (https://github.com/pixie-labs/pixie)
   - Grafana (can use Pixie as datasource) (https://github.com/grafana/grafana)
      - Prometheus (https://github.com/prometheus/prometheus)
-     - Alerts/Notifications: Native channels in Grafana (Teams, Slack etc.) | Backup: BotKube
+  - BotKube (Alerts/Notifications for Discord/Slack) (https://github.com/kubeshop/botkube) 
   - Uptime-Kuma (Uptime Robot replacement, host offsite in cloud w/ Wireguard link) (https://github.com/louislam/uptime-kuma)
 - Pi Visibility - RPi-Monitor (https://github.com/XavierBerger/RPi-Monitor)
 - Testing:
