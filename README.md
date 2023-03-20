@@ -142,7 +142,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 - Certs - Cert Manager (https://github.com/jetstack/cert-manager)
 - Misconfigs - TBD as this will be used with Gitlab CI, evaluating Popeye, Kube-Bench, Kube Linter
 - Vulnerabilities:
-  - Deepfence Runtime ThreatMapper (https://github.com/deepfence/ThreatMapper) Note: Used for containers, images, hosts and registries/repositories.
+  - Deepfence Runtime ThreatMapper (https://github.com/deepfence/ThreatMapper) Note: Used for containers, images, hosts and registries/repositories (supports Harbor).
   - Kube-Hunter (Pen Test) (https://github.com/aquasecurity/kube-hunter)
 - Policy - Kyverno (https://github.com/kyverno/kyverno)
 - Object Definitions - Kube-Score (https://github.com/zegl/kube-score)
