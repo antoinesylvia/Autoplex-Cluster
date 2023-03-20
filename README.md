@@ -50,7 +50,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 # GitOps and Automation
 - Config Management:
   - Ansible (https://github.com/ansible/ansible) 
-    - AWX (https://github.com/ansible/awx)
+    - AWX - Ansible Web UI (https://github.com/ansible/awx)
 - App Delivery Workflow - Devtron (https://github.com/devtron-labs/devtron)
 - App Package Management:
   - Helm (https://github.com/helm/helm)
