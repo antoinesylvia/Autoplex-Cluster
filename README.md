@@ -137,7 +137,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 
 # Security
 - Certs - Cert Manager (https://github.com/jetstack/cert-manager)
-- Misconfigs - TBD as this will be used with Gitlab CI, evaluating Popeye, Kube-Bench, Kube Linter
+- Misconfigs - TBD as this will be used with CI tool, evaluating Popeye, Kube-Bench, Kube Linter
 - Vulnerabilities:
   - Deepfence Runtime ThreatMapper (https://github.com/deepfence/ThreatMapper) Note: Used for containers, images, hosts and registries/repositories (supports Harbor).
   - Kube-Hunter (Pen Test) (https://github.com/aquasecurity/kube-hunter)
@@ -148,7 +148,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
   - Kubectl who-can (https://github.com/aquasecurity/kubectl-who-can)
   - Teleport (https://github.com/gravitational/teleport)
 - Secrets (TBD after digging through articles and many Reddit threads): 
-  - 1A. Hashicorp Vault (https://github.com/hashicorp/vault) w/Kubernetes external secrets plugin (https://github.com/external-secrets/kubernetes-external-secrets)
+  - 1A. Hashicorp Vault (https://github.com/hashicorp/vault) ~~w/Kubernetes external secrets plugin (https://github.com/external-secrets/kubernetes-external-secrets)
   - 1B. Sealed-Secrets (https://github.com/bitnami-labs/sealed-secrets)
   - 1C. Mozilla SOPS (https://github.com/mozilla/sops)
 - Service Mesh - LinkerD (https://github.com/linkerd/linkerd2)
@@ -180,17 +180,17 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 - Techno Tim (https://www.youtube.com/c/TechnoTimLive)
 
 # zUnderReview
-- Carvel-YTT - YAML Templating Tool (https://github.com/vmware-tanzu/carvel-ytt)
-- GlusterFS - Distributed File System (https://github.com/gluster/glusterfs)
-- Kruise - Application Mgmt. Automation (https://github.com/openkruise/kruise)
-- KubeCTX - Faster way to switch between clusters and namespaces in KubeCTL (https://github.com/ahmetb/kubectx)
-- Kubernetes Goat - Vulnerable cluster by default (https://github.com/madhuakula/kubernetes-goat)
-- Mizu - API Traffic Viewer (https://github.com/up9inc/mizu)
-- Nova - Find Deprecated Helm charts in cluster (https://github.com/FairwindsOps/nova)
-- OSM - Serivce Mesh (https://github.com/openservicemesh/osm/)
-- Otomi - Kubernets App Configs/Install (https://github.com/redkubes/otomi-core)
-- Rook - Storage Orchestration (https://github.com/rook/rook)
-- Stern - Multi pod and container log tailing (https://github.com/wercker/stern)
+- Carvel-YTT - YAML Templating Tool (https://github.com/vmware-tanzu/carvel-ytt) -promote
+- ~~GlusterFS - Distributed File System (https://github.com/gluster/glusterfs)
+- ~~Kruise - Application Mgmt. Automation (https://github.com/openkruise/kruise)
+- KubeCTX - Faster way to switch between clusters and namespaces in KubeCTL (https://github.com/ahmetb/kubectx) -promote
+- Kubernetes Goat - Vulnerable cluster by default (https://github.com/madhuakula/kubernetes-goat) -promote
+- KubeShark - API Traffic Viewer ([https://github.com/up9inc/mizu](https://github.com/kubeshark/kubeshark)) -promote
+- Nova - Find Deprecated Helm charts in cluster (https://github.com/FairwindsOps/nova) -promote
+- ~~OSM - Serivce Mesh (https://github.com/openservicemesh/osm/)
+- Otomi - Kubernets App Configs/Install (https://github.com/redkubes/otomi-core) -promote
+- ~~Rook - Storage Orchestration (https://github.com/rook/rook)
+- ~~Stern - Multi pod and container log tailing (https://github.com/wercker/stern)
 
 # zCoolGitOpsProjectsToTrack (created a list below for Github projects, used for cluster state)
 - https://github.com/stars/antoinesylvia/lists/gitops-in-action
