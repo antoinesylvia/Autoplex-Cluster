@@ -82,7 +82,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 
 # Images (OS)
   - Burn/generate many Linux OS images to SD cards for cluster:
-    - Cloudmesh-pi-burn (https://github.com/cloudmesh/cloudmesh-pi-burn)
+    - ~~Cloudmesh-pi-burn (https://github.com/cloudmesh/cloudmesh-pi-burn)~~
     - Clusperry installer (https://github.com/nullxx/clusperry-installer)
     - Raspbian image builder (https://github.com/RPi-Distro/pi-gen)
   - Build machine images for multiple platforms:
@@ -100,7 +100,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 # Management, Monitoring and Observability 
 - CLI (Management) - K9s (https://github.com/derailed/k9s)
 - Dash:
-  - Lens (https://github.com/lensapp/lens)
+  - Lens $$ (https://github.com/lensapp/lens) or OpenLens (https://github.com/MuhammedKalkan/OpenLens/releases) or Octant (https://octant.dev/)
     - Extension - Lens Resource Map (https://github.com/nevalla/lens-resource-map-extension)
     - Extension - Starboard (https://github.com/aquasecurity/starboard)
 - Health - KubeEye (https://github.com/kubesphere/kubeeye)
