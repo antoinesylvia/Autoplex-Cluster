@@ -41,12 +41,6 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 - ConfigMap - Reloader (https://github.com/stakater/Reloader)
 - Scheduler - Descheduler (https://github.com/kubernetes-sigs/descheduler)
 
-# Games (Chaos) | Arcade adjacant to my homelab will run the games below (serves as a client) 
-- Kill pods through a videogame: 
-  - Kube-Chaos (https://github.com/Shogan/kube-chaos)
-  - Kube Doom (https://github.com/storax/kubedoom
-  - KubeInvaders (https://github.com/lucky-sideburn/KubeInvaders) 
-
 # GitOps and Automation
 - Config Management:
   - Ansible (https://github.com/ansible/ansible) 
@@ -115,10 +109,13 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
   - BotKube (Alerts/Notifications for Discord/Slack) (https://github.com/kubeshop/botkube) 
   - Uptime-Kuma (Uptime Robot replacement, host offsite in cloud w/ Wireguard link) (https://github.com/louislam/uptime-kuma)
 - ~~Pi Visibility - RPi-Monitor (https://github.com/XavierBerger/RPi-Monitor)~~
-- Testing:
+- Testing (pick 1):
   - Powerfulseal (injects failure) (https://github.com/powerfulseal/powerfulseal)
   - Kube-burner(stress testing) (https://github.com/cloud-bulldozer/kube-burner)
   - ~~Kubectl-debug (debug running pods) (https://github.com/cloud-bulldozer/kube-burnerKubectl-debug)~~
+  - Kube-Chaos (kill pods via game) (https://github.com/Shogan/kube-chaos)
+  - Kube Doom (kill pods via game) (https://github.com/storax/kubedoom
+  - KubeInvaders (kill pods via game) (https://github.com/lucky-sideburn/KubeInvaders) 
 
 # Networking
 - Container Network Interface - Flannel (default) but enabled IPsec or Wireguard (between nodes/pods, still researching this and features at the service mesh level)
