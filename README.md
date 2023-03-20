@@ -54,7 +54,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 - App Delivery Workflow - Devtron (https://github.com/devtron-labs/devtron)
 - App Package Management:
   - Helm (https://github.com/helm/helm)
-    - Arkade (https://github.com/alexellis/arkade)
+    - ~~Arkade (https://github.com/alexellis/arkade)~~
     - Artificate Hub (https://artifacthub.io/packages/search?kind=0&sort=relevance&page=1)
       - K8s@home (https://artifacthub.io/packages/search?page=1&org=k8s-at-home)
     - ~~Ahoy - Helm GUI (https://github.com/oslabs-beta/Ahoy)~~
