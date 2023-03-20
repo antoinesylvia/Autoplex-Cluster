@@ -59,7 +59,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
       - K8s@home (https://artifacthub.io/packages/search?page=1&org=k8s-at-home)
     - ~~Ahoy - Helm GUI (https://github.com/oslabs-beta/Ahoy)~~
     - Renovate - Helm | Dependency Updater (https://github.com/renovatebot/renovate) 
-- CI - Gitlab CI (https://docs.gitlab.com/ee/ci/)
+- CI - ~~Gitlab CI (https://docs.gitlab.com/ee/ci/)~~ Github Actions (https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions)
 - CD - ArgoCD (https://argoproj.github.io/argo-cd/)
 - Docs as Code - Backstage (https://backstage.io/)
 - Event Based Scripting:
