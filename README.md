@@ -35,7 +35,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 
 # Backup and Storage
 - Backup - Velero (https://github.com/vmware-tanzu/velero) and cloud storage (GCP, AWS, BackBlaze etc.)
-- Storage - TrueNAS (https://www.truenas.com) and still looking at some others for block storage.
+- Storage - TrueNAS Core (https://www.truenas.com) 
 
 # Component Support Tools
 - ConfigMap - Reloader (https://github.com/stakater/Reloader)
