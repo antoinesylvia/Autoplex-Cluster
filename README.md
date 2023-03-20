@@ -102,7 +102,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 - Dash:
   - Lens $$ (https://github.com/lensapp/lens) or OpenLens (https://github.com/MuhammedKalkan/OpenLens/releases) or Octant (https://octant.dev/)
     - Extension - Lens Resource Map (https://github.com/nevalla/lens-resource-map-extension)
-    - Extension - Starboard (https://github.com/aquasecurity/starboard)
+    - ~~Extension - Starboard (https://github.com/aquasecurity/starboard)~~
 - Health - KubeEye (https://github.com/kubesphere/kubeeye)
 - Logging:
   - Loki (Promtail agent) (https://github.com/grafana/loki)
