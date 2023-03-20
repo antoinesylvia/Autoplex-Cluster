@@ -64,7 +64,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 - Docs as Code - Backstage (https://backstage.io/)
 - Event Based Scripting:
   - KEDA (https://github.com/kedacore/keda)
-  - Argo Events (https://github.com/argoproj/argo-events)
+  - ~~Events (https://github.com/argoproj/argo-events)~~
 - Git Repo (Gitlab will replicate to Github):
   - Private (self hosted) - Gitlab (https://about.gitlab.com/)
   - Public - Github (https://github.com)
