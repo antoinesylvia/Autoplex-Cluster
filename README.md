@@ -106,7 +106,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 - Health - KubeEye (https://github.com/kubesphere/kubeeye)
 - Logging:
   - Loki (Promtail agent) (https://github.com/grafana/loki)
-    - Syslog-ng (run a host level, send logs to Loki) (https://github.com/syslog-ng/syslog-ng)   
+    - Syslog-ng (run at host level, send logs to Loki) (https://github.com/syslog-ng/syslog-ng)   
 - Mobile App - KubeNAV (https://github.com/kubenav/kubenav)
 - Monitoring: 
   - Pixie (x86/64, no ARM at the moment) (https://github.com/pixie-labs/pixie)
@@ -114,7 +114,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
      - Prometheus (https://github.com/prometheus/prometheus)
   - BotKube (Alerts/Notifications for Discord/Slack) (https://github.com/kubeshop/botkube) 
   - Uptime-Kuma (Uptime Robot replacement, host offsite in cloud w/ Wireguard link) (https://github.com/louislam/uptime-kuma)
-- Pi Visibility - RPi-Monitor (https://github.com/XavierBerger/RPi-Monitor)
+- ~~Pi Visibility - RPi-Monitor (https://github.com/XavierBerger/RPi-Monitor)~~
 - Testing:
   - Powerfulseal (injects failure) (https://github.com/powerfulseal/powerfulseal)
   - Kube-burner(stress testing) (https://github.com/cloud-bulldozer/kube-burner)
