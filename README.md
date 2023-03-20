@@ -118,7 +118,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 - Testing:
   - Powerfulseal (injects failure) (https://github.com/powerfulseal/powerfulseal)
   - Kube-burner(stress testing) (https://github.com/cloud-bulldozer/kube-burner)
-  - Kubectl-debug (debug running pods) (https://github.com/cloud-bulldozer/kube-burnerKubectl-debug)
+  - ~~Kubectl-debug (debug running pods) (https://github.com/cloud-bulldozer/kube-burnerKubectl-debug)~~
 
 # Networking
 - Container Network Interface - Flannel (default) but enabled IPsec or Wireguard (between nodes/pods, still researching this and features at the service mesh level)
