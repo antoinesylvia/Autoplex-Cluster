@@ -181,16 +181,16 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 
 # zUnderReview
 - Carvel-YTT - YAML Templating Tool (https://github.com/vmware-tanzu/carvel-ytt) -promote
-- ~~GlusterFS - Distributed File System (https://github.com/gluster/glusterfs)
-- ~~Kruise - Application Mgmt. Automation (https://github.com/openkruise/kruise)
+- ~~GlusterFS - Distributed File System (https://github.com/gluster/glusterfs)~~
+- ~~Kruise - Application Mgmt. Automation (https://github.com/openkruise/kruise)~~
 - KubeCTX - Faster way to switch between clusters and namespaces in KubeCTL (https://github.com/ahmetb/kubectx) -promote
 - Kubernetes Goat - Vulnerable cluster by default (https://github.com/madhuakula/kubernetes-goat) -promote
 - KubeShark - API Traffic Viewer ([https://github.com/up9inc/mizu](https://github.com/kubeshark/kubeshark)) -promote
 - Nova - Find Deprecated Helm charts in cluster (https://github.com/FairwindsOps/nova) -promote
-- ~~OSM - Serivce Mesh (https://github.com/openservicemesh/osm/)
+- ~~OSM - Serivce Mesh (https://github.com/openservicemesh/osm/)~~
 - Otomi - Kubernets App Configs/Install (https://github.com/redkubes/otomi-core) -promote
-- ~~Rook - Storage Orchestration (https://github.com/rook/rook)
-- ~~Stern - Multi pod and container log tailing (https://github.com/wercker/stern)
+- ~~Rook - Storage Orchestration (https://github.com/rook/rook)~~
+- ~~Stern - Multi pod and container log tailing (https://github.com/wercker/stern)~~
 
 # zCoolGitOpsProjectsToTrack (created a list below for Github projects, used for cluster state)
 - https://github.com/stars/antoinesylvia/lists/gitops-in-action
