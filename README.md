@@ -200,7 +200,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 # zCoolGitOpsProjectsToTrack (created a list below for Github projects, used for cluster state)
 - https://github.com/stars/antoinesylvia/lists/gitops-in-action
 
-# zCertificationToAttain_2022
+# zCertificationToAttain_2023/24 (Getting in lab time with a 2 and 4 year old at home isn't easy)
 - Certified Kubernetes Administrator (CKA): https://www.cncf.io/certification/cka/
   - Booked!
   - Exam Prep Course: https://www.techworld-with-nana.com/kubernetes-administrator-cka ($$)
