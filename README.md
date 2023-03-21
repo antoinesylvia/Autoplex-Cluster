@@ -183,6 +183,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 - Nana Tech World (https://www.youtube.com/channel/UCdngmbVKX1Tgre699-XLlUA)
 - Network Chuck (https://www.youtube.com/watch?v=X9fSMGkjtug)
 - Techno Tim (https://www.youtube.com/c/TechnoTimLive)
+- Daniele Polencic (https://twitter.com/danielepolencic) (author of the ultimate troubleshooting guide: https://twitter.com/manekinekko/status/1434808198532370432/photo/1)
 
 # zUnderReview
 - Carvel-YTT - YAML Templating Tool (https://github.com/vmware-tanzu/carvel-ytt) -promote
