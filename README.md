@@ -171,7 +171,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 
 # zOther - People I follow to learn more about Docker, Kubernetes, DevOps, and/or ARM
 - Ajeet Singh Raina (https://twitter.com/ajeetsraina)
-- Alex Ellis (https://twitter.com/alexellisuk)
+- Alex Ellis (https://twitter.com/alexellisuk) (author of https://github.com/alexellis/k3sup)
 - Anais Urlichs (https://www.youtube.com/c/AnaisUrlichs)
 - DevOps Toolkit (https://www.youtube.com/channel/UCfz8x0lVzJpb_dgWm9kPVrw)
 - Ian Coldwater (https://twitter.com/IanColdwater)
@@ -193,7 +193,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 - KubeShark - API Traffic Viewer ([https://github.com/up9inc/mizu](https://github.com/kubeshark/kubeshark)) -promote
 - Nova - Find Deprecated Helm charts in cluster (https://github.com/FairwindsOps/nova) -promote
 - ~~OSM - Serivce Mesh (https://github.com/openservicemesh/osm/)~~
-- Otomi - Kubernets App Configs/Install (https://github.com/redkubes/otomi-core) -promote
+- Otomi - PaaS (https://github.com/redkubes/otomi-core) -promote
 - ~~Rook - Storage Orchestration (https://github.com/rook/rook)~~
 - ~~Stern - Multi pod and container log tailing (https://github.com/wercker/stern)~~
 
