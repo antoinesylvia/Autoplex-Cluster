@@ -150,8 +150,8 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 - Object Definitions - Kube-Score (https://github.com/zegl/kube-score)
 - RBAC:
   - Permission-Manager (https://github.com/sighupio/permission-manager)
-  - Kubectl who-can (https://github.com/aquasecurity/kubectl-who-can)
-  - Teleport (https://github.com/gravitational/teleport)
+  - ~~Kubectl who-can (https://github.com/aquasecurity/kubectl-who-can)~~
+  - Teleport (Identity Native Proxy) (https://github.com/gravitational/teleport)
 - Secrets (TBD after digging through articles and many Reddit threads): 
   - 1A. Hashicorp Vault (https://github.com/hashicorp/vault) ~~w/Kubernetes external secrets plugin (https://github.com/external-secrets/kubernetes-external-secrets)~~
   - 1B. Sealed-Secrets (https://github.com/bitnami-labs/sealed-secrets)
