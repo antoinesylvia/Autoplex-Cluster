@@ -153,9 +153,9 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
   - ~~Kubectl who-can (https://github.com/aquasecurity/kubectl-who-can)~~
   - Teleport (Identity Native Proxy) (https://github.com/gravitational/teleport)
 - Secrets (TBD after digging through articles and many Reddit threads): 
-  - 1A. Hashicorp Vault (https://github.com/hashicorp/vault) ~~w/Kubernetes external secrets plugin (https://github.com/external-secrets/kubernetes-external-secrets)~~
-  - 1B. Sealed-Secrets (https://github.com/bitnami-labs/sealed-secrets)
-  - 1C. Mozilla SOPS (https://github.com/mozilla/sops)
+  - 1A. Hashicorp Vault (https://github.com/hashicorp/vault) with https://github.com/external-secrets/external-secrets (& Argo CD)
+  - 1B. Sealed-Secrets (encrypt/decrypt server-side) (https://github.com/bitnami-labs/sealed-secrets)
+  - 1C. Mozilla SOPS (encrypt/decrypt client-side) (https://github.com/mozilla/sops)
 - Service Mesh - LinkerD (https://github.com/linkerd/linkerd2)
   - Someone made a document comparing all the service mesh options, please note not all support ARM: https://docs.google.com/spreadsheets/d/1Bxf8VW9n-YyHeBiKdXt6zytOgw2cQlsDnK1gLUvsZ4A/edit#gid=907731238  
 
