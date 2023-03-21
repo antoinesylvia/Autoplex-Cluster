@@ -54,7 +54,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
     - ~~Ahoy - Helm GUI (https://github.com/oslabs-beta/Ahoy)~~
     - Renovate - Helm | Dependency Updater (https://github.com/renovatebot/renovate) 
 - CI - ~~Gitlab CI (https://docs.gitlab.com/ee/ci/)~~ Github Actions (https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions)
-- CD - ArgoCD (https://argoproj.github.io/argo-cd/)
+- CD - ArgoCD (Includes RBAC for Git) (https://argoproj.github.io/argo-cd/)
 - Docs as Code - Backstage (https://backstage.io/)
 - Event Based Scripting:
   - KEDA (https://github.com/kedacore/keda)
@@ -65,7 +65,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 - IDE - Code-Server (VS Code) (https://github.com/cdr/code-server)
 - Image Docker - Dive (Explore layers of Docker image) (https://github.com/wagoodman/dive)
 - Image Registry 
-  - Private - Harbor (https://github.com/goharbor/harbor)
+  - Private - Harbor (Includes RBAC for registry)(https://github.com/goharbor/harbor)
   - Public 
     - Dockerhub (https://hub.docker.com/)
       - Linuxserver (https://fleet.linuxserver.io/)
@@ -94,7 +94,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 # Management, Monitoring and Observability 
 - CLI (Management) - K9s (https://github.com/derailed/k9s)
 - Dash:
-  - Lens $$ (https://github.com/lensapp/lens) or OpenLens (https://github.com/MuhammedKalkan/OpenLens/releases) or Octant (https://octant.dev/)
+  - Lens $$ (includes RBAC tied to cluster) (https://github.com/lensapp/lens), OpenLens (https://github.com/MuhammedKalkan/OpenLens/releases) or Octant (https://octant.dev/)
     - Extension - Lens Resource Map (https://github.com/nevalla/lens-resource-map-extension)
     - ~~Extension - Starboard (https://github.com/aquasecurity/starboard)~~
 - Health 
