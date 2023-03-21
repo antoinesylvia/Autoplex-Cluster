@@ -97,8 +97,11 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
   - Lens $$ (https://github.com/lensapp/lens) or OpenLens (https://github.com/MuhammedKalkan/OpenLens/releases) or Octant (https://octant.dev/)
     - Extension - Lens Resource Map (https://github.com/nevalla/lens-resource-map-extension)
     - ~~Extension - Starboard (https://github.com/aquasecurity/starboard)~~
-- Health - KubeEye (https://github.com/kubesphere/kubeeye)
+- Health 
+  - KubeEye (https://github.com/kubesphere/kubeeye)
+  - Popeye (https://github.com/derailed/popeye)
 - Logging:
+  - Stern (Log tailing) (https://github.com/stern/stern)
   - Loki (Promtail agent) (https://github.com/grafana/loki)
     - Syslog-ng (run at host level, send logs to Loki) (https://github.com/syslog-ng/syslog-ng)   
 - Mobile App - KubeNAV (https://github.com/kubenav/kubenav)
@@ -137,7 +140,9 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 
 # Security
 - Certs - Cert Manager (https://github.com/jetstack/cert-manager)
-- Misconfigs - TBD as this will be used with CI tool, evaluating Popeye, Kube-Bench, Kube Linter
+- Misconfigs
+  - Kube-Bench (CIS check) (https://github.com/aquasecurity/kube-bench)
+  - Kube Linter (Checks YAML or Helm Charts) (https://github.com/stackrox/kube-linter)
 - Vulnerabilities:
   - Deepfence Runtime ThreatMapper (https://github.com/deepfence/ThreatMapper) Note: Used for containers, images, hosts and registries/repositories (supports Harbor).
   - Kube-Hunter (Pen Test) (https://github.com/aquasecurity/kube-hunter)
