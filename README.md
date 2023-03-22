@@ -92,8 +92,8 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
   - Linux4Tegra (used for Jetson Nanos) (https://developer.nvidia.com/embedded/linux-tegra-archive)
 
 # Management, Monitoring and Observability 
-- CLI (Management) - K9s (https://github.com/derailed/k9s)
-- Dash:
+- CLI (Management) - K9s (https://github.com/derailed/k9s) and works well with TMUX
+- UI (Management):
   - Lens $$ (includes RBAC tied to cluster) (https://github.com/lensapp/lens), OpenLens (https://github.com/MuhammedKalkan/OpenLens/releases) ~~or Octant (https://octant.dev/)~~
     - Extension - Lens Resource Map (https://github.com/nevalla/lens-resource-map-extension)
     - ~~Extension - Starboard (https://github.com/aquasecurity/starboard)~~
