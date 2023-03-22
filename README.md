@@ -41,6 +41,10 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 - ConfigMap - Reloader (https://github.com/stakater/Reloader)
 - Scheduler - Descheduler (https://github.com/kubernetes-sigs/descheduler)
 
+# Function-as-a-Service/Platform-as-a-Service
+- OpenFaaS - Serverless (https://github.com/openfaas/faas)
+- Otomi - PaaS (https://github.com/redkubes/otomi-core)
+
 # GitOps and Automation
 - Config Management:
   - Ansible (https://github.com/ansible/ansible) 
@@ -92,9 +96,11 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
   - Linux4Tegra (used for Jetson Nanos) (https://developer.nvidia.com/embedded/linux-tegra-archive)
 
 # Management, Monitoring and Observability 
-- CLI (Management) - K9s (https://github.com/derailed/k9s) and works well with TMUX
+- CLI (Management):
+  - K9s (https://github.com/derailed/k9s) and works well with TMUX
+  - KubeCTX - Faster way to switch between clusters and namespaces in KubeCTL (https://github.com/ahmetb/kubectx) -promote
 - UI (Management):
-  - Lens $$ (includes RBAC tied to cluster) (https://github.com/lensapp/lens), OpenLens (https://github.com/MuhammedKalkan/OpenLens/releases) ~~or Octant (https://octant.dev/)~~
+  - Lens $$ (includes RBAC tied to cluster) (https://github.com/lensapp/lens), OpenLens (https://github.com/MuhammedKalkan/OpenLens/releases) 
     - Extension - Lens Resource Map (https://github.com/nevalla/lens-resource-map-extension)
     - ~~Extension - Starboard (https://github.com/aquasecurity/starboard)~~
 - Health 
@@ -121,6 +127,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
   - KubeInvaders (kill pods via game) (https://github.com/lucky-sideburn/KubeInvaders) 
 
 # Networking
+- API Traffic Viewer - KubeShark - ([https://github.com/up9inc/mizu](https://github.com/kubeshark/kubeshark))
 - Container Network Interface - Flannel (default) but enabled IPsec or Wireguard (between nodes/pods, still researching this and features at the service mesh level)
 - DNS - CoreDNS (default)
 - Ingress Controller - Ingress-Nginx (Replacing Traefik) (https://github.com/kubernetes/ingress-nginx)
@@ -131,9 +138,11 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
   - ~~Drago (https://github.com/seashell/drago)~~
   - Netmaker (self-host only, kernel wireguard, least polished) (https://github.com/gravitl/netmaker)
   - Tailscale (https://github.com/tailscale/tailscale)
-  
+
 # Optimization
 - Clean-up Manifests - Kubectl-neat (https://github.com/itaysk/kubectl-neat)
+- Nova - Find Deprecated Helm charts in cluster (https://github.com/FairwindsOps/nova)
+- Carvel-YTT - YAML Templating Tool (https://github.com/vmware-tanzu/carvel-ytt) 
 
 # Runtime
 - Runtime - ContainerD (https://github.com/containerd/containerd)
@@ -143,6 +152,7 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 - Misconfigs
   - Kube-Bench (CIS check) (https://github.com/aquasecurity/kube-bench)
   - Kube Linter (Checks YAML or Helm Charts) (https://github.com/stackrox/kube-linter)
+  - Kubernetes Goat - Vulnerable cluster by default (https://github.com/madhuakula/kubernetes-goat) 
 - Vulnerabilities:
   - Deepfence Runtime ThreatMapper (https://github.com/deepfence/ThreatMapper) Note: Used for containers, images, hosts and registries/repositories (supports Harbor).
   - Kube-Hunter (Pen Test) (https://github.com/aquasecurity/kube-hunter)
@@ -158,9 +168,6 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
   - ~~1C. Hashicorp Vault (https://github.com/hashicorp/vault) with https://github.com/external-secrets/external-secrets (& Argo CD)~~
 - Service Mesh - LinkerD (https://github.com/linkerd/linkerd2)
   - Someone made a document comparing all the service mesh options, please note not all support ARM: https://docs.google.com/spreadsheets/d/1Bxf8VW9n-YyHeBiKdXt6zytOgw2cQlsDnK1gLUvsZ4A/edit#gid=907731238  
-
-# Serverless 
-- Serverless - OpenFaaS (https://github.com/openfaas/faas)
 
 # Tools - Hardware
 - Google Coral (https://coral.ai/docs/accelerator/get-started/#next-steps)
@@ -186,15 +193,12 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
 - Daniele Polencic (https://twitter.com/danielepolencic) (author of the ultimate troubleshooting guide: https://twitter.com/manekinekko/status/1434808198532370432/photo/1)
 
 # zUnderReview
-- Carvel-YTT - YAML Templating Tool (https://github.com/vmware-tanzu/carvel-ytt) -promote
+
 - ~~GlusterFS - Distributed File System (https://github.com/gluster/glusterfs)~~
 - ~~Kruise - Application Mgmt. Automation (https://github.com/openkruise/kruise)~~
-- KubeCTX - Faster way to switch between clusters and namespaces in KubeCTL (https://github.com/ahmetb/kubectx) -promote
-- Kubernetes Goat - Vulnerable cluster by default (https://github.com/madhuakula/kubernetes-goat) -promote
-- KubeShark - API Traffic Viewer ([https://github.com/up9inc/mizu](https://github.com/kubeshark/kubeshark)) -promote
-- Nova - Find Deprecated Helm charts in cluster (https://github.com/FairwindsOps/nova) -promote
+
+
 - ~~OSM - Serivce Mesh (https://github.com/openservicemesh/osm/)~~
-- Otomi - PaaS (https://github.com/redkubes/otomi-core) -promote
 - ~~Rook - Storage Orchestration (https://github.com/rook/rook)~~
 - ~~Stern - Multi pod and container log tailing (https://github.com/wercker/stern)~~
 
