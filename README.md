@@ -100,9 +100,13 @@ Below is a list (v0.1) of support tools for my Think Pi Nano+ Cluster, will cons
   - K9s (https://github.com/derailed/k9s) and works well with TMUX
   - KubeCTX - Faster way to switch between clusters and namespaces in KubeCTL (https://github.com/ahmetb/kubectx) -promote
 - UI (Management):
-  - Lens $$ (includes RBAC tied to cluster) (https://github.com/lensapp/lens), OpenLens (https://github.com/MuhammedKalkan/OpenLens/releases) 
+  - OpenLens (https://github.com/MuhammedKalkan/OpenLens/releases)
+  - ~~Lens $$ (includes RBAC tied to cluster) (https://github.com/lensapp/lens)~~
     - Extension - Lens Resource Map (https://github.com/nevalla/lens-resource-map-extension)
     - ~~Extension - Starboard (https://github.com/aquasecurity/starboard)~~
+  - ~~Otomi (first ten workloads are free)~~ 
+  - ~~Portainer $$ (first three nodes are free)~~ 
+  
 - Health 
   - KubeEye (https://github.com/kubesphere/kubeeye)
   - Popeye (https://github.com/derailed/popeye)
